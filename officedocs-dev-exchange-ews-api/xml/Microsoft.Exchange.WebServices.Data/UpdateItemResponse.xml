@@ -1,0 +1,64 @@
+﻿<Type Name="UpdateItemResponse" FullName="Microsoft.Exchange.WebServices.Data.UpdateItemResponse">
+  <TypeSignature Language="C#" Value="public sealed class UpdateItemResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UpdateItemResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UpdateItemResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UpdateItemResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UpdateItemResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the response to an individual item update operation.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConflictCount">
+      <MemberSignature Language="C#" Value="public int ConflictCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConflictCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UpdateItemResponse.ConflictCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConflictCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ConflictCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the number of property conflicts that were resolved during the update operation.            </summary>
+        <value>An integer value containing the number of property conflicts.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnedItem">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item ReturnedItem { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Item ReturnedItem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UpdateItemResponse.ReturnedItem" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReturnedItem As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Item ^ ReturnedItem { Microsoft::Exchange::WebServices::Data::Item ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the item that was returned by the update operation. </summary>
+        <value>An Item object.</value>
+        <remarks>
+          <para>ReturnedItem is set only when a recurring Task is marked as complete or when its recurrence pattern changes.             </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

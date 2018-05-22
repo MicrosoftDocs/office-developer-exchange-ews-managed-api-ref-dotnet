@@ -1,0 +1,158 @@
+﻿<Type Name="OofSettings" FullName="Microsoft.Exchange.WebServices.Data.OofSettings">
+  <TypeSignature Language="C#" Value="public sealed class OofSettings : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OofSettings extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OofSettings" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OofSettings&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OofSettings sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a user's out of office (OOF) settings.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OofSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OofSettings();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the OofSettings class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowExternalOof">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OofExternalAudience AllowExternalOof { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.OofExternalAudience AllowExternalOof" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OofSettings.AllowExternalOof" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowExternalOof As OofExternalAudience" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OofExternalAudience AllowExternalOof { Microsoft::Exchange::WebServices::Data::OofExternalAudience get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OofExternalAudience</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates the external correspondents who can receive out of office (OOF) messages.            </summary>
+        <value>One of the OofExternalAudience enumeration values.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TimeWindow Duration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TimeWindow Duration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OofSettings.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public Property Duration As TimeWindow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TimeWindow ^ Duration { Microsoft::Exchange::WebServices::Data::TimeWindow ^ get(); void set(Microsoft::Exchange::WebServices::Data::TimeWindow ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TimeWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the duration of the out of office (OOF) status when the user has scheduled OOF messages.</summary>
+        <value>The time period in which OOF messages will be sent.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalAudience">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OofExternalAudience ExternalAudience { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.OofExternalAudience ExternalAudience" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OofSettings.ExternalAudience" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalAudience As OofExternalAudience" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OofExternalAudience ExternalAudience { Microsoft::Exchange::WebServices::Data::OofExternalAudience get(); void set(Microsoft::Exchange::WebServices::Data::OofExternalAudience value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OofExternalAudience</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value that indicates who should receive external out of office (OOF) messages.            </summary>
+        <value>One of the OofExternalAudience enumeration values that indicate which external correspondents will receive OOF messages.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalReply">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OofReply ExternalReply { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OofReply ExternalReply" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OofSettings.ExternalReply" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalReply As OofReply" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OofReply ^ ExternalReply { Microsoft::Exchange::WebServices::Data::OofReply ^ get(); void set(Microsoft::Exchange::WebServices::Data::OofReply ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OofReply</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the out of office (OOF) message that is sent to external e-mail addresses.</summary>
+        <value>The contents of the OOF message that is sent to other users outside the user's domain.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalReply">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OofReply InternalReply { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OofReply InternalReply" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OofSettings.InternalReply" />
+      <MemberSignature Language="VB.NET" Value="Public Property InternalReply As OofReply" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OofReply ^ InternalReply { Microsoft::Exchange::WebServices::Data::OofReply ^ get(); void set(Microsoft::Exchange::WebServices::Data::OofReply ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OofReply</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the out of office (OOF) message that is sent to other users in the user's domain or trusted domain. </summary>
+        <value>The contents of the OOF message that is sent to other users in the user's domain.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OofState State { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.OofState State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OofSettings.State" />
+      <MemberSignature Language="VB.NET" Value="Public Property State As OofState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OofState State { Microsoft::Exchange::WebServices::Data::OofState get(); void set(Microsoft::Exchange::WebServices::Data::OofState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OofState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the user's out of office (OOF) state.</summary>
+        <value>One of the OofState enumeration values that indicate whether the user is sending OOF messages.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

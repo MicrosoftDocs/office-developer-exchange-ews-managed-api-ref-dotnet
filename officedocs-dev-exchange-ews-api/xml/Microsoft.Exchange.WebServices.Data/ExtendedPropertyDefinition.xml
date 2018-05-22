@@ -1,0 +1,420 @@
+﻿<Type Name="ExtendedPropertyDefinition" FullName="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition">
+  <TypeSignature Language="C#" Value="public sealed class ExtendedPropertyDefinition : Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ExtendedPropertyDefinition extends Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ExtendedPropertyDefinition&#xA;Inherits PropertyDefinitionBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExtendedPropertyDefinition sealed : Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the definition of an extended property. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedPropertyDefinition (int tag, Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 tag, valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.#ctor(System.Int32,Microsoft.Exchange.WebServices.Data.MapiPropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (tag As Integer, mapiType As MapiPropertyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedPropertyDefinition(int tag, Microsoft::Exchange::WebServices::Data::MapiPropertyType mapiType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="tag" Type="System.Int32" />
+        <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="tag">The tag of the extended property.</param>
+        <param name="mapiType">The MAPI type of the extended property.</param>
+        <summary>Initializes a new instance of the ExtendedPropertyDefinition class that has the tag specified by <paramref name="tag" /> and the MAPI type specified by <paramref name="mapiType" />. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedPropertyDefinition (Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet propertySet, int id, Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet propertySet, int32 id, valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.#ctor(Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet,System.Int32,Microsoft.Exchange.WebServices.Data.MapiPropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertySet As DefaultExtendedPropertySet, id As Integer, mapiType As MapiPropertyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedPropertyDefinition(Microsoft::Exchange::WebServices::Data::DefaultExtendedPropertySet propertySet, int id, Microsoft::Exchange::WebServices::Data::MapiPropertyType mapiType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="propertySet">The property set of the extended property.</param>
+        <param name="id">The ID of the extended property.</param>
+        <param name="mapiType">The MAPI type of the extended property.</param>
+        <summary>Initializes a new instance of the ExtendedPropertyDefinition class that has the property set specified by <paramref name="propertySet" />, the identifier specified by <paramref name="id" />, and the MAPI type specified by <paramref name="mapiType" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedPropertyDefinition (Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet propertySet, string name, Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet propertySet, string name, valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.#ctor(Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet,System.String,Microsoft.Exchange.WebServices.Data.MapiPropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertySet As DefaultExtendedPropertySet, name As String, mapiType As MapiPropertyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedPropertyDefinition(Microsoft::Exchange::WebServices::Data::DefaultExtendedPropertySet propertySet, System::String ^ name, Microsoft::Exchange::WebServices::Data::MapiPropertyType mapiType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="propertySet">The extended property set of the extended property.</param>
+        <param name="name">The name of the extended property.</param>
+        <param name="mapiType">The MAPI type of the extended property.</param>
+        <summary>Initializes a new instance of the ExtendedPropertyDefinition class that has the property set specified by <paramref name="propertySet" />, the name specified by <paramref name="name" />, and the MAPI type specified by <paramref name="mapiType" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedPropertyDefinition (Guid propertySetId, int id, Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid propertySetId, int32 id, valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.#ctor(System.Guid,System.Int32,Microsoft.Exchange.WebServices.Data.MapiPropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertySetId As Guid, id As Integer, mapiType As MapiPropertyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedPropertyDefinition(Guid propertySetId, int id, Microsoft::Exchange::WebServices::Data::MapiPropertyType mapiType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertySetId" Type="System.Guid" />
+        <Parameter Name="id" Type="System.Int32" />
+        <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="propertySetId">The property set ID of the extended property.</param>
+        <param name="id">The ID of the extended property.</param>
+        <param name="mapiType">The MAPI type of the extended property.</param>
+        <summary>Initializes a new instance of the ExtendedPropertyDefinition class that has the property set identifier specified by <paramref name="propertySetId" />, the identifier specified by <paramref name="id" />, and the MAPI type specified by <paramref name="mapiType" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExtendedPropertyDefinition (Guid propertySetId, string name, Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Guid propertySetId, string name, valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType mapiType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.#ctor(System.Guid,System.String,Microsoft.Exchange.WebServices.Data.MapiPropertyType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertySetId As Guid, name As String, mapiType As MapiPropertyType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExtendedPropertyDefinition(Guid propertySetId, System::String ^ name, Microsoft::Exchange::WebServices::Data::MapiPropertyType mapiType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertySetId" Type="System.Guid" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="mapiType" Type="Microsoft.Exchange.WebServices.Data.MapiPropertyType" />
+      </Parameters>
+      <Docs>
+        <param name="propertySetId">The property set ID of the extended property.</param>
+        <param name="name">The name of the extended property.</param>
+        <param name="mapiType">The MAPI type of the extended property.</param>
+        <summary>Initializes a new instance of the ExtendedPropertyDefinition class that has the property set identifier specified by <paramref name="propertySetId" />, the name specified by <paramref name="name" />, and the MAPI type specified by <paramref name="mapiType" />.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to check for equality.</param>
+        <summary>Determines whether a given extended property definition is equal to this extended property definition. </summary>
+        <returns>
+          <b>true</b> if the property definitions define the same extended property; otherwise, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns a hash code for the ExtendedPropertyDefinition object. </summary>
+        <returns>The hash code for the ExtendedPropertyDefinition object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJsonType">
+      <MemberSignature Language="C#" Value="protected override string GetJsonType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetJsonType() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.GetJsonType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetJsonType () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetJsonType();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; Id { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the ID of the extended property. </summary>
+        <value>A <b>nullable</b> value that contains the identifier of the extended property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MapiType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MapiPropertyType MapiType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.MapiPropertyType MapiType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.MapiType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MapiType As MapiPropertyType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MapiPropertyType MapiType { Microsoft::Exchange::WebServices::Data::MapiPropertyType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MapiPropertyType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the MAPI type of the extended property. </summary>
+        <value>A MapiPropertyType that is the extended property type.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the name of the extended property. </summary>
+        <value>The name of the extended property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef1, Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef1, class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.op_Equality(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (extPropDef1 As ExtendedPropertyDefinition, extPropDef2 As ExtendedPropertyDefinition) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extPropDef1, Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extPropDef2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extPropDef1" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="extPropDef2" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extPropDef1">The first extended property definition.</param>
+        <param name="extPropDef2">The second extended property definition.</param>
+        <summary>Determines whether two specified instances of ExtendedPropertyDefinition are equal. </summary>
+        <returns>
+          <b>true</b> if extended property definitions are equal; otherwise, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef1, Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef1, class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extPropDef2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.op_Inequality(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (extPropDef1 As ExtendedPropertyDefinition, extPropDef2 As ExtendedPropertyDefinition) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extPropDef1, Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extPropDef2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extPropDef1" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="extPropDef2" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extPropDef1">The first extended property definition.</param>
+        <param name="extPropDef2">The second extended property definition.</param>
+        <summary>Determines whether two specified instances of ExtendedPropertyDefinition are not equal. </summary>
+        <returns>
+          <b>true</b> if extended property definitions are not equal; otherwise, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertySet">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet&gt; PropertySet { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet&gt; PropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.PropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertySet As Nullable(Of DefaultExtendedPropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::DefaultExtendedPropertySet&gt; PropertySet { Nullable&lt;Microsoft::Exchange::WebServices::Data::DefaultExtendedPropertySet&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the property set of the extended property. </summary>
+        <value>A <b>nullable</b> value that contains the property set of the extended property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertySetId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Guid&gt; PropertySetId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; PropertySetId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.PropertySetId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertySetId As Nullable(Of Guid)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Guid&gt; PropertySetId { Nullable&lt;Guid&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the property set ID for the extended property. </summary>
+        <value>A <b>nullable</b> value that contains the property set identifier of the extended property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; Tag { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tag As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; Tag { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the tag for the extended property. </summary>
+        <value>A <b>nullable</b> value that contains the tag of the extended property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public override Type Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Type As Type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Type ^ Type { Type ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the property type.</summary>
+        <value>The property type.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public override Microsoft.Exchange.WebServices.Data.ExchangeVersion Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Version As ExchangeVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Exchange::WebServices::Data::ExchangeVersion Version { Microsoft::Exchange::WebServices::Data::ExchangeVersion get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the minimum Exchange version that supports this extended property.</summary>
+        <value>An ExchangeVersion enumeration value.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

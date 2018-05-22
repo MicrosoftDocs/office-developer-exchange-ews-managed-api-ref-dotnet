@@ -1,0 +1,41 @@
+﻿<Type Name="AlternateIdBase" FullName="Microsoft.Exchange.WebServices.Data.AlternateIdBase">
+  <TypeSignature Language="C#" Value="public abstract class AlternateIdBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AlternateIdBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AlternateIdBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternateIdBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the base class for identifiers expressed in a specific format.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IdFormat Format { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IdFormat Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateIdBase.Format" />
+      <MemberSignature Language="VB.NET" Value="Public Property Format As IdFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IdFormat Format { Microsoft::Exchange::WebServices::Data::IdFormat get(); void set(Microsoft::Exchange::WebServices::Data::IdFormat value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IdFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the identifier format for an item or folder identifier. </summary>
+        <value>An item or folder identifier format.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

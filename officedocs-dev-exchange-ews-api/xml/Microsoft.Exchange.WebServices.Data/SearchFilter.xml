@@ -1,0 +1,20 @@
+﻿<Type Name="SearchFilter" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter">
+  <TypeSignature Language="C#" Value="public abstract class SearchFilter : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit SearchFilter extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class SearchFilter&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchFilter abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the base class for derived classes that represent a search restriction.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

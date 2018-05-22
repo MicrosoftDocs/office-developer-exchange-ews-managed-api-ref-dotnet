@@ -1,0 +1,141 @@
+﻿<Type Name="DelegatePermissions" FullName="Microsoft.Exchange.WebServices.Data.DelegatePermissions">
+  <TypeSignature Language="C#" Value="public sealed class DelegatePermissions : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DelegatePermissions extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegatePermissions" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DelegatePermissions&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DelegatePermissions sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the permissions of a delegate user.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CalendarFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel CalendarFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel CalendarFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.CalendarFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalendarFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel CalendarFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the delegate user's permission on the principal's calendar.            </summary>
+        <value>One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Calendar folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactsFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel ContactsFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel ContactsFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.ContactsFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContactsFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel ContactsFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the delegate user's permission on the principal's Contacts folder.            </summary>
+        <value>One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Contacts folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InboxFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel InboxFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel InboxFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.InboxFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property InboxFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel InboxFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the delegate user's permission on the principal's Inbox.            </summary>
+        <value>One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Inbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JournalFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel JournalFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel JournalFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.JournalFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property JournalFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel JournalFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the delegate user's permission on the principal's Journal folder.            </summary>
+        <value>One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Journal folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotesFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel NotesFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel NotesFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.NotesFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotesFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel NotesFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the delegate user's permission on the principal's Notes folder.            </summary>
+        <value>One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Notes folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TasksFolderPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel TasksFolderPermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel TasksFolderPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegatePermissions.TasksFolderPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property TasksFolderPermissionLevel As DelegateFolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel TasksFolderPermissionLevel { Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::DelegateFolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DelegateFolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the delegate user's permission on the principal's Tasks folder.            </summary>
+        <value>One of the DelegateFolderPermissionLevel enumeration values that indicate the delegate's permission level on the principal's Tasks folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,27 @@
+﻿<Type Name="AutodiscoverRedirectionUrlValidationCallback" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRedirectionUrlValidationCallback">
+  <TypeSignature Language="C#" Value="public delegate bool AutodiscoverRedirectionUrlValidationCallback(string redirectionUrl);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AutodiscoverRedirectionUrlValidationCallback extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRedirectionUrlValidationCallback" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Function AutodiscoverRedirectionUrlValidationCallback(redirectionUrl As String) As Boolean " />
+  <TypeSignature Language="C++ CLI" Value="public delegate bool AutodiscoverRedirectionUrlValidationCallback(System::String ^ redirectionUrl);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="redirectionUrl" Type="System.String" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Boolean</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="redirectionUrl">The redirection URL that Autodiscover is to use.</param>
+    <summary>Defines a delegate that is used by the AutodiscoverService class to determine whether a redirection URL can be used.</summary>
+    <returns>
+      <b>true</b> if Autodiscover is enabled to use this URL; otherwise, <b>false</b>.</returns>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,23 @@
+﻿<Type Name="CreateAttachmentException" FullName="Microsoft.Exchange.WebServices.Data.CreateAttachmentException">
+  <TypeSignature Language="C#" Value="public sealed class CreateAttachmentException : Microsoft.Exchange.WebServices.Data.BatchServiceResponseException&lt;Microsoft.Exchange.WebServices.Data.CreateAttachmentResponse&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit CreateAttachmentException extends Microsoft.Exchange.WebServices.Data.BatchServiceResponseException`1&lt;class Microsoft.Exchange.WebServices.Data.CreateAttachmentResponse&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CreateAttachmentException" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CreateAttachmentException&#xA;Inherits BatchServiceResponseException(Of CreateAttachmentResponse)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateAttachmentException sealed : Microsoft::Exchange::WebServices::Data::BatchServiceResponseException&lt;Microsoft::Exchange::WebServices::Data::CreateAttachmentResponse ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.BatchServiceResponseException&lt;Microsoft.Exchange.WebServices.Data.CreateAttachmentResponse&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TResponse">Microsoft.Exchange.WebServices.Data.CreateAttachmentResponse</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents an error that occurs when a call to the CreateAttachment Web method fails.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,122 @@
+﻿<Type Name="MailboxHoldStatus" FullName="Microsoft.Exchange.WebServices.Data.MailboxHoldStatus">
+  <TypeSignature Language="C#" Value="public sealed class MailboxHoldStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxHoldStatus extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxHoldStatus" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxHoldStatus sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains information about an eDiscovery hold action targeting a mailbox.             The <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxHoldStatus ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxHoldStatus();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus" /> class. The <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxHoldStatus (string mailbox, Microsoft.Exchange.WebServices.Data.HoldStatus status, string additionalInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailbox, valuetype Microsoft.Exchange.WebServices.Data.HoldStatus status, string additionalInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.#ctor(System.String,Microsoft.Exchange.WebServices.Data.HoldStatus,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As String, status As HoldStatus, additionalInfo As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxHoldStatus(System::String ^ mailbox, Microsoft::Exchange::WebServices::Data::HoldStatus status, System::String ^ additionalInfo);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="status" Type="Microsoft.Exchange.WebServices.Data.HoldStatus" />
+        <Parameter Name="additionalInfo" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">The mailbox targeted by an eDiscovery hold action.</param>
+        <param name="status">Hold status.</param>
+        <param name="additionalInfo">Additional information.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus" /> class and sets the values of the target mailbox, the status of an eDiscovery hold action, and additional information about the properties of the target mailbox. The <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.#ctor(System.String,Microsoft.Exchange.WebServices.Data.HoldStatus,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalInfo">
+      <MemberSignature Language="C#" Value="public string AdditionalInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AdditionalInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.AdditionalInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalInfo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AdditionalInfo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets additional information about properties of the target mailbox.             The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.AdditionalInfo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The additional information.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public string Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mailbox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the target mailbox of an eDiscovery hold action.             The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.Mailbox" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The mailbox.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Status">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.HoldStatus Status { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.HoldStatus Status" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.Status" />
+      <MemberSignature Language="VB.NET" Value="Public Property Status As HoldStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::HoldStatus Status { Microsoft::Exchange::WebServices::Data::HoldStatus get(); void set(Microsoft::Exchange::WebServices::Data::HoldStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the eDiscovery hold status of a target mailbox.             The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldStatus.Status" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The hold status.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

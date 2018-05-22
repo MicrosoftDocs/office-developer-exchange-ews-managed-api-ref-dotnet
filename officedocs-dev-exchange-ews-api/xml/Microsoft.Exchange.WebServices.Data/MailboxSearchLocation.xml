@@ -1,0 +1,77 @@
+﻿<Type Name="MailboxSearchLocation" FullName="Microsoft.Exchange.WebServices.Data.MailboxSearchLocation">
+  <TypeSignature Language="C#" Value="public enum MailboxSearchLocation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MailboxSearchLocation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MailboxSearchLocation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MailboxSearchLocation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Specifies whether a query for an eDiscovery search targets a primary mailbox, an archive mailbox, or both.             The <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MailboxSearchLocation All = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxSearchLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             Both the primary mailbox and the archive mailbox.             The <see cref="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.All" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveOnly">
+      <MemberSignature Language="C#" Value="ArchiveOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MailboxSearchLocation ArchiveOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.ArchiveOnly" />
+      <MemberSignature Language="VB.NET" Value="ArchiveOnly" />
+      <MemberSignature Language="C++ CLI" Value="ArchiveOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxSearchLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             The archive mailbox only.             The <see cref="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.ArchiveOnly" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimaryOnly">
+      <MemberSignature Language="C#" Value="PrimaryOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MailboxSearchLocation PrimaryOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.PrimaryOnly" />
+      <MemberSignature Language="VB.NET" Value="PrimaryOnly" />
+      <MemberSignature Language="C++ CLI" Value="PrimaryOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxSearchLocation</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The primary mailbox only.             The <see cref="F:Microsoft.Exchange.WebServices.Data.MailboxSearchLocation.PrimaryOnly" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

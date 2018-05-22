@@ -1,0 +1,61 @@
+﻿<Type Name="DelegateInformation" FullName="Microsoft.Exchange.WebServices.Data.DelegateInformation">
+  <TypeSignature Language="C#" Value="public sealed class DelegateInformation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DelegateInformation extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DelegateInformation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DelegateInformation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DelegateInformation sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the results of an operation that returns mailbox delegate users.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DelegateUserResponses">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.DelegateUserResponse&gt; DelegateUserResponses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.DelegateUserResponse&gt; DelegateUserResponses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateInformation.DelegateUserResponses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DelegateUserResponses As Collection(Of DelegateUserResponse)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::DelegateUserResponse ^&gt; ^ DelegateUserResponses { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::DelegateUserResponse ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.DelegateUserResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a list of responses for each of the delegate users who are involved in the operation.            </summary>
+        <value>A collection of response objects that contain information about the delegate users who are involved in the operation.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequestsDeliveryScope">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope MeetingRequestsDeliveryScope { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope MeetingRequestsDeliveryScope" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DelegateInformation.MeetingRequestsDeliveryScope" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingRequestsDeliveryScope As MeetingRequestsDeliveryScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingRequestsDeliveryScope MeetingRequestsDeliveryScope { Microsoft::Exchange::WebServices::Data::MeetingRequestsDeliveryScope get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether and how meeting requests are delivered to delegates.            </summary>
+        <value>One of the MeetingRequestsDeliveryScope enumeration values that indicate whether delegates receive meeting requests.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

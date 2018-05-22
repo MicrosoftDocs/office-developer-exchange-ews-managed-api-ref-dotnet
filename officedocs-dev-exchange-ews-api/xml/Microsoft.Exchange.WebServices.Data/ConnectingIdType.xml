@@ -1,0 +1,77 @@
+﻿<Type Name="ConnectingIdType" FullName="Microsoft.Exchange.WebServices.Data.ConnectingIdType">
+  <TypeSignature Language="C#" Value="public enum ConnectingIdType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConnectingIdType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConnectingIdType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConnectingIdType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConnectingIdType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the type of an identifier that is used to make a connection.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PrincipalName">
+      <MemberSignature Language="C#" Value="PrincipalName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConnectingIdType PrincipalName = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConnectingIdType.PrincipalName" />
+      <MemberSignature Language="VB.NET" Value="PrincipalName" />
+      <MemberSignature Language="C++ CLI" Value="PrincipalName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConnectingIdType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The identifier is the principle’s name.            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SID">
+      <MemberSignature Language="C#" Value="SID" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConnectingIdType SID = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConnectingIdType.SID" />
+      <MemberSignature Language="VB.NET" Value="SID" />
+      <MemberSignature Language="C++ CLI" Value="SID" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConnectingIdType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The identifier is a SID.            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="SmtpAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConnectingIdType SmtpAddress = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConnectingIdType.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="SmtpAddress" />
+      <MemberSignature Language="C++ CLI" Value="SmtpAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConnectingIdType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The identifier is an SMTP e-mail address.            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,253 @@
+﻿<Type Name="TraceFlags" FullName="Microsoft.Exchange.WebServices.Data.TraceFlags">
+  <TypeSignature Language="C#" Value="public enum TraceFlags" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TraceFlags extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TraceFlags" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TraceFlags" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TraceFlags" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines flags to control tracing details.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags All = int64(9223372036854775807)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>9223372036854775807</MemberValue>
+      <Docs>
+        <summary>All trace types are enabled.            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutodiscoverConfiguration">
+      <MemberSignature Language="C#" Value="AutodiscoverConfiguration" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags AutodiscoverConfiguration = int64(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.AutodiscoverConfiguration" />
+      <MemberSignature Language="VB.NET" Value="AutodiscoverConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="AutodiscoverConfiguration" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>Trace Autodiscover configuration logic.            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutodiscoverRequest">
+      <MemberSignature Language="C#" Value="AutodiscoverRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags AutodiscoverRequest = int64(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.AutodiscoverRequest" />
+      <MemberSignature Language="VB.NET" Value="AutodiscoverRequest" />
+      <MemberSignature Language="C++ CLI" Value="AutodiscoverRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>Trace Autodiscover request messages.            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutodiscoverRequestHttpHeaders">
+      <MemberSignature Language="C#" Value="AutodiscoverRequestHttpHeaders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags AutodiscoverRequestHttpHeaders = int64(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.AutodiscoverRequestHttpHeaders" />
+      <MemberSignature Language="VB.NET" Value="AutodiscoverRequestHttpHeaders" />
+      <MemberSignature Language="C++ CLI" Value="AutodiscoverRequestHttpHeaders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>Trace the HTTP headers sent with Autodiscover request messages.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutodiscoverResponse">
+      <MemberSignature Language="C#" Value="AutodiscoverResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags AutodiscoverResponse = int64(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.AutodiscoverResponse" />
+      <MemberSignature Language="VB.NET" Value="AutodiscoverResponse" />
+      <MemberSignature Language="C++ CLI" Value="AutodiscoverResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>Trace Autodiscover response messages.            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutodiscoverResponseHttpHeaders">
+      <MemberSignature Language="C#" Value="AutodiscoverResponseHttpHeaders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags AutodiscoverResponseHttpHeaders = int64(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.AutodiscoverResponseHttpHeaders" />
+      <MemberSignature Language="VB.NET" Value="AutodiscoverResponseHttpHeaders" />
+      <MemberSignature Language="C++ CLI" Value="AutodiscoverResponseHttpHeaders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>Trace Autodiscover response HTTP headers.            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DebugMessage">
+      <MemberSignature Language="C#" Value="DebugMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags DebugMessage = int64(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.DebugMessage" />
+      <MemberSignature Language="VB.NET" Value="DebugMessage" />
+      <MemberSignature Language="C++ CLI" Value="DebugMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>Include debugging messages in the trace output.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsRequest">
+      <MemberSignature Language="C#" Value="EwsRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags EwsRequest = int64(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.EwsRequest" />
+      <MemberSignature Language="VB.NET" Value="EwsRequest" />
+      <MemberSignature Language="C++ CLI" Value="EwsRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Trace Exchange Web Services (EWS) request messages.            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsRequestHttpHeaders">
+      <MemberSignature Language="C#" Value="EwsRequestHttpHeaders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags EwsRequestHttpHeaders = int64(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.EwsRequestHttpHeaders" />
+      <MemberSignature Language="VB.NET" Value="EwsRequestHttpHeaders" />
+      <MemberSignature Language="C++ CLI" Value="EwsRequestHttpHeaders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>Trace the HTTP headers sent with EWS request messages.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsResponse">
+      <MemberSignature Language="C#" Value="EwsResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags EwsResponse = int64(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.EwsResponse" />
+      <MemberSignature Language="VB.NET" Value="EwsResponse" />
+      <MemberSignature Language="C++ CLI" Value="EwsResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Trace EWS response messages.            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsResponseHttpHeaders">
+      <MemberSignature Language="C#" Value="EwsResponseHttpHeaders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags EwsResponseHttpHeaders = int64(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.EwsResponseHttpHeaders" />
+      <MemberSignature Language="VB.NET" Value="EwsResponseHttpHeaders" />
+      <MemberSignature Language="C++ CLI" Value="EwsResponseHttpHeaders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Trace EWS response HTTP headers.            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TraceFlags None = int64(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TraceFlags.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TraceFlags</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No tracing.            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

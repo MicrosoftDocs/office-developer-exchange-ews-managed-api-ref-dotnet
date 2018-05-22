@@ -1,0 +1,26 @@
+﻿<Type Name="RuleOperationErrorCollection" FullName="Microsoft.Exchange.WebServices.Data.RuleOperationErrorCollection">
+  <TypeSignature Language="C#" Value="public sealed class RuleOperationErrorCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.RuleOperationError&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleOperationErrorCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.RuleOperationError&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleOperationErrorCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleOperationErrorCollection&#xA;Inherits ComplexPropertyCollection(Of RuleOperationError)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleOperationErrorCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::RuleOperationError ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.RuleOperationError&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.RuleOperationError</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a collection of rule operation errors.</summary>
+    <remarks>
+      <para>A <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperationErrorCollection" /> object contains a collection of <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperationError" /> objects. Each error is for an individual failed rule operation.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,226 @@
+﻿<Type Name="ManagedFolderInformation" FullName="Microsoft.Exchange.WebServices.Data.ManagedFolderInformation">
+  <TypeSignature Language="C#" Value="public sealed class ManagedFolderInformation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ManagedFolderInformation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ManagedFolderInformation&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ManagedFolderInformation sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents information for a managed folder. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CanDelete">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; CanDelete { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; CanDelete" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.CanDelete" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanDelete As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; CanDelete { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the user can delete objects in the folder. </summary>
+        <value>
+          <b>true</b> if the objects in the folder can be deleted; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanRenameOrMove">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; CanRenameOrMove { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; CanRenameOrMove" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.CanRenameOrMove" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanRenameOrMove As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; CanRenameOrMove { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the user can rename or move objects in the folder. </summary>
+        <value>
+          <b>true</b> if the objects in the folder can be renamed or moved; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Comment">
+      <MemberSignature Language="C#" Value="public string Comment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Comment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.Comment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Comment As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Comment { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the comment that is associated with the managed folder. </summary>
+        <value>The comment that is associated with the managed folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderSize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; FolderSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; FolderSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.FolderSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderSize As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; FolderSize { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the total size of all the contents of the managed folder. </summary>
+        <value>The size of the contents of the managed folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasQuota">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; HasQuota { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; HasQuota" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.HasQuota" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasQuota As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; HasQuota { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the folder has a quota. </summary>
+        <value>
+          <b>true</b> if the folder has a quota; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomePage">
+      <MemberSignature Language="C#" Value="public string HomePage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HomePage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.HomePage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HomePage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HomePage { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the URL that will be the default home page for the managed folder.</summary>
+        <value>The default home page URL.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsManagedFoldersRoot">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsManagedFoldersRoot { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsManagedFoldersRoot" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.IsManagedFoldersRoot" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsManagedFoldersRoot As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; IsManagedFoldersRoot { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the folder is the root of the managed folder hierarchy. </summary>
+        <value>
+          <b>true</b> if the folder is a root folder; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedFolderId">
+      <MemberSignature Language="C#" Value="public string ManagedFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ManagedFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.ManagedFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ManagedFolderId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ManagedFolderId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the managed folder ID of the folder. </summary>
+        <value>The managed folder ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MustDisplayComment">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; MustDisplayComment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; MustDisplayComment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.MustDisplayComment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MustDisplayComment As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; MustDisplayComment { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the client application must display the Comment property to the user.</summary>
+        <value>
+          <b>true</b> if the client application must display the Comment property to the user; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageQuota">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; StorageQuota { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; StorageQuota" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ManagedFolderInformation.StorageQuota" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StorageQuota As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; StorageQuota { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the storage quota of the folder. </summary>
+        <value>The storage size limit for the managed folder.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

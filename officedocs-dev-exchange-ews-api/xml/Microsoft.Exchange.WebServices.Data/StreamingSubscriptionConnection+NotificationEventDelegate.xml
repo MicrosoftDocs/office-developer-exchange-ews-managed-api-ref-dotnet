@@ -1,0 +1,27 @@
+﻿<Type Name="StreamingSubscriptionConnection+NotificationEventDelegate" FullName="Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+NotificationEventDelegate">
+  <TypeSignature Language="C#" Value="public delegate void StreamingSubscriptionConnection.NotificationEventDelegate(object sender, NotificationEventArgs args);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed StreamingSubscriptionConnection/NotificationEventDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection.NotificationEventDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub StreamingSubscriptionConnection.NotificationEventDelegate(sender As Object, args As NotificationEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public: delegate void StreamingSubscriptionConnection::NotificationEventDelegate(System::Object ^ sender, NotificationEventArgs ^ args);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="args" Type="Microsoft.Exchange.WebServices.Data.NotificationEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">The StreamingSubscriptionConnection instance that received the events.</param>
+    <param name="args">The event data.</param>
+    <summary>Represents a delegate that is invoked when notifications are received from the server.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

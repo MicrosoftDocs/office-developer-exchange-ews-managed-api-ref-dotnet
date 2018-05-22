@@ -1,0 +1,28 @@
+﻿<Type Name="EmailAddressEntityCollection" FullName="Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection">
+  <TypeSignature Language="C#" Value="public sealed class EmailAddressEntityCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.EmailAddressEntity&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EmailAddressEntityCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.EmailAddressEntity&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EmailAddressEntityCollection&#xA;Inherits ComplexPropertyCollection(Of EmailAddressEntity)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailAddressEntityCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::EmailAddressEntity ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.EmailAddressEntity&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.EmailAddressEntity</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>             Defines a collection of <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressEntity" /> objects.The <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

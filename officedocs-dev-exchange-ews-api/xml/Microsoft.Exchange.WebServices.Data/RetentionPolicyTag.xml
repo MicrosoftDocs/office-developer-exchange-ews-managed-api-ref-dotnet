@@ -1,0 +1,221 @@
+﻿<Type Name="RetentionPolicyTag" FullName="Microsoft.Exchange.WebServices.Data.RetentionPolicyTag">
+  <TypeSignature Language="C#" Value="public sealed class RetentionPolicyTag" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RetentionPolicyTag extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RetentionPolicyTag" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RetentionPolicyTag sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains retention policy information associated with a folder, mailbox, or item.             The <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RetentionPolicyTag ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RetentionPolicyTag();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag" /> class. The <see cref="M:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the description of the retention policy tag.             The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Description" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The retention policy tag description.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the descriptive name of the retention policy element.             The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.DisplayName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The retention policy tag display name.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>            Gets or sets whether the tag contains information about the archive policy for a message object.             The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsArchive" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> if the tag is an archive tag; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVisible">
+      <MemberSignature Language="C#" Value="public bool IsVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsVisible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsVisible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVisible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets whether the tag can be seen by users.            The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.IsVisible" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> if the tag is visible; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptedInto">
+      <MemberSignature Language="C#" Value="public bool OptedInto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OptedInto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.OptedInto" />
+      <MemberSignature Language="VB.NET" Value="Public Property OptedInto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OptedInto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets whether this retention policy tag was set by a user.             The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.OptedInto" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> if a user set this tag; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionAction">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RetentionActionType RetentionAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType RetentionAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionAction As RetentionActionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RetentionActionType RetentionAction { Microsoft::Exchange::WebServices::Data::RetentionActionType get(); void set(Microsoft::Exchange::WebServices::Data::RetentionActionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the action that is taken according to the retention policy.             The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionAction" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The retention action.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionId">
+      <MemberSignature Language="C#" Value="public Guid RetentionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Guid RetentionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionId As Guid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Guid RetentionId { Guid get(); void set(Guid value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Guid</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the identifier for the retention policy element.             The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The retention identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionPeriod">
+      <MemberSignature Language="C#" Value="public int RetentionPeriod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RetentionPeriod" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionPeriod" />
+      <MemberSignature Language="VB.NET" Value="Public Property RetentionPeriod As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RetentionPeriod { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the length of time before an action is taken on an item.             The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.RetentionPeriod" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The retention period in time span.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ElcFolderType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As ElcFolderType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ElcFolderType Type { Microsoft::Exchange::WebServices::Data::ElcFolderType get(); void set(Microsoft::Exchange::WebServices::Data::ElcFolderType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets whether the tagged object is archived or deleted.             The <see cref="P:Microsoft.Exchange.WebServices.Data.RetentionPolicyTag.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The retention type.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

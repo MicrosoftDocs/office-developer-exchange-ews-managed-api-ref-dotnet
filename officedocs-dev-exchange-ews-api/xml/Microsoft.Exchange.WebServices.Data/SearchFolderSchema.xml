@@ -1,0 +1,57 @@
+﻿<Type Name="SearchFolderSchema" FullName="Microsoft.Exchange.WebServices.Data.SearchFolderSchema">
+  <TypeSignature Language="C#" Value="public class SearchFolderSchema : Microsoft.Exchange.WebServices.Data.FolderSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SearchFolderSchema extends Microsoft.Exchange.WebServices.Data.FolderSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFolderSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class SearchFolderSchema&#xA;Inherits FolderSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchFolderSchema : Microsoft::Exchange::WebServices::Data::FolderSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.FolderSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Defines the schema for search folders.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchFolderSchema ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFolderSchema.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchFolderSchema();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the SearchFolderSchema class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchParameters">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition SearchParameters;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition SearchParameters" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SearchFolderSchema.SearchParameters" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SearchParameters As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ SearchParameters;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Defines the <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFolder.SearchParameters" /> property.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

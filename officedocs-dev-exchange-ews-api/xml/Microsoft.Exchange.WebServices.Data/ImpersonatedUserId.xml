@@ -1,0 +1,100 @@
+﻿<Type Name="ImpersonatedUserId" FullName="Microsoft.Exchange.WebServices.Data.ImpersonatedUserId">
+  <TypeSignature Language="C#" Value="public sealed class ImpersonatedUserId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ImpersonatedUserId extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ImpersonatedUserId" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImpersonatedUserId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImpersonatedUserId sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents an impersonated user ID.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImpersonatedUserId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ImpersonatedUserId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ImpersonatedUserId();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the ImpersonatedUserId class.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImpersonatedUserId (Microsoft.Exchange.WebServices.Data.ConnectingIdType idType, string id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.ConnectingIdType idType, string id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ImpersonatedUserId.#ctor(Microsoft.Exchange.WebServices.Data.ConnectingIdType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (idType As ConnectingIdType, id As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ImpersonatedUserId(Microsoft::Exchange::WebServices::Data::ConnectingIdType idType, System::String ^ id);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="idType" Type="Microsoft.Exchange.WebServices.Data.ConnectingIdType" />
+        <Parameter Name="id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="idType">One of the ConnectingIdType enumeration values.</param>
+        <param name="id">The user ID.</param>
+        <summary>Initializes a new instance of the ImpersonatedUserId class with the specified user ID.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ImpersonatedUserId.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the user ID.            </summary>
+        <value>The user ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IdType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConnectingIdType IdType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ConnectingIdType IdType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ImpersonatedUserId.IdType" />
+      <MemberSignature Language="VB.NET" Value="Public Property IdType As ConnectingIdType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConnectingIdType IdType { Microsoft::Exchange::WebServices::Data::ConnectingIdType get(); void set(Microsoft::Exchange::WebServices::Data::ConnectingIdType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConnectingIdType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the type of the ID.            </summary>
+        <value>One of the ConnectingIdType enumeration values.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

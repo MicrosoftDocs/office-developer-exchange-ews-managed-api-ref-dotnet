@@ -1,0 +1,98 @@
+﻿<Type Name="OnlineMeetingSettings" FullName="Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings">
+  <TypeSignature Language="C#" Value="public class OnlineMeetingSettings : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OnlineMeetingSettings extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class OnlineMeetingSettings&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OnlineMeetingSettings : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Represents online meeting settings.             The <see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OnlineMeetingSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OnlineMeetingSettings();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings" /> class. The <see cref="M:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AccessLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel AccessLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel AccessLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.AccessLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property AccessLevel As OnlineMeetingAccessLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OnlineMeetingAccessLevel AccessLevel { Microsoft::Exchange::WebServices::Data::OnlineMeetingAccessLevel get(); void set(Microsoft::Exchange::WebServices::Data::OnlineMeetingAccessLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the online meeting setting that describes access permission to the meeting.             The <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.AccessLevel" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The setting that describes access permission to the meeting.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LobbyBypass">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LobbyBypass LobbyBypass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LobbyBypass LobbyBypass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.LobbyBypass" />
+      <MemberSignature Language="VB.NET" Value="Public Property LobbyBypass As LobbyBypass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LobbyBypass LobbyBypass { Microsoft::Exchange::WebServices::Data::LobbyBypass get(); void set(Microsoft::Exchange::WebServices::Data::LobbyBypass value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LobbyBypass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the online meeting setting that describes whether users dialing in by phone have to wait in the online waiting area before joining a meeting.             The <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.LobbyBypass" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The setting that describes whether users dialing in by phone have to wait in the online waiting area.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Presenters">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Presenters Presenters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Presenters Presenters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.Presenters" />
+      <MemberSignature Language="VB.NET" Value="Public Property Presenters As Presenters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Presenters Presenters { Microsoft::Exchange::WebServices::Data::Presenters get(); void set(Microsoft::Exchange::WebServices::Data::Presenters value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Presenters</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the online meeting setting that defines the meeting leaders.             The <see cref="P:Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings.Presenters" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The setting that defines the meeting leaders.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,46 @@
+﻿<Type Name="IMetaDocumentRetriever" FullName="Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever">
+  <TypeSignature Language="C#" Value="public interface IMetaDocumentRetriever" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMetaDocumentRetriever" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IMetaDocumentRetriever" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IMetaDocumentRetriever" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines the interface for retrieving authentication metadata documents from a server. The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever" /> interface is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetData">
+      <MemberSignature Language="C#" Value="public void GetData (Uri url, bool bypassCache, out string publicKeyDocument);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void GetData(class System.Uri url, bool bypassCache, [out] string&amp; publicKeyDocument) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever.GetData(System.Uri,System.Boolean,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub GetData (url As Uri, bypassCache As Boolean, ByRef publicKeyDocument As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void GetData(Uri ^ url, bool bypassCache, [Runtime::InteropServices::Out] System::String ^ % publicKeyDocument);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="url" Type="System.Uri" />
+        <Parameter Name="bypassCache" Type="System.Boolean" />
+        <Parameter Name="publicKeyDocument" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="url">The URL of the location where the metadata document is located.</param>
+        <param name="bypassCache">
+          <b>true</b> to bypass a cached version of the metadata document; <b>false</b> to use a cached document, if available.</param>
+        <param name="publicKeyDocument">The public key document.</param>
+        <summary>Gets an authentication metadata document from the specified location. The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.IMetaDocumentRetriever.GetData(System.Uri,System.Boolean,System.String@)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

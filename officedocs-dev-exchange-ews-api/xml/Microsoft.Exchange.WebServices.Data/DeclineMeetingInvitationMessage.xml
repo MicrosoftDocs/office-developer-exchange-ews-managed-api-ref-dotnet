@@ -1,0 +1,23 @@
+﻿<Type Name="DeclineMeetingInvitationMessage" FullName="Microsoft.Exchange.WebServices.Data.DeclineMeetingInvitationMessage">
+  <TypeSignature Language="C#" Value="public sealed class DeclineMeetingInvitationMessage : Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DeclineMeetingInvitationMessage extends Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1&lt;class Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeclineMeetingInvitationMessage" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DeclineMeetingInvitationMessage&#xA;Inherits CalendarResponseMessage(Of MeetingResponse)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeclineMeetingInvitationMessage sealed : Microsoft::Exchange::WebServices::Data::CalendarResponseMessage&lt;Microsoft::Exchange::WebServices::Data::MeetingResponse ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TMessage">Microsoft.Exchange.WebServices.Data.MeetingResponse</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a meeting declination message.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

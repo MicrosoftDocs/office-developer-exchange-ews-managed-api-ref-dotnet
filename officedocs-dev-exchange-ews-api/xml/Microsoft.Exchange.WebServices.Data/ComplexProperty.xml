@@ -1,0 +1,25 @@
+﻿<Type Name="ComplexProperty" FullName="Microsoft.Exchange.WebServices.Data.ComplexProperty">
+  <TypeSignature Language="C#" Value="public abstract class ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ComplexProperty extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ComplexProperty abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a property that can be sent to or retrieved from Exchange Web Services (EWS).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

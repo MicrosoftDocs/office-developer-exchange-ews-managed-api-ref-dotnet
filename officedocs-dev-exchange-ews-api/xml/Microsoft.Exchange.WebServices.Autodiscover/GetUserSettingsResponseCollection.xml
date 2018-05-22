@@ -1,0 +1,26 @@
+﻿<Type Name="GetUserSettingsResponseCollection" FullName="Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponseCollection">
+  <TypeSignature Language="C#" Value="public sealed class GetUserSettingsResponseCollection : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection&lt;Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetUserSettingsResponseCollection extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1&lt;class Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponseCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetUserSettingsResponseCollection&#xA;Inherits AutodiscoverResponseCollection(Of GetUserSettingsResponse)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserSettingsResponseCollection sealed : Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverResponseCollection&lt;Microsoft::Exchange::WebServices::Autodiscover::GetUserSettingsResponse ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection&lt;Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TResponse">Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a collection of responses to a GetUserSettings call.</summary>
+    <remarks>
+      <para>This class is a collection of <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse" /> objects.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

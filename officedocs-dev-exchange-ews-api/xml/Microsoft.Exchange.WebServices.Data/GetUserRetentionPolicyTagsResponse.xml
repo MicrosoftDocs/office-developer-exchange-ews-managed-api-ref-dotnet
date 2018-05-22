@@ -1,0 +1,41 @@
+﻿<Type Name="GetUserRetentionPolicyTagsResponse" FullName="Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse">
+  <TypeSignature Language="C#" Value="public sealed class GetUserRetentionPolicyTagsResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetUserRetentionPolicyTagsResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetUserRetentionPolicyTagsResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserRetentionPolicyTagsResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains a list of retention policy tags associated with a user.             The <see cref="T:Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="RetentionPolicyTags">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RetentionPolicyTag[] RetentionPolicyTags { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RetentionPolicyTag[] RetentionPolicyTags" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse.RetentionPolicyTags" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetentionPolicyTags As RetentionPolicyTag()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::RetentionPolicyTag ^&gt; ^ RetentionPolicyTags { cli::array &lt;Microsoft::Exchange::WebServices::Data::RetentionPolicyTag ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionPolicyTag[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a list of retention policy tags associated with a user.             The <see cref="P:Microsoft.Exchange.WebServices.Data.GetUserRetentionPolicyTagsResponse.RetentionPolicyTags" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>A list of retention policy tags.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

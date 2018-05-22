@@ -1,0 +1,41 @@
+﻿<Type Name="GetConversationItemsResponse" FullName="Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse">
+  <TypeSignature Language="C#" Value="public sealed class GetConversationItemsResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetConversationItemsResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetConversationItemsResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetConversationItemsResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains the results of an attempt to return the contents of a conversation in a mailbox.             The <see cref="T:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Conversation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationResponse Conversation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationResponse Conversation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse.Conversation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Conversation As ConversationResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationResponse ^ Conversation { Microsoft::Exchange::WebServices::Data::ConversationResponse ^ get(); void set(Microsoft::Exchange::WebServices::Data::ConversationResponse ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationResponse</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the <see cref="T:Microsoft.Exchange.WebServices.Data.Conversation" /> object.             The <see cref="P:Microsoft.Exchange.WebServices.Data.GetConversationItemsResponse.Conversation" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The conversation.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

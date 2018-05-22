@@ -1,0 +1,49 @@
+﻿<Type Name="UnifiedMessaging" FullName="Microsoft.Exchange.WebServices.Data.UnifiedMessaging">
+  <TypeSignature Language="C#" Value="public sealed class UnifiedMessaging" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UnifiedMessaging extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UnifiedMessaging" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UnifiedMessaging" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UnifiedMessaging sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the Unified Messaging functionality.</summary>
+    <remarks>
+      <para>A UnifiedMessaging object is returned by the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.UnifiedMessaging" /> property of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PlayOnPhone">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PhoneCall PlayOnPhone (Microsoft.Exchange.WebServices.Data.ItemId itemId, string dialString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.PhoneCall PlayOnPhone(class Microsoft.Exchange.WebServices.Data.ItemId itemId, string dialString) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UnifiedMessaging.PlayOnPhone(Microsoft.Exchange.WebServices.Data.ItemId,System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::PhoneCall ^ PlayOnPhone(Microsoft::Exchange::WebServices::Data::ItemId ^ itemId, System::String ^ dialString);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneCall</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="itemId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="dialString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="itemId">The item identifier to play on the phone call.</param>
+        <param name="dialString">The full dial string used to call the phone.</param>
+        <summary>Calls a phone number and plays a mailbox item on the phone call.</summary>
+        <returns>A phone call object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

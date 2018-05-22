@@ -1,0 +1,77 @@
+﻿<Type Name="ClientAccessTokenType" FullName="Microsoft.Exchange.WebServices.Data.ClientAccessTokenType">
+  <TypeSignature Language="C#" Value="public enum ClientAccessTokenType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ClientAccessTokenType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ClientAccessTokenType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ClientAccessTokenType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Defines the type of client access token.             The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CallerIdentity">
+      <MemberSignature Language="C#" Value="CallerIdentity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType CallerIdentity = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ClientAccessTokenType.CallerIdentity" />
+      <MemberSignature Language="VB.NET" Value="CallerIdentity" />
+      <MemberSignature Language="C++ CLI" Value="CallerIdentity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             The identity of the caller.             The CallerIdentity field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtensionCallback">
+      <MemberSignature Language="C#" Value="ExtensionCallback" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType ExtensionCallback = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ClientAccessTokenType.ExtensionCallback" />
+      <MemberSignature Language="VB.NET" Value="ExtensionCallback" />
+      <MemberSignature Language="C++ CLI" Value="ExtensionCallback" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             A reference to a client access token type extension callback.             The ExtensionCallback field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ScopedToken">
+      <MemberSignature Language="C#" Value="ScopedToken" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType ScopedToken = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ClientAccessTokenType.ScopedToken" />
+      <MemberSignature Language="VB.NET" Value="ScopedToken" />
+      <MemberSignature Language="C++ CLI" Value="ScopedToken" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>An access token with a limited scope, granting access only to the items specified in the <see cref="P:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.Scope" /> property.The ScopedToken field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013SP1.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

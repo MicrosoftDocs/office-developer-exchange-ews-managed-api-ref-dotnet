@@ -1,0 +1,31 @@
+﻿<Type Name="ItemIdCollection" FullName="Microsoft.Exchange.WebServices.Data.ItemIdCollection">
+  <TypeSignature Language="C#" Value="public sealed class ItemIdCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.ItemId&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemIdCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.ItemId&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemIdCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemIdCollection&#xA;Inherits ComplexPropertyCollection(Of ItemId)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemIdCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::ItemId ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.ItemId&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.ItemId</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains a collection of item identifiers.</summary>
+    <remarks>
+      <para>This object is returned from the <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.GlobalItemIds" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.Conversation.ItemIds" /> properties.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

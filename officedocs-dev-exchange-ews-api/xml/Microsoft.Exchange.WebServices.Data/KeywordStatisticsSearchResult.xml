@@ -1,0 +1,103 @@
+﻿<Type Name="KeywordStatisticsSearchResult" FullName="Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult">
+  <TypeSignature Language="C#" Value="public sealed class KeywordStatisticsSearchResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit KeywordStatisticsSearchResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class KeywordStatisticsSearchResult" />
+  <TypeSignature Language="C++ CLI" Value="public ref class KeywordStatisticsSearchResult sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains statistics associated with an eDiscovery search.             The <see cref="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public KeywordStatisticsSearchResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; KeywordStatisticsSearchResult();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Creates a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult" /> class. The <see cref="M:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemHits">
+      <MemberSignature Language="C#" Value="public int ItemHits { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ItemHits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.ItemHits" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemHits As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ItemHits { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the total number of times a search value appears in the messages contained in a set of mailboxes.             The <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.ItemHits" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The number of item hits.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Keyword">
+      <MemberSignature Language="C#" Value="public string Keyword { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Keyword" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Keyword" />
+      <MemberSignature Language="VB.NET" Value="Public Property Keyword As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Keyword { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the search value for an eDiscovery search.             The <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Keyword" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The keyword search value.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public ulong Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As ULong" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt64 Size { System::UInt64 get(); void set(System::UInt64 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the number of items in a set of mailboxes that contain the search value.             The <see cref="P:Microsoft.Exchange.WebServices.Data.KeywordStatisticsSearchResult.Size" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The total size.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

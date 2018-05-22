@@ -1,0 +1,101 @@
+﻿<Type Name="GetClientAccessTokenResponse" FullName="Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse">
+  <TypeSignature Language="C#" Value="public sealed class GetClientAccessTokenResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetClientAccessTokenResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetClientAccessTokenResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetClientAccessTokenResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains information about a client access token.             The <see cref="T:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the client access token ID.             The <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.Id" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ClientAccessTokenType TokenType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType TokenType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenType As ClientAccessTokenType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ClientAccessTokenType TokenType { Microsoft::Exchange::WebServices::Data::ClientAccessTokenType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the token type which includes caller identity and extension callback information.             The <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenType" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The token type.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenValue">
+      <MemberSignature Language="C#" Value="public string TokenValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TokenValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TokenValue { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the value of the encoded client access token.             The <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenValue" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The token value.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TTL">
+      <MemberSignature Language="C#" Value="public int TTL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TTL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TTL" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TTL As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TTL { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the number of minutes before the client access token expires.             The <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TTL" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The TTL value, in minutes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,238 @@
+﻿<Type Name="AvailabilityOptions" FullName="Microsoft.Exchange.WebServices.Data.AvailabilityOptions">
+  <TypeSignature Language="C#" Value="public sealed class AvailabilityOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AvailabilityOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AvailabilityOptions" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AvailabilityOptions sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the options for an availability request.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AvailabilityOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AvailabilityOptions();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.AvailabilityOptions" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentMeetingTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; CurrentMeetingTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; CurrentMeetingTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentMeetingTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; CurrentMeetingTime { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the start time of a meeting to update with suggested meeting times.</summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.CurrentMeetingTime" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162789">T:System.Nullable`1</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DetailedSuggestionsWindow">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TimeWindow DetailedSuggestionsWindow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TimeWindow DetailedSuggestionsWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Property DetailedSuggestionsWindow As TimeWindow" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TimeWindow ^ DetailedSuggestionsWindow { Microsoft::Exchange::WebServices::Data::TimeWindow ^ get(); void set(Microsoft::Exchange::WebServices::Data::TimeWindow ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TimeWindow</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Property gets or sets the time period for which detailed information about suggested meeting times should be returned.</summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.DetailedSuggestionsWindow" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.TimeWindow" /> class object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GlobalObjectId">
+      <MemberSignature Language="C#" Value="public string GlobalObjectId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GlobalObjectId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" />
+      <MemberSignature Language="VB.NET" Value="Public Property GlobalObjectId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GlobalObjectId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the global identifier of a meeting to be modified by the returned data.</summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GlobalObjectId" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162649">T:System.String</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GoodSuggestionThreshold">
+      <MemberSignature Language="C#" Value="public int GoodSuggestionThreshold { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GoodSuggestionThreshold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" />
+      <MemberSignature Language="VB.NET" Value="Public Property GoodSuggestionThreshold As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GoodSuggestionThreshold { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the percentage of attendees that must have the time period open for the time period to qualify as a good suggested meeting time. </summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.GoodSuggestionThreshold" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumNonWorkHoursSuggestionsPerDay">
+      <MemberSignature Language="C#" Value="public int MaximumNonWorkHoursSuggestionsPerDay { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumNonWorkHoursSuggestionsPerDay" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumNonWorkHoursSuggestionsPerDay As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaximumNonWorkHoursSuggestionsPerDay { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the number of meeting times that should be suggested outside of regular working hours per day. </summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumNonWorkHoursSuggestionsPerDay" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumSuggestionsPerDay">
+      <MemberSignature Language="C#" Value="public int MaximumSuggestionsPerDay { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaximumSuggestionsPerDay" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumSuggestionsPerDay As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaximumSuggestionsPerDay { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the maximum number of meeting times that should be suggested per day. </summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MaximumSuggestionsPerDay" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingDuration">
+      <MemberSignature Language="C#" Value="public int MeetingDuration { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MeetingDuration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingDuration As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MeetingDuration { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the duration, in minutes, of the meeting for which to obtain suggestions. </summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MeetingDuration" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MergedFreeBusyInterval">
+      <MemberSignature Language="C#" Value="public int MergedFreeBusyInterval { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MergedFreeBusyInterval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" />
+      <MemberSignature Language="VB.NET" Value="Public Property MergedFreeBusyInterval As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MergedFreeBusyInterval { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the time difference between two successive meeting times in a merged free/busy view. </summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MergedFreeBusyInterval" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkID=162882">T:System.Int32</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumSuggestionQuality">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SuggestionQuality MinimumSuggestionQuality { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SuggestionQuality MinimumSuggestionQuality" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumSuggestionQuality As SuggestionQuality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SuggestionQuality MinimumSuggestionQuality { Microsoft::Exchange::WebServices::Data::SuggestionQuality get(); void set(Microsoft::Exchange::WebServices::Data::SuggestionQuality value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the minimum quality of suggestions to return. </summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.MinimumSuggestionQuality" /> property is a  <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> enumeration value. The default value is <see cref="F:Microsoft.Exchange.WebServices.Data.SuggestionQuality.Fair" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestedFreeBusyView">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FreeBusyViewType RequestedFreeBusyView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.FreeBusyViewType RequestedFreeBusyView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" />
+      <MemberSignature Language="VB.NET" Value="Public Property RequestedFreeBusyView As FreeBusyViewType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FreeBusyViewType RequestedFreeBusyView { Microsoft::Exchange::WebServices::Data::FreeBusyViewType get(); void set(Microsoft::Exchange::WebServices::Data::FreeBusyViewType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the requested type of free/busy view. </summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.AvailabilityOptions.RequestedFreeBusyView" /> property is a  <see cref="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" /> enumeration value. The default value is <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" />.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,97 @@
+﻿<Type Name="ComparisonMode" FullName="Microsoft.Exchange.WebServices.Data.ComparisonMode">
+  <TypeSignature Language="C#" Value="public enum ComparisonMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ComparisonMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ComparisonMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ComparisonMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ComparisonMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the way that values are compared in search filters.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exact">
+      <MemberSignature Language="C#" Value="Exact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ComparisonMode Exact = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ComparisonMode.Exact" />
+      <MemberSignature Language="VB.NET" Value="Exact" />
+      <MemberSignature Language="C++ CLI" Value="Exact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ComparisonMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The comparison is exact.
+</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreCase">
+      <MemberSignature Language="C#" Value="IgnoreCase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ComparisonMode IgnoreCase = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ComparisonMode.IgnoreCase" />
+      <MemberSignature Language="VB.NET" Value="IgnoreCase" />
+      <MemberSignature Language="C++ CLI" Value="IgnoreCase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ComparisonMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The comparison ignores casing.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreCaseAndNonSpacingCharacters">
+      <MemberSignature Language="C#" Value="IgnoreCaseAndNonSpacingCharacters" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ComparisonMode IgnoreCaseAndNonSpacingCharacters = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ComparisonMode.IgnoreCaseAndNonSpacingCharacters" />
+      <MemberSignature Language="VB.NET" Value="IgnoreCaseAndNonSpacingCharacters" />
+      <MemberSignature Language="C++ CLI" Value="IgnoreCaseAndNonSpacingCharacters" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ComparisonMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The comparison ignores casing and spacing characters.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreNonSpacingCharacters">
+      <MemberSignature Language="C#" Value="IgnoreNonSpacingCharacters" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ComparisonMode IgnoreNonSpacingCharacters = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ComparisonMode.IgnoreNonSpacingCharacters" />
+      <MemberSignature Language="VB.NET" Value="IgnoreNonSpacingCharacters" />
+      <MemberSignature Language="C++ CLI" Value="IgnoreNonSpacingCharacters" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ComparisonMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The comparison ignores spacing characters.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

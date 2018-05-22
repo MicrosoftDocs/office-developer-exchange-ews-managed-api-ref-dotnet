@@ -1,0 +1,80 @@
+﻿<Type Name="SearchFilter+ExcludesBitmask" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+ExcludesBitmask">
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.ExcludesBitmask : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/ExcludesBitmask extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.ExcludesBitmask&#xA;Inherits SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::ExcludesBitmask sealed : Microsoft::Exchange::WebServices::Data::SearchFilter::PropertyBasedFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter+PropertyBasedFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a bitmask exclusion search filter. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExcludesBitmask ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExcludesBitmask();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the SearchFilter.ExcludesBitmask class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExcludesBitmask (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, int bitmask);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, int32 bitmask) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, bitmask As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExcludesBitmask(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, int bitmask);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="bitmask" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">The definition of the property that is being compared. </param>
+        <param name="bitmask">The bitmask to compare with.</param>
+        <summary>Initializes a new instance of the SearchFilter.ExcludesBitmask class with the specified property definition and bitmask.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bitmask">
+      <MemberSignature Language="C#" Value="public int Bitmask { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Bitmask" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask.Bitmask" />
+      <MemberSignature Language="VB.NET" Value="Public Property Bitmask As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Bitmask { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the bitmask to compare the property with.</summary>
+        <value>The bitmap to compare the property with.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

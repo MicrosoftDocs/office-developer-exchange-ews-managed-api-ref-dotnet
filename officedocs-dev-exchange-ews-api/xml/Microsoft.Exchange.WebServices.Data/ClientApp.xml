@@ -1,0 +1,61 @@
+﻿<Type Name="ClientApp" FullName="Microsoft.Exchange.WebServices.Data.ClientApp">
+  <TypeSignature Language="C#" Value="public sealed class ClientApp : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ClientApp extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientApp" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ClientApp&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientApp sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a mail app in a <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetAppManifests(System.String,System.String)" /> response.The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientApp" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Manifest">
+      <MemberSignature Language="C#" Value="public System.Xml.XmlDocument Manifest { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlDocument Manifest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientApp.Manifest" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Manifest As XmlDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::XmlDocument ^ Manifest { System::Xml::XmlDocument ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Xml.XmlDocument</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The manifest for the mail app.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Metadata">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ClientAppMetadata Metadata { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ClientAppMetadata Metadata" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientApp.Metadata" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Metadata As ClientAppMetadata" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ClientAppMetadata ^ Metadata { Microsoft::Exchange::WebServices::Data::ClientAppMetadata ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAppMetadata</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The metadata related to the mail app.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

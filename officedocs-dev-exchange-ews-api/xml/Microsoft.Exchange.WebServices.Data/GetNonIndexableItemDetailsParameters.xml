@@ -1,0 +1,98 @@
+﻿<Type Name="GetNonIndexableItemDetailsParameters" FullName="Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters">
+  <TypeSignature Language="C#" Value="public sealed class GetNonIndexableItemDetailsParameters : Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetNonIndexableItemDetailsParameters extends Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetNonIndexableItemDetailsParameters&#xA;Inherits NonIndexableItemParameters" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetNonIndexableItemDetailsParameters sealed : Microsoft::Exchange::WebServices::Data::NonIndexableItemParameters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>       Gets the set of parameters to pass in a <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> request.    The <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetNonIndexableItemDetailsParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetNonIndexableItemDetailsParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Creates an instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters" /> class.The <see cref="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageDirection">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.SearchPageDirection&gt; PageDirection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.SearchPageDirection&gt; PageDirection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageDirection" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageDirection As Nullable(Of SearchPageDirection)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::SearchPageDirection&gt; PageDirection { Nullable&lt;Microsoft::Exchange::WebServices::Data::SearchPageDirection&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::SearchPageDirection&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.SearchPageDirection&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>  Gets or sets the search direction for the page view (forward or back). The <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageDirection" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>A value indicating the paging direction.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageItemReference">
+      <MemberSignature Language="C#" Value="public string PageItemReference { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PageItemReference" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageItemReference" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageItemReference As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PageItemReference { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets or sets the reference identifier for the page view.          The <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageItemReference" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The reference identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageSize">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; PageSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; PageSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageSize As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; PageSize { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>            Gets or sets the size of the page view.         The <see cref="P:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemDetailsParameters.PageSize" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The size of the page view.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

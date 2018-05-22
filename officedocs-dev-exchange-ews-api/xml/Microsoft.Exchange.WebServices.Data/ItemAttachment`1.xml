@@ -1,0 +1,49 @@
+﻿<Type Name="ItemAttachment&lt;TItem&gt;" FullName="Microsoft.Exchange.WebServices.Data.ItemAttachment&lt;TItem&gt;">
+  <TypeSignature Language="C#" Value="public sealed class ItemAttachment&lt;TItem&gt; : Microsoft.Exchange.WebServices.Data.ItemAttachment where TItem : Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemAttachment`1&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt; extends Microsoft.Exchange.WebServices.Data.ItemAttachment" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemAttachment`1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemAttachment(Of TItem)&#xA;Inherits ItemAttachment" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItem&gt;&#xA; where TItem : Itempublic ref class ItemAttachment sealed : Microsoft::Exchange::WebServices::Data::ItemAttachment" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TItem">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemAttachment</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TItem">The item type.</typeparam>
+    <summary>Represents a strongly typed item attachment.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public TItem Item { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TItem Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemAttachment`1.Item" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item As TItem" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TItem Item { TItem get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TItem</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the item that is associated with the attachment.</summary>
+        <value>The item that is associated with the attachment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

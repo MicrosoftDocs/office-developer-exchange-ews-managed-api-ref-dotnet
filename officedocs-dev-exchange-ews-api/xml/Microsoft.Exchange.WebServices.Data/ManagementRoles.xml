@@ -1,0 +1,85 @@
+﻿<Type Name="ManagementRoles" FullName="Microsoft.Exchange.WebServices.Data.ManagementRoles">
+  <TypeSignature Language="C#" Value="public sealed class ManagementRoles" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ManagementRoles extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ManagementRoles" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ManagementRoles" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ManagementRoles sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains user and application roles used to restrict access based on group membership.            The <see cref="T:Microsoft.Exchange.WebServices.Data.ManagementRoles" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManagementRoles (string userRole);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string userRole) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (userRole As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ManagementRoles(System::String ^ userRole);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userRole" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userRole">The user role.</param>
+        <summary>             Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ManagementRoles" /> class with the associated user role.             The <see cref="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManagementRoles (string userRole, string applicationRole);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string userRole, string applicationRole) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (userRole As String, applicationRole As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ManagementRoles(System::String ^ userRole, System::String ^ applicationRole);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userRole" Type="System.String" />
+        <Parameter Name="applicationRole" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="userRole">The user role.</param>
+        <param name="applicationRole">The application role.</param>
+        <summary>             Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ManagementRoles" /> class with the associated user role and application role.             The <see cref="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ManagementRoles (string[] userRoles, string[] applicationRoles);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string[] userRoles, string[] applicationRoles) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String[],System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (userRoles As String(), applicationRoles As String())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ManagementRoles(cli::array &lt;System::String ^&gt; ^ userRoles, cli::array &lt;System::String ^&gt; ^ applicationRoles);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userRoles" Type="System.String[]" />
+        <Parameter Name="applicationRoles" Type="System.String[]" />
+      </Parameters>
+      <Docs>
+        <param name="userRoles">The user roles.</param>
+        <param name="applicationRoles">The application roles.</param>
+        <summary>             Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ManagementRoles" /> class with the associated collection of user and application roles.             The <see cref="M:Microsoft.Exchange.WebServices.Data.ManagementRoles.#ctor(System.String[],System.String[])" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,167 @@
+﻿<Type Name="AttendeeInfo" FullName="Microsoft.Exchange.WebServices.Data.AttendeeInfo">
+  <TypeSignature Language="C#" Value="public sealed class AttendeeInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AttendeeInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AttendeeInfo" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AttendeeInfo" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AttendeeInfo sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents information about an attendee for whom to request availability information.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttendeeInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttendeeInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AttendeeInfo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the AttendeeInfo class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttendeeInfo (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttendeeInfo.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AttendeeInfo(System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">The SMTP e-mail address of the attendee.</param>
+        <summary>Initializes a new instance of the AttendeeInfo class by using the specified SMTP e-mail address.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AttendeeInfo (string smtpAddress, Microsoft.Exchange.WebServices.Data.MeetingAttendeeType attendeeType, bool excludeConflicts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string smtpAddress, valuetype Microsoft.Exchange.WebServices.Data.MeetingAttendeeType attendeeType, bool excludeConflicts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttendeeInfo.#ctor(System.String,Microsoft.Exchange.WebServices.Data.MeetingAttendeeType,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (smtpAddress As String, attendeeType As MeetingAttendeeType, excludeConflicts As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AttendeeInfo(System::String ^ smtpAddress, Microsoft::Exchange::WebServices::Data::MeetingAttendeeType attendeeType, bool excludeConflicts);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+        <Parameter Name="attendeeType" Type="Microsoft.Exchange.WebServices.Data.MeetingAttendeeType" />
+        <Parameter Name="excludeConflicts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">The SMTP address of the attendee.</param>
+        <param name="attendeeType">One of MeetingAttendeeType the enumeration values that specifies the type of the attendee.</param>
+        <param name="excludeConflicts">Indicates whether to exclude attendee conflicts. <b>true</b> to indicate that times when the attendee is not available are excluded; otherwise, <b>false</b>.</param>
+        <summary>Initializes a new instance of the AttendeeInfo class by using the specified SMTP address, attendee type, and conflict exclusions.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttendeeType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingAttendeeType AttendeeType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.MeetingAttendeeType AttendeeType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AttendeeInfo.AttendeeType" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttendeeType As MeetingAttendeeType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingAttendeeType AttendeeType { Microsoft::Exchange::WebServices::Data::MeetingAttendeeType get(); void set(Microsoft::Exchange::WebServices::Data::MeetingAttendeeType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingAttendeeType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the type of meeting attendee.</summary>
+        <value>One of MeetingAttendeeType the enumeration values that specifies the type of the attendee.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExcludeConflicts">
+      <MemberSignature Language="C#" Value="public bool ExcludeConflicts { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExcludeConflicts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AttendeeInfo.ExcludeConflicts" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExcludeConflicts As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExcludeConflicts { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value that indicates whether times when the attendee is not available should be returned.</summary>
+        <value>
+          <b>true</b> if times when the attendee is not available are to be excluded; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.AttendeeInfo (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.AttendeeInfo op_Implicit(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AttendeeInfo.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.AttendeeInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (smtpAddress As String) As AttendeeInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::AttendeeInfo ^(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">A string representation of an SMTP e-mail address.</param>
+        <summary>Defines an implicit conversion between a string that represents an SMTP e-mail address and an AttendeeInfo object.</summary>
+        <returns>An AttendeeInfo object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AttendeeInfo.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the SMTP e-mail address of the attendee.</summary>
+        <value>The SMTP e-mail address of the attendee.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

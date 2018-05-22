@@ -1,0 +1,63 @@
+﻿<Type Name="GetSearchableMailboxesResponse" FullName="Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse">
+  <TypeSignature Language="C#" Value="public sealed class GetSearchableMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetSearchableMailboxesResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetSearchableMailboxesResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetSearchableMailboxesResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains two lists of mailboxes: a list of mailboxes that could be searched and a list of mailboxes that could not be searched for the purpose of eDiscovery.             The <see cref="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FailedMailboxes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[] FailedMailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[] FailedMailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.FailedMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailedMailboxes As FailedSearchMailbox()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ FailedMailboxes { cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a list of mailboxes targeted by an eDiscovery query that could not be searched.
+            The <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.FailedMailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The mailboxes that could not be searched.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchableMailboxes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchableMailbox[] SearchableMailboxes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchableMailbox[] SearchableMailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.SearchableMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SearchableMailboxes As SearchableMailbox()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ SearchableMailboxes { cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchableMailbox[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the mailboxes or distribution groups that match an eDiscovery query.             The <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.SearchableMailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>An array of searchable mailboxes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

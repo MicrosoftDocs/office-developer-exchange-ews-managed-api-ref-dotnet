@@ -1,0 +1,115 @@
+﻿<Type Name="ContainmentMode" FullName="Microsoft.Exchange.WebServices.Data.ContainmentMode">
+  <TypeSignature Language="C#" Value="public enum ContainmentMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContainmentMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContainmentMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContainmentMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContainmentMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the containment mode for Contains search filters.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ExactPhrase">
+      <MemberSignature Language="C#" Value="ExactPhrase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ContainmentMode ExactPhrase = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContainmentMode.ExactPhrase" />
+      <MemberSignature Language="VB.NET" Value="ExactPhrase" />
+      <MemberSignature Language="C++ CLI" Value="ExactPhrase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContainmentMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The comparison is between an exact phrase in the string and the constant.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FullString">
+      <MemberSignature Language="C#" Value="FullString" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ContainmentMode FullString = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContainmentMode.FullString" />
+      <MemberSignature Language="VB.NET" Value="FullString" />
+      <MemberSignature Language="C++ CLI" Value="FullString" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContainmentMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The comparison is between the full string and the constant. The property value and the supplied constant are exactly the same.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Prefixed">
+      <MemberSignature Language="C#" Value="Prefixed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ContainmentMode Prefixed = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContainmentMode.Prefixed" />
+      <MemberSignature Language="VB.NET" Value="Prefixed" />
+      <MemberSignature Language="C++ CLI" Value="Prefixed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContainmentMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The comparison is between the string prefix and the constant.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PrefixOnWords">
+      <MemberSignature Language="C#" Value="PrefixOnWords" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ContainmentMode PrefixOnWords = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContainmentMode.PrefixOnWords" />
+      <MemberSignature Language="VB.NET" Value="PrefixOnWords" />
+      <MemberSignature Language="C++ CLI" Value="PrefixOnWords" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContainmentMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The comparison is between a prefix on individual words in the string and the constant.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Substring">
+      <MemberSignature Language="C#" Value="Substring" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ContainmentMode Substring = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContainmentMode.Substring" />
+      <MemberSignature Language="VB.NET" Value="Substring" />
+      <MemberSignature Language="C++ CLI" Value="Substring" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContainmentMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The comparison is between a substring of the string and the constant.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

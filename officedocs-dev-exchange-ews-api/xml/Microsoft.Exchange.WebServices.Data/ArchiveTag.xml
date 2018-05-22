@@ -1,0 +1,61 @@
+﻿<Type Name="ArchiveTag" FullName="Microsoft.Exchange.WebServices.Data.ArchiveTag">
+  <TypeSignature Language="C#" Value="public sealed class ArchiveTag : Microsoft.Exchange.WebServices.Data.RetentionTagBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ArchiveTag extends Microsoft.Exchange.WebServices.Data.RetentionTagBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ArchiveTag&#xA;Inherits RetentionTagBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ArchiveTag sealed : Microsoft::Exchange::WebServices::Data::RetentionTagBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.RetentionTagBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Defines the archive tag of an item or folder.             The <see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArchiveTag ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ArchiveTag.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArchiveTag();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" /> class.             The <see cref="M:Microsoft.Exchange.WebServices.Data.ArchiveTag.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ArchiveTag (bool isExplicit, Guid retentionId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isExplicit, valuetype System.Guid retentionId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ArchiveTag.#ctor(System.Boolean,System.Guid)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (isExplicit As Boolean, retentionId As Guid)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ArchiveTag(bool isExplicit, Guid retentionId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="isExplicit" Type="System.Boolean" />
+        <Parameter Name="retentionId" Type="System.Guid" />
+      </Parameters>
+      <Docs>
+        <param name="isExplicit">
+          <b>true</b> if the tag is explicit; otherwise, <b>false</b>.</param>
+        <param name="retentionId">The GUID that represents the retention ID.</param>
+        <summary>             Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ArchiveTag" /> class and its associated properties.             The <see cref="M:Microsoft.Exchange.WebServices.Data.ArchiveTag.#ctor(System.Boolean,System.Guid)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,191 @@
+﻿<Type Name="DefaultExtendedPropertySet" FullName="Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet">
+  <TypeSignature Language="C#" Value="public enum DefaultExtendedPropertySet" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DefaultExtendedPropertySet extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DefaultExtendedPropertySet" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DefaultExtendedPropertySet" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the default sets of extended properties. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="Address" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet Address = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet.Address" />
+      <MemberSignature Language="VB.NET" Value="Address" />
+      <MemberSignature Language="C++ CLI" Value="Address" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The Address extended property set. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Appointment">
+      <MemberSignature Language="C#" Value="Appointment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet Appointment = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet.Appointment" />
+      <MemberSignature Language="VB.NET" Value="Appointment" />
+      <MemberSignature Language="C++ CLI" Value="Appointment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The Appointment extended property set. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CalendarAssistant">
+      <MemberSignature Language="C#" Value="CalendarAssistant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet CalendarAssistant = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet.CalendarAssistant" />
+      <MemberSignature Language="VB.NET" Value="CalendarAssistant" />
+      <MemberSignature Language="C++ CLI" Value="CalendarAssistant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>The CalendarAssistants extended property set. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Common">
+      <MemberSignature Language="C#" Value="Common" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet Common = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet.Common" />
+      <MemberSignature Language="VB.NET" Value="Common" />
+      <MemberSignature Language="C++ CLI" Value="Common" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The Common extended property set. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetHeaders">
+      <MemberSignature Language="C#" Value="InternetHeaders" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet InternetHeaders = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet.InternetHeaders" />
+      <MemberSignature Language="VB.NET" Value="InternetHeaders" />
+      <MemberSignature Language="C++ CLI" Value="InternetHeaders" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>The InternetHeaders extended property set. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Meeting">
+      <MemberSignature Language="C#" Value="Meeting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet Meeting = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet.Meeting" />
+      <MemberSignature Language="VB.NET" Value="Meeting" />
+      <MemberSignature Language="C++ CLI" Value="Meeting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The Meeting extended property set. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicStrings">
+      <MemberSignature Language="C#" Value="PublicStrings" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet PublicStrings = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet.PublicStrings" />
+      <MemberSignature Language="VB.NET" Value="PublicStrings" />
+      <MemberSignature Language="C++ CLI" Value="PublicStrings" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The PublicStrings extended property set. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Task">
+      <MemberSignature Language="C#" Value="Task" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet Task = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet.Task" />
+      <MemberSignature Language="VB.NET" Value="Task" />
+      <MemberSignature Language="C++ CLI" Value="Task" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>The Task extended property set. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnifiedMessaging">
+      <MemberSignature Language="C#" Value="UnifiedMessaging" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet UnifiedMessaging = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet.UnifiedMessaging" />
+      <MemberSignature Language="VB.NET" Value="UnifiedMessaging" />
+      <MemberSignature Language="C++ CLI" Value="UnifiedMessaging" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DefaultExtendedPropertySet</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>The UnifiedMessaging extended property set. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,38 @@
+﻿<Type Name="GetNonIndexableItemStatisticsParameters" FullName="Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters">
+  <TypeSignature Language="C#" Value="public sealed class GetNonIndexableItemStatisticsParameters : Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetNonIndexableItemStatisticsParameters extends Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetNonIndexableItemStatisticsParameters&#xA;Inherits NonIndexableItemParameters" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetNonIndexableItemStatisticsParameters sealed : Microsoft::Exchange::WebServices::Data::NonIndexableItemParameters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>           Gets the set of parameters to pass in a <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemStatistic" /> request.            The <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetNonIndexableItemStatisticsParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetNonIndexableItemStatisticsParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Creates an instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters" /> class.The <see cref="M:Microsoft.Exchange.WebServices.Data.GetNonIndexableItemStatisticsParameters.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

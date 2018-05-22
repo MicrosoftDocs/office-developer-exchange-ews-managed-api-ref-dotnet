@@ -1,0 +1,28 @@
+﻿<Type Name="MeetingSuggestionCollection" FullName="Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection">
+  <TypeSignature Language="C#" Value="public sealed class MeetingSuggestionCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.MeetingSuggestion&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MeetingSuggestionCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.MeetingSuggestion&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MeetingSuggestionCollection&#xA;Inherits ComplexPropertyCollection(Of MeetingSuggestion)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MeetingSuggestionCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::MeetingSuggestion ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.MeetingSuggestion&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.MeetingSuggestion</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>             Defines a collection of MeetingSuggestion objects.             The <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>
