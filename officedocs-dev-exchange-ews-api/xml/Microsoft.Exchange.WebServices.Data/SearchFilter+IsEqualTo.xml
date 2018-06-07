@@ -1,0 +1,82 @@
+﻿<Type Name="SearchFilter+IsEqualTo" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+IsEqualTo">
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.IsEqualTo : Microsoft.Exchange.WebServices.Data.SearchFilter.RelationalFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/IsEqualTo extends Microsoft.Exchange.WebServices.Data.SearchFilter/RelationalFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.IsEqualTo&#xA;Inherits SearchFilter.RelationalFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::IsEqualTo sealed : Microsoft::Exchange::WebServices::Data::SearchFilter::RelationalFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter+RelationalFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a search filter that determines wheter a property is equal to a given value or other property.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsEqualTo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsEqualTo();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the SearchFilter.IsEqualTo class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsEqualTo (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase otherPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase otherPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, otherPropertyDefinition As PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsEqualTo(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ otherPropertyDefinition);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="otherPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">The definition of the property that is being compared.</param>
+        <param name="otherPropertyDefinition">The definition of the property that is being compared.</param>
+        <summary>Initializes a new instance of the SearchFilter.IsEqualTo class with the specified property definitions.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public IsEqualTo (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase, value As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IsEqualTo(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, System::Object ^ value);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">The definition of the property that is being compared.</param>
+        <param name="value">The value to compare the property with.</param>
+        <summary>Initializes a new instance of the SearchFilter.IsEqualTo class with the specified property definition and value to compare.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

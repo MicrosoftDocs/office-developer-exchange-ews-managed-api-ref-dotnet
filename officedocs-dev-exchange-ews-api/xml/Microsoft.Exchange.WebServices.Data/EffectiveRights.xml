@@ -1,0 +1,177 @@
+﻿<Type Name="EffectiveRights" FullName="Microsoft.Exchange.WebServices.Data.EffectiveRights">
+  <TypeSignature Language="C#" Value="public enum EffectiveRights" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EffectiveRights extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EffectiveRights" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EffectiveRights" />
+  <TypeSignature Language="C++ CLI" Value="public enum class EffectiveRights" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Defines the effective user rights that are associated with an item or folder.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateAssociated">
+      <MemberSignature Language="C#" Value="CreateAssociated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights CreateAssociated = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EffectiveRights.CreateAssociated" />
+      <MemberSignature Language="VB.NET" Value="CreateAssociated" />
+      <MemberSignature Language="C++ CLI" Value="CreateAssociated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The user can create folder associated items (FAIs).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateContents">
+      <MemberSignature Language="C#" Value="CreateContents" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights CreateContents = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EffectiveRights.CreateContents" />
+      <MemberSignature Language="VB.NET" Value="CreateContents" />
+      <MemberSignature Language="C++ CLI" Value="CreateContents" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The user can create items.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateHierarchy">
+      <MemberSignature Language="C#" Value="CreateHierarchy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights CreateHierarchy = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EffectiveRights.CreateHierarchy" />
+      <MemberSignature Language="VB.NET" Value="CreateHierarchy" />
+      <MemberSignature Language="C++ CLI" Value="CreateHierarchy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>The user can create subfolders.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="Delete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights Delete = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EffectiveRights.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
+      <MemberSignature Language="C++ CLI" Value="Delete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>The user can delete items and/or folders.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Modify">
+      <MemberSignature Language="C#" Value="Modify" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights Modify = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EffectiveRights.Modify" />
+      <MemberSignature Language="VB.NET" Value="Modify" />
+      <MemberSignature Language="C++ CLI" Value="Modify" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>The user can modify the properties of items and/or folders.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EffectiveRights.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The user has no access rights on the item or folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="Read" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights Read = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EffectiveRights.Read" />
+      <MemberSignature Language="VB.NET" Value="Read" />
+      <MemberSignature Language="C++ CLI" Value="Read" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>The user can read the contents of items.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewPrivateItems">
+      <MemberSignature Language="C#" Value="ViewPrivateItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights ViewPrivateItems = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.EffectiveRights.ViewPrivateItems" />
+      <MemberSignature Language="VB.NET" Value="ViewPrivateItems" />
+      <MemberSignature Language="C++ CLI" Value="ViewPrivateItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>The user can view items that are marked private.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

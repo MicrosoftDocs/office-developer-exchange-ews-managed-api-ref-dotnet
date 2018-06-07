@@ -1,0 +1,123 @@
+﻿<Type Name="MailboxStatisticsItem" FullName="Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem">
+  <TypeSignature Language="C#" Value="public sealed class MailboxStatisticsItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxStatisticsItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxStatisticsItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxStatisticsItem sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains information about a mailbox that is the target of an eDiscovery search.             The <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxStatisticsItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxStatisticsItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Creates a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem" /> class. The <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the name of the target mailbox.             The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.DisplayName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The display name.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemCount">
+      <MemberSignature Language="C#" Value="public long ItemCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 ItemCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.ItemCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemCount As Long" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property long ItemCount { long get(); void set(long value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the number of items in the target mailbox.             The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.ItemCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The item count.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxId">
+      <MemberSignature Language="C#" Value="public string MailboxId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailboxId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.MailboxId" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MailboxId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the mailbox ID.             The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.MailboxId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The mailbox ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public ulong Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As ULong" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt64 Size { System::UInt64 get(); void set(System::UInt64 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the total size, in bytes, of all the items in a mailbox.             The <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxStatisticsItem.Size" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The total size.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,470 @@
+﻿<Type Name="GroupMemberCollection" FullName="Microsoft.Exchange.WebServices.Data.GroupMemberCollection">
+  <TypeSignature Language="C#" Value="public sealed class GroupMemberCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GroupMemberCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.GroupMember&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GroupMemberCollection&#xA;Inherits ComplexPropertyCollection(Of GroupMember)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GroupMemberCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::GroupMember ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.GroupMember</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a group of contacts.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GroupMemberCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GroupMemberCollection();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMemberCollection" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Exchange.WebServices.Data.GroupMember member);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class Microsoft.Exchange.WebServices.Data.GroupMember member) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Add(Microsoft.Exchange.WebServices.Data.GroupMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (member As GroupMember)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Exchange::WebServices::Data::GroupMember ^ member);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="member" Type="Microsoft.Exchange.WebServices.Data.GroupMember" />
+      </Parameters>
+      <Docs>
+        <param name="member">The member to add to the group.</param>
+        <summary>Adds a member to the group.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddContactEmailAddress">
+      <MemberSignature Language="C#" Value="public void AddContactEmailAddress (Microsoft.Exchange.WebServices.Data.Contact contact, Microsoft.Exchange.WebServices.Data.EmailAddressKey emailAddressKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddContactEmailAddress(class Microsoft.Exchange.WebServices.Data.Contact contact, valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey emailAddressKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddContactEmailAddress(Microsoft.Exchange.WebServices.Data.Contact,Microsoft.Exchange.WebServices.Data.EmailAddressKey)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddContactEmailAddress(Microsoft::Exchange::WebServices::Data::Contact ^ contact, Microsoft::Exchange::WebServices::Data::EmailAddressKey emailAddressKey);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contact" Type="Microsoft.Exchange.WebServices.Data.Contact" />
+        <Parameter Name="emailAddressKey" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
+      </Parameters>
+      <Docs>
+        <param name="contact">The contact to link to.</param>
+        <param name="emailAddressKey">The e-mail address to link to.</param>
+        <summary>Adds a group member that is linked to a specific e-mail address for a contact.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddContactGroup">
+      <MemberSignature Language="C#" Value="public void AddContactGroup (Microsoft.Exchange.WebServices.Data.ItemId contactGroupId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddContactGroup(class Microsoft.Exchange.WebServices.Data.ItemId contactGroupId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddContactGroup(Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddContactGroup (contactGroupId As ItemId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddContactGroup(Microsoft::Exchange::WebServices::Data::ItemId ^ contactGroupId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactGroupId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="contactGroupId">The identifier of the contact group.</param>
+        <summary>Adds a member to a linked contact group.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDirectoryContact">
+      <MemberSignature Language="C#" Value="public void AddDirectoryContact (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDirectoryContact(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddDirectoryContact(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddDirectoryContact (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddDirectoryContact(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">The SMTP e-mail address of the Active Directory contact.</param>
+        <summary>Adds a member that is linked to an Active Directory contact that is identified by the specified e-mail address.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDirectoryContact">
+      <MemberSignature Language="C#" Value="public void AddDirectoryContact (string address, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDirectoryContact(string address, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddDirectoryContact(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddDirectoryContact (address As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddDirectoryContact(System::String ^ address, System::String ^ routingType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="address">The e-mail address of the Active Directory contact.</param>
+        <param name="routingType">The routing type for the Active Directory contact.</param>
+        <summary>Adds a member that is linked to an Active Directory contact that is identified by the specified e-mail address and routing type.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDirectoryPublicFolder">
+      <MemberSignature Language="C#" Value="public void AddDirectoryPublicFolder (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDirectoryPublicFolder(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddDirectoryPublicFolder(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddDirectoryPublicFolder (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddDirectoryPublicFolder(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">The SMTP e-mail address of the mail-enabled public folder.</param>
+        <summary>Adds a member that is linked to a mail-enabled public folder.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDirectoryUser">
+      <MemberSignature Language="C#" Value="public void AddDirectoryUser (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDirectoryUser(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddDirectoryUser(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddDirectoryUser (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddDirectoryUser(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">The SMTP address of the member.</param>
+        <summary>Adds a member that is linked to an Active Directory user that is specified by SMTP address.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDirectoryUser">
+      <MemberSignature Language="C#" Value="public void AddDirectoryUser (string address, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDirectoryUser(string address, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddDirectoryUser(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddDirectoryUser (address As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddDirectoryUser(System::String ^ address, System::String ^ routingType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="address">The e-mail address of the user.</param>
+        <param name="routingType">The routing type of the address.</param>
+        <summary>Adds a member that is linked to an Active Directory user that is specified by e-mail address and routing type.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddOneOff">
+      <MemberSignature Language="C#" Value="public void AddOneOff (string displayName, string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddOneOff(string displayName, string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddOneOff(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddOneOff (displayName As String, smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddOneOff(System::String ^ displayName, System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="displayName">The member's display name.</param>
+        <param name="smtpAddress">The member's SMTP e-mail address.</param>
+        <summary>Adds a one-off member to the group with the specified display name and SMTP e-mail address.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddOneOff">
+      <MemberSignature Language="C#" Value="public void AddOneOff (string displayName, string address, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddOneOff(string displayName, string address, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddOneOff(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddOneOff (displayName As String, address As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddOneOff(System::String ^ displayName, System::String ^ address, System::String ^ routingType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="displayName">The member's display name.</param>
+        <param name="address">The member's e-mail address.</param>
+        <param name="routingType">The routing type of the address.</param>
+        <summary>Adds a one-off member to the group with the specified display name, e-mail address, and routing type.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPersonalContact">
+      <MemberSignature Language="C#" Value="public void AddPersonalContact (Microsoft.Exchange.WebServices.Data.ItemId contactId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddPersonalContact(class Microsoft.Exchange.WebServices.Data.ItemId contactId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddPersonalContact(Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPersonalContact (contactId As ItemId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddPersonalContact(Microsoft::Exchange::WebServices::Data::ItemId ^ contactId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="contactId">The identifier of the contact to add.</param>
+        <summary>Adds a member that is linked to a specific personal contact.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPersonalContact">
+      <MemberSignature Language="C#" Value="public void AddPersonalContact (Microsoft.Exchange.WebServices.Data.ItemId contactId, string addressToLink);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddPersonalContact(class Microsoft.Exchange.WebServices.Data.ItemId contactId, string addressToLink) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddPersonalContact(Microsoft.Exchange.WebServices.Data.ItemId,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPersonalContact (contactId As ItemId, addressToLink As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddPersonalContact(Microsoft::Exchange::WebServices::Data::ItemId ^ contactId, System::String ^ addressToLink);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contactId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="addressToLink" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="contactId">The identifier of the contact to add.</param>
+        <param name="addressToLink">The e-mail address to use.</param>
+        <summary>Adds a member that is linked to a specific personal contact and e-mail address.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPublicGroup">
+      <MemberSignature Language="C#" Value="public void AddPublicGroup (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddPublicGroup(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddPublicGroup(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPublicGroup (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddPublicGroup(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">The SMTP e-mail address of the public group.</param>
+        <summary>Adds a member that is linked to a public group.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRange">
+      <MemberSignature Language="C#" Value="public void AddRange (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt; members);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.GroupMember&gt; members) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.GroupMember})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRange (members As IEnumerable(Of GroupMember))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRange(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::GroupMember ^&gt; ^ members);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="members" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.GroupMember&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="members">The members to add.</param>
+        <summary>Adds multiple members to a group.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Removes all contacts from the group.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GroupMember Find (string key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GroupMember Find(string key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Find(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (key As String) As GroupMember" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GroupMember ^ Find(System::String ^ key);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GroupMember</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="key">The key of the member to find.</param>
+        <summary>Finds the member in the collection that has the specified key.</summary>
+        <returns>The <see cref="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Find(System.String)" /> method returns a <see cref="T:Microsoft.Exchange.WebServices.Data.GroupMember" /> object that contains the member that has the specified key.</returns>
+        <remarks>
+          <para>Members that have not been saved do not have a key.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (Microsoft.Exchange.WebServices.Data.GroupMember member);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(class Microsoft.Exchange.WebServices.Data.GroupMember member) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Remove(Microsoft.Exchange.WebServices.Data.GroupMember)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (member As GroupMember) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(Microsoft::Exchange::WebServices::Data::GroupMember ^ member);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="member" Type="Microsoft.Exchange.WebServices.Data.GroupMember" />
+      </Parameters>
+      <Docs>
+        <param name="member">The member to remove.</param>
+        <summary>Removes the specified member from the collection.</summary>
+        <returns>The <see cref="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.Remove(Microsoft.Exchange.WebServices.Data.GroupMember)" /> method returns <b>true</b> if the group member was removed from the collection; otherwise, the method returns <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.GroupMemberCollection.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">The index of the group member to remove.</param>
+        <summary>Removes the group member at the specified index.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

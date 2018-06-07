@@ -1,0 +1,44 @@
+﻿<Type Name="SetClientExtensionAction" FullName="Microsoft.Exchange.WebServices.Data.SetClientExtensionAction">
+  <TypeSignature Language="C#" Value="public sealed class SetClientExtensionAction : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SetClientExtensionAction extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SetClientExtensionAction&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SetClientExtensionAction sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Defines an action to manage client apps.             The <see cref="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetClientExtensionAction (Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId setClientExtensionActionId, string extensionId, Microsoft.Exchange.WebServices.Data.ClientExtension clientExtension);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId setClientExtensionActionId, string extensionId, class Microsoft.Exchange.WebServices.Data.ClientExtension clientExtension) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction.#ctor(Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId,System.String,Microsoft.Exchange.WebServices.Data.ClientExtension)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetClientExtensionAction(Microsoft::Exchange::WebServices::Data::SetClientExtensionActionId setClientExtensionActionId, System::String ^ extensionId, Microsoft::Exchange::WebServices::Data::ClientExtension ^ clientExtension);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="setClientExtensionActionId" Type="Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId" />
+        <Parameter Name="extensionId" Type="System.String" />
+        <Parameter Name="clientExtension" Type="Microsoft.Exchange.WebServices.Data.ClientExtension" />
+      </Parameters>
+      <Docs>
+        <param name="setClientExtensionActionId">The set actions such as install, uninstall, and configure.</param>
+        <param name="extensionId">The extension identifier required by the configure and uninstall actions.</param>
+        <param name="clientExtension">The extension data object required by the configure action.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction" /> class. The <see cref="M:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction.#ctor(Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId,System.String,Microsoft.Exchange.WebServices.Data.ClientExtension)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

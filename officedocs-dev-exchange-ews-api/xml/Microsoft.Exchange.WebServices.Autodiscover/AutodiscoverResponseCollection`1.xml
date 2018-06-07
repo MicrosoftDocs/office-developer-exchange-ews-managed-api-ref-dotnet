@@ -1,0 +1,128 @@
+﻿<Type Name="AutodiscoverResponseCollection&lt;TResponse&gt;" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection&lt;TResponse&gt;">
+  <TypeSignature Language="C#" Value="public abstract class AutodiscoverResponseCollection&lt;TResponse&gt; : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse, System.Collections.Generic.IEnumerable&lt;TResponse&gt; where TResponse : AutodiscoverResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AutodiscoverResponseCollection`1&lt;(class Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse) TResponse&gt; extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse implements class System.Collections.Generic.IEnumerable`1&lt;!TResponse&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AutodiscoverResponseCollection(Of TResponse)&#xA;Inherits AutodiscoverResponse&#xA;Implements IEnumerable(Of TResponse)" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TResponse&gt;&#xA; where TResponse : AutodiscoverResponsepublic ref class AutodiscoverResponseCollection abstract : Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverResponse, System::Collections::Generic::IEnumerable&lt;TResponse&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TResponse">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;TResponse&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="TResponse">The type of the responses in the collection.</typeparam>
+    <summary>Contains a collection of responses to a call to the Autodiscover service. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the number of responses in the collection. </summary>
+        <value>The number of response objects in the collection.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;TResponse&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;!TResponse&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of TResponse)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;TResponse&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;TResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns an enumerator that enables you to iterate through the objects in the collection. </summary>
+        <returns>An enumerator that can be used to iterate through the collection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public TResponse this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TResponse Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As TResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TResponse default[int] { TResponse get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">The zero-based index of the Response object to get.</param>
+        <summary>Gets the response at the specified index in the collection. </summary>
+        <value>The response at the specified index in the collection.</value>
+        <remarks>
+          <para>The Item(System.Int32) property enables you to retrieve a specific <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" /> in the collection. If you want to enumerate the collection, you can use the <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.GetEnumerator" /> method in the standard way.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns an enumerator that enables you to iterate through the objects in the collection. The <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <returns>An enumerator that can be used to iterate through the collection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

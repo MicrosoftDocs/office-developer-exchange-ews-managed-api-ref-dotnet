@@ -1,0 +1,98 @@
+﻿<Type Name="EmailAddressDictionary" FullName="Microsoft.Exchange.WebServices.Data.EmailAddressDictionary">
+  <TypeSignature Language="C#" Value="public sealed class EmailAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.EmailAddressKey,Microsoft.Exchange.WebServices.Data.EmailAddressEntry&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EmailAddressDictionary extends Microsoft.Exchange.WebServices.Data.DictionaryProperty`2&lt;valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey, class Microsoft.Exchange.WebServices.Data.EmailAddressEntry&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailAddressDictionary" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EmailAddressDictionary&#xA;Inherits DictionaryProperty(Of EmailAddressKey, EmailAddressEntry)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailAddressDictionary sealed : Microsoft::Exchange::WebServices::Data::DictionaryProperty&lt;Microsoft::Exchange::WebServices::Data::EmailAddressKey, Microsoft::Exchange::WebServices::Data::EmailAddressEntry ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.EmailAddressKey,Microsoft.Exchange.WebServices.Data.EmailAddressEntry&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TKey">Microsoft.Exchange.WebServices.Data.EmailAddressKey</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TEntry">Microsoft.Exchange.WebServices.Data.EmailAddressEntry</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a dictionary of e-mail addresses.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddressDictionary ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddressDictionary.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddressDictionary();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the EmailAddressDictionary class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress this[Microsoft.Exchange.WebServices.Data.EmailAddressKey key] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress Item(valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddressDictionary.Item(Microsoft.Exchange.WebServices.Data.EmailAddressKey)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(key As EmailAddressKey) As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ default[Microsoft::Exchange::WebServices::Data::EmailAddressKey] { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(Microsoft::Exchange::WebServices::Data::EmailAddressKey key); void set(Microsoft::Exchange::WebServices::Data::EmailAddressKey key, Microsoft::Exchange::WebServices::Data::EmailAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
+      </Parameters>
+      <Docs>
+        <param name="key">The key that is associated with the e-mail address to get or set.</param>
+        <summary>Gets or sets the e-mail address that corresponds to the specified key.</summary>
+        <value>The e-mail address that corresponds to the specified key.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetValue">
+      <MemberSignature Language="C#" Value="public bool TryGetValue (Microsoft.Exchange.WebServices.Data.EmailAddressKey key, out Microsoft.Exchange.WebServices.Data.EmailAddress emailAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetValue(valuetype Microsoft.Exchange.WebServices.Data.EmailAddressKey key, [out] class Microsoft.Exchange.WebServices.Data.EmailAddress&amp; emailAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddressDictionary.TryGetValue(Microsoft.Exchange.WebServices.Data.EmailAddressKey,Microsoft.Exchange.WebServices.Data.EmailAddress@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (key As EmailAddressKey, ByRef emailAddress As EmailAddress) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(Microsoft::Exchange::WebServices::Data::EmailAddressKey key, [Runtime::InteropServices::Out] Microsoft::Exchange::WebServices::Data::EmailAddress ^ % emailAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.EmailAddressKey" />
+        <Parameter Name="emailAddress" Type="Microsoft.Exchange.WebServices.Data.EmailAddress&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="key">The key that is associated with the e-mail address.</param>
+        <param name="emailAddress">If the specified key is found, contains the e-mail address that is associated with the specified key; otherwise, a null reference (Nothing in Visual Basic). This parameter is passed uninitialized.</param>
+        <summary>Tries to get the e-mail address that is associated with the specified key.</summary>
+        <returns>
+          <b>true</b> if the dictionary contains an e-mail address that is associated with the specified key; otherwise, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

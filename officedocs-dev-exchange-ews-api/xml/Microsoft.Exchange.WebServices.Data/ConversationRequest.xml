@@ -1,0 +1,99 @@
+﻿<Type Name="ConversationRequest" FullName="Microsoft.Exchange.WebServices.Data.ConversationRequest">
+  <TypeSignature Language="C#" Value="public sealed class ConversationRequest : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationRequest extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationRequest&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationRequest sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> Defines a conversation request identified by a conversation ID and synchronization state.The <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConversationRequest ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConversationRequest();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> class.    The <see cref="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConversationRequest (Microsoft.Exchange.WebServices.Data.ConversationId conversationId, string syncState);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ConversationId conversationId, string syncState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor(Microsoft.Exchange.WebServices.Data.ConversationId,System.String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ConversationRequest(Microsoft::Exchange::WebServices::Data::ConversationId ^ conversationId, System::String ^ syncState);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="conversationId" Type="Microsoft.Exchange.WebServices.Data.ConversationId" />
+        <Parameter Name="syncState" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="conversationId">The conversation ID.</param>
+        <param name="syncState">State of the sync.</param>
+        <summary>             Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationRequest" /> class by using the specified conversation ID and synchronization state.   The <see cref="M:Microsoft.Exchange.WebServices.Data.ConversationRequest.#ctor(Microsoft.Exchange.WebServices.Data.ConversationId,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId ConversationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConversationId As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ ConversationId { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ConversationId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the conversation ID.             The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.ConversationId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The conversation ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncState">
+      <MemberSignature Language="C#" Value="public string SyncState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SyncState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.SyncState" />
+      <MemberSignature Language="VB.NET" Value="Public Property SyncState As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SyncState { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the current state of the conversation for synchronization purposes.             The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationRequest.SyncState" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The current state of the conversation for synchronization purposes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

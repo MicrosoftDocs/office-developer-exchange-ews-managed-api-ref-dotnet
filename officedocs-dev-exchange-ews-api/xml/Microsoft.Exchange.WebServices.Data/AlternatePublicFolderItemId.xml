@@ -1,0 +1,82 @@
+﻿<Type Name="AlternatePublicFolderItemId" FullName="Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId">
+  <TypeSignature Language="C#" Value="public class AlternatePublicFolderItemId : Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlternatePublicFolderItemId extends Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlternatePublicFolderItemId&#xA;Inherits AlternatePublicFolderId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternatePublicFolderItemId : Microsoft::Exchange::WebServices::Data::AlternatePublicFolderId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the identifier of a public folder item, expressed in a specific format.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderItemId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderItemId();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the AlternatePublicFolderItemId class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderItemId (Microsoft.Exchange.WebServices.Data.IdFormat format, string folderId, string itemId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.IdFormat format, string folderId, string itemId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId.#ctor(Microsoft.Exchange.WebServices.Data.IdFormat,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (format As IdFormat, folderId As String, itemId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderItemId(Microsoft::Exchange::WebServices::Data::IdFormat format, System::String ^ folderId, System::String ^ itemId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="Microsoft.Exchange.WebServices.Data.IdFormat" />
+        <Parameter Name="folderId" Type="System.String" />
+        <Parameter Name="itemId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="format">The public folder item format identifier.</param>
+        <param name="folderId">The parent public folder identifier of the target public folder item.</param>
+        <param name="itemId">The public folder item identifier.</param>
+        <summary>Initializes a new instance of the AlternatePublicFolderItemId class by using the supplied identifier format, the parent public folder identifier, and the identifier of the target public folder item.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public string ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderItemId.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the public folder item identifier.</summary>
+        <value>An item identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

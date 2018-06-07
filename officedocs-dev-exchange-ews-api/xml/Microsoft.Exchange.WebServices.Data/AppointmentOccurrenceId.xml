@@ -1,0 +1,63 @@
+﻿<Type Name="AppointmentOccurrenceId" FullName="Microsoft.Exchange.WebServices.Data.AppointmentOccurrenceId">
+  <TypeSignature Language="C#" Value="public sealed class AppointmentOccurrenceId : Microsoft.Exchange.WebServices.Data.ItemId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AppointmentOccurrenceId extends Microsoft.Exchange.WebServices.Data.ItemId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AppointmentOccurrenceId" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AppointmentOccurrenceId&#xA;Inherits ItemId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppointmentOccurrenceId sealed : Microsoft::Exchange::WebServices::Data::ItemId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the identifier of an occurrence of a recurring appointment.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AppointmentOccurrenceId (string recurringMasterUniqueId, int occurrenceIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string recurringMasterUniqueId, int32 occurrenceIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AppointmentOccurrenceId.#ctor(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (recurringMasterUniqueId As String, occurrenceIndex As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AppointmentOccurrenceId(System::String ^ recurringMasterUniqueId, int occurrenceIndex);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="recurringMasterUniqueId" Type="System.String" />
+        <Parameter Name="occurrenceIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="recurringMasterUniqueId">The identifier of the recurring master appointment that corresponds to the appointment occurrence.</param>
+        <param name="occurrenceIndex">The index of the appointment occurrence.</param>
+        <summary>Initializes a new instance of the AppointmentOccurrenceId class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OccurrenceIndex">
+      <MemberSignature Language="C#" Value="public int OccurrenceIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 OccurrenceIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AppointmentOccurrenceId.OccurrenceIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property OccurrenceIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int OccurrenceIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the index of the appointment occurrence. The occurrence index starts at one.</summary>
+        <value>The index of the appointment occurrence.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,28 @@
+﻿<Type Name="EmailUserEntityCollection" FullName="Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection">
+  <TypeSignature Language="C#" Value="public sealed class EmailUserEntityCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.EmailUserEntity&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EmailUserEntityCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.EmailUserEntity&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EmailUserEntityCollection&#xA;Inherits ComplexPropertyCollection(Of EmailUserEntity)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailUserEntityCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::EmailUserEntity ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.EmailUserEntity&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.EmailUserEntity</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a collection of <see cref="T:Microsoft.Exchange.WebServices.Data.EmailUserEntity" /> objects. The <see cref="T:Microsoft.Exchange.WebServices.Data.EmailUserEntityCollection" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

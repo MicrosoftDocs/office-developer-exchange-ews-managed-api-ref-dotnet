@@ -1,0 +1,81 @@
+﻿<Type Name="ConversationNode" FullName="Microsoft.Exchange.WebServices.Data.ConversationNode">
+  <TypeSignature Language="C#" Value="public sealed class ConversationNode : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationNode extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationNode" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationNode&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationNode sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Defines the response to a single conversation node in a set of related email messages.             The <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationNode" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="InternetMessageId">
+      <MemberSignature Language="C#" Value="public string InternetMessageId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InternetMessageId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationNode.InternetMessageId" />
+      <MemberSignature Language="VB.NET" Value="Public Property InternetMessageId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InternetMessageId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the Internet message ID of the associated conversation node. The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationNode.InternetMessageId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The Internet message ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Data.Item&gt; Items { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.Exchange.WebServices.Data.Item&gt; Items" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationNode.Items" />
+      <MemberSignature Language="VB.NET" Value="Public Property Items As List(Of Item)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ Items { System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ get(); void set(System::Collections::Generic::List&lt;Microsoft::Exchange::WebServices::Data::Item ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.Exchange.WebServices.Data.Item&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the items in a conversation node.             The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationNode.Items" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The item list.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentInternetMessageId">
+      <MemberSignature Language="C#" Value="public string ParentInternetMessageId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ParentInternetMessageId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationNode.ParentInternetMessageId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentInternetMessageId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ParentInternetMessageId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the parent message ID of the associated conversation node. The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationNode.ParentInternetMessageId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The parent message ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

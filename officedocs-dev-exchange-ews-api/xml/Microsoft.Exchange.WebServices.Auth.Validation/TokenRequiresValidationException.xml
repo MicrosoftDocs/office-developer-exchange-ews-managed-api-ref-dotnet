@@ -1,0 +1,38 @@
+﻿<Type Name="TokenRequiresValidationException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException">
+  <TypeSignature Language="C#" Value="public class TokenRequiresValidationException : Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TokenRequiresValidationException extends Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException" />
+  <TypeSignature Language="VB.NET" Value="Public Class TokenRequiresValidationException&#xA;Inherits TokenValidationException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TokenRequiresValidationException : Microsoft::Exchange::WebServices::Auth::Validation::TokenValidationException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contains the exception that is thrown when the fields of an <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> instance are accessed before the <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" /> method is called.The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TokenRequiresValidationException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TokenRequiresValidationException();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException" /> class. The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,100 @@
+﻿<Type Name="PreviewItemResponseShape" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape">
+  <TypeSignature Language="C#" Value="public sealed class PreviewItemResponseShape" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PreviewItemResponseShape extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreviewItemResponseShape" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PreviewItemResponseShape sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains the preview item and a collection of extended property names.             The <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreviewItemResponseShape ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreviewItemResponseShape();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> class.             The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreviewItemResponseShape (Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape baseShape, Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[] additionalProperties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape baseShape, class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[] additionalProperties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor(Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (baseShape As PreviewItemBaseShape, additionalProperties As ExtendedPropertyDefinition())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreviewItemResponseShape(Microsoft::Exchange::WebServices::Data::PreviewItemBaseShape baseShape, cli::array &lt;Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^&gt; ^ additionalProperties);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="baseShape" Type="Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" />
+        <Parameter Name="additionalProperties" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[]" />
+      </Parameters>
+      <Docs>
+        <param name="baseShape">The preview item base shape.</param>
+        <param name="additionalProperties">The additional properties (must be in the form of extended properties).</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape" /> class with a collection of extended property names and an associated collection of extended property definitions.             The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.#ctor(Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape,Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[])" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[] AdditionalProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[] AdditionalProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.AdditionalProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalProperties As ExtendedPropertyDefinition()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^&gt; ^ AdditionalProperties { cli::array &lt;Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the collection of extended property names.             The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.AdditionalProperties" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The additional properties.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseShape">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape BaseShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape BaseShape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.BaseShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseShape As PreviewItemBaseShape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PreviewItemBaseShape BaseShape { Microsoft::Exchange::WebServices::Data::PreviewItemBaseShape get(); void set(Microsoft::Exchange::WebServices::Data::PreviewItemBaseShape value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the ID of the mailbox containing the preview item.             The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape.BaseShape" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The mailbox ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

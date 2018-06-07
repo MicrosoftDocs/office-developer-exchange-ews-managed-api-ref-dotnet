@@ -1,0 +1,376 @@
+﻿<Type Name="UserConfiguration" FullName="Microsoft.Exchange.WebServices.Data.UserConfiguration">
+  <TypeSignature Language="C#" Value="public class UserConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UserConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserConfiguration" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UserConfiguration" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Creates and accesses user-defined configuration settings.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public UserConfiguration (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; UserConfiguration(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">An object that binds to the Exchange server.</param>
+        <summary>Initializes a new instance of the <b>UserConfiguration</b> class with a service object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BinaryData">
+      <MemberSignature Language="C#" Value="public byte[] BinaryData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] BinaryData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.BinaryData" />
+      <MemberSignature Language="VB.NET" Value="Public Property BinaryData As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ BinaryData { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the binary data of the user configuration.</summary>
+        <value>A byte array of binary data.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.UserConfiguration Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, Microsoft.Exchange.WebServices.Data.FolderId parentFolderId, Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.UserConfiguration Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId, valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,System.String,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.UserConfigurationProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As String, parentFolderId As FolderId, properties As UserConfigurationProperties) As UserConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::UserConfiguration ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, System::String ^ name, Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId, Microsoft::Exchange::WebServices::Data::UserConfigurationProperties properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfiguration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
+      </Parameters>
+      <Docs>
+        <param name="service">The service to which the user configuration is bound.</param>
+        <param name="name">The name of the user configuration.</param>
+        <param name="parentFolderId">The identifier of the folder that contains the user configuration.</param>
+        <param name="properties">The properties to load.</param>
+        <summary>Binds to an existing user configuration, based on a user configuration name, folder identifier, and the specified user configuration properties.</summary>
+        <returns>A user configuration instance.</returns>
+        <remarks>
+          <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.UserConfiguration Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName, Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.UserConfiguration Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, string name, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName, valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,System.String,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.UserConfigurationProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As String, parentFolderName As WellKnownFolderName, properties As UserConfigurationProperties) As UserConfiguration" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::UserConfiguration ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, System::String ^ name, Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName, Microsoft::Exchange::WebServices::Data::UserConfigurationProperties properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfiguration</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
+      </Parameters>
+      <Docs>
+        <param name="service">The service to which the user configuration is bound.</param>
+        <param name="name">The name of the user configuration.</param>
+        <param name="parentFolderName">The identifier of the folder that contains the user configuration.</param>
+        <param name="properties">The properties to load.</param>
+        <summary>Binds to an existing user configuration based on a user configuration name, folder name, and the specified user configuration properties.</summary>
+        <returns>A user configuration instance.</returns>
+        <remarks>
+          <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the user configuration.</summary>
+        <remarks>
+          <para>Calling this method results in a call to Exchange Web Services (EWS). A <see cref="F:Microsoft.Exchange.WebServices.Data.EventType.Moved" /> mailbox event notification can be triggered by calling this method because deleted user configuration items are moved to the dumpster.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dictionary">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary Dictionary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary Dictionary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.Dictionary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dictionary As UserConfigurationDictionary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UserConfigurationDictionary ^ Dictionary { Microsoft::Exchange::WebServices::Data::UserConfigurationDictionary ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the dictionary of the user configuration.</summary>
+        <value>A user configuration dictionary.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDirty">
+      <MemberSignature Language="C#" Value="public bool IsDirty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDirty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.IsDirty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDirty As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDirty { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the user configuration object has been modified.</summary>
+        <value>
+          <b>true</b> if the user configuration object has been modified; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ItemId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the identifier of the user configuration.</summary>
+        <value>An item ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(valuetype Microsoft.Exchange.WebServices.Data.UserConfigurationProperties properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Load(Microsoft.Exchange.WebServices.Data.UserConfigurationProperties)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (properties As UserConfigurationProperties)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(Microsoft::Exchange::WebServices::Data::UserConfigurationProperties properties);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="properties" Type="Microsoft.Exchange.WebServices.Data.UserConfigurationProperties" />
+      </Parameters>
+      <Docs>
+        <param name="properties">The user configuration properties to load.</param>
+        <summary>Loads the specified user configuration properties.</summary>
+        <remarks>
+          <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the name of the user configuration.</summary>
+        <value>A user configuration name.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the identifier of the folder that contains the user configuration.</summary>
+        <value>A folder ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (string name, Microsoft.Exchange.WebServices.Data.FolderId parentFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(string name, class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Save(System.String,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (name As String, parentFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ name, Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="name">The name of the user configuration object.</param>
+        <param name="parentFolderId">The folder identifier that identifies the folder that will contain the saved user configuration object.</param>
+        <summary>Saves the user configuration by setting the user configuration name and the folder identifier of the folder that contains the user configuration.</summary>
+        <remarks>
+          <para>Calling the method results in a call to Exchange Web Services (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (string name, Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(string name, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Save(System.String,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (name As String, parentFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ name, Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="name">The name of the user configuration object.</param>
+        <param name="parentFolderName">The well-known folder name that identifies the folder that will contain the saved user configuration object.</param>
+        <summary>Saves the user configuration by setting the user configuration name and the well-known folder name of the folder that contains the user configuration.</summary>
+        <remarks>
+          <para>Calling the method results in a call to Exchange Web Services (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfiguration.Update" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Updates the user configuration object on the server.</summary>
+        <remarks>
+          <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlData">
+      <MemberSignature Language="C#" Value="public byte[] XmlData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] XmlData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfiguration.XmlData" />
+      <MemberSignature Language="VB.NET" Value="Public Property XmlData As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ XmlData { cli::array &lt;System::Byte&gt; ^ get(); void set(cli::array &lt;System::Byte&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the XML data of the user configuration.</summary>
+        <value>A byte array of XML data.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

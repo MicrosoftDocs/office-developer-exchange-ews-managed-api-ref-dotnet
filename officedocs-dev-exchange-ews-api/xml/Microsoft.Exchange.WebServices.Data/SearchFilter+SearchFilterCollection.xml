@@ -1,0 +1,491 @@
+﻿<Type Name="SearchFilter+SearchFilterCollection" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+SearchFilterCollection">
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.SearchFilterCollection : Microsoft.Exchange.WebServices.Data.SearchFilter, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/SearchFilterCollection extends Microsoft.Exchange.WebServices.Data.SearchFilter implements class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.SearchFilter&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.SearchFilterCollection&#xA;Inherits SearchFilter&#xA;Implements IEnumerable(Of SearchFilter)" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::SearchFilterCollection sealed : Microsoft::Exchange::WebServices::Data::SearchFilter, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::SearchFilter ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Represents a collection of search filters that are linked by a logical operator. </summary>
+    <remarks>
+      <para>You can use the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class to define complex search filters such as "Condition1 <b>AND</b> Condition2".            </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchFilterCollection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchFilterCollection();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class.                        </summary>
+        <remarks>
+          <para>After initialization, the <see cref="P:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.LogicalOperator" /> property is set to <see cref="F:Microsoft.Exchange.WebServices.Data.LogicalOperator.And" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchFilterCollection (Microsoft.Exchange.WebServices.Data.LogicalOperator logicalOperator);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.LogicalOperator logicalOperator) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.#ctor(Microsoft.Exchange.WebServices.Data.LogicalOperator)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchFilterCollection(Microsoft::Exchange::WebServices::Data::LogicalOperator logicalOperator);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="logicalOperator" Type="Microsoft.Exchange.WebServices.Data.LogicalOperator" />
+      </Parameters>
+      <Docs>
+        <param name="logicalOperator">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class with the specified logical operator.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchFilterCollection (Microsoft.Exchange.WebServices.Data.LogicalOperator logicalOperator, params Microsoft.Exchange.WebServices.Data.SearchFilter[] searchFilters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.LogicalOperator logicalOperator, class Microsoft.Exchange.WebServices.Data.SearchFilter[] searchFilters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.#ctor(Microsoft.Exchange.WebServices.Data.LogicalOperator,Microsoft.Exchange.WebServices.Data.SearchFilter[])" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchFilterCollection(Microsoft::Exchange::WebServices::Data::LogicalOperator logicalOperator, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchFilter ^&gt; ^ searchFilters);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="logicalOperator" Type="Microsoft.Exchange.WebServices.Data.LogicalOperator" />
+        <Parameter Name="searchFilters" Type="Microsoft.Exchange.WebServices.Data.SearchFilter[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="logicalOperator">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</param>
+        <param name="searchFilters">The search filters to add to the collection.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class with the specified logical operator and search filters.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchFilterCollection (Microsoft.Exchange.WebServices.Data.LogicalOperator logicalOperator, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt; searchFilters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.LogicalOperator logicalOperator, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.SearchFilter&gt; searchFilters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.#ctor(Microsoft.Exchange.WebServices.Data.LogicalOperator,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.SearchFilter})" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchFilterCollection(Microsoft::Exchange::WebServices::Data::LogicalOperator logicalOperator, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::SearchFilter ^&gt; ^ searchFilters);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="logicalOperator" Type="Microsoft.Exchange.WebServices.Data.LogicalOperator" />
+        <Parameter Name="searchFilters" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="logicalOperator">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</param>
+        <param name="searchFilters">The search filters to add to the collection.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" /> class with the specified logical operator and search filters.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.Add(Microsoft.Exchange.WebServices.Data.SearchFilter)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">The search filter to add.</param>
+        <summary>Adds a search filter of any type to the collection.            </summary>
+        <remarks>
+          <para>The following are the available search filter classes:      </para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddRange">
+      <MemberSignature Language="C#" Value="public void AddRange (System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt; searchFilters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddRange(class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.SearchFilter&gt; searchFilters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.AddRange(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.SearchFilter})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddRange (searchFilters As IEnumerable(Of SearchFilter))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddRange(System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::SearchFilter ^&gt; ^ searchFilters);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchFilters" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilters">The search filters to add.</param>
+        <summary>Adds one or more search filters to the collection.            </summary>
+        <remarks>
+          <para>The following are the available search filter classes:      </para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Clears the collection of search filters.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contains">
+      <MemberSignature Language="C#" Value="public bool Contains (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Contains(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.Contains(Microsoft.Exchange.WebServices.Data.SearchFilter)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Contains(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">The search filter to locate in the collection.</param>
+        <summary>Determines whether a specific search filter is in the collection.            </summary>
+        <returns>
+          <b>true</b> if the search filter is in the collection; otherwise, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the total number of search filters in the collection.            </summary>
+        <value>The number of search filters in the collection.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class Microsoft.Exchange.WebServices.Data.SearchFilter&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of SearchFilter)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;Microsoft::Exchange::WebServices::Data::SearchFilter ^&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;Microsoft.Exchange.WebServices.Data.SearchFilter&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Gets an enumerator that iterates through the elements of the collection.            </summary>
+        <returns>An enumerator for the collection.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFilter this[int index] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchFilter Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(index As Integer) As SearchFilter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFilter ^ default[int] { Microsoft::Exchange::WebServices::Data::SearchFilter ^ get(int index); void set(int index, Microsoft::Exchange::WebServices::Data::SearchFilter ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">The zero-based index of the search filter to get or set.</param>
+        <summary>Gets or sets the search filter at the specified index.            </summary>
+        <value>The search filter at the specified index.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogicalOperator">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LogicalOperator LogicalOperator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LogicalOperator LogicalOperator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.LogicalOperator" />
+      <MemberSignature Language="VB.NET" Value="Public Property LogicalOperator As LogicalOperator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LogicalOperator LogicalOperator { Microsoft::Exchange::WebServices::Data::LogicalOperator get(); void set(Microsoft::Exchange::WebServices::Data::LogicalOperator value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LogicalOperator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the logical operator that links the search filters in this collection.            </summary>
+        <value>One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LogicalOperator" /> enumeration values.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public void Remove (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Remove(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.Remove(Microsoft.Exchange.WebServices.Data.SearchFilter)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Remove(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">The search filter to remove.</param>
+        <summary>Removes the specified search filter from the collection.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveAt">
+      <MemberSignature Language="C#" Value="public void RemoveAt (int index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAt(int32 index) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.RemoveAt(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAt (index As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">The zero-based index of the search filter to remove.</param>
+        <summary>Removes the search filter at the specified index from the collection.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>             Gets an enumerator that iterates through the elements of the collection.             The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection.System#Collections#IEnumerable#GetEnumerator" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <returns>An enumerator that iterates through the elements of the collection.             </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

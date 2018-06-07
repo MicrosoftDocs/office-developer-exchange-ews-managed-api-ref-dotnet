@@ -1,0 +1,42 @@
+﻿<Type Name="IFileAttachmentContentHandler" FullName="Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler">
+  <TypeSignature Language="C#" Value="public interface IFileAttachmentContentHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileAttachmentContentHandler" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileAttachmentContentHandler" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IFileAttachmentContentHandler" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>Defines a file attachment content handler. An application can implement IFileAttachmentContentHandler to provide the stream to which the content of a file attachment should be written.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetOutputStream">
+      <MemberSignature Language="C#" Value="public System.IO.Stream GetOutputStream (string attachmentId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.IO.Stream GetOutputStream(string attachmentId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IFileAttachmentContentHandler.GetOutputStream(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetOutputStream (attachmentId As String) As Stream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::IO::Stream ^ GetOutputStream(System::String ^ attachmentId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="attachmentId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="attachmentId">The identifier of the attachment that is being loaded.</param>
+        <summary>Provides a stream to which the content of the attachment with the specified identifier should be written.</summary>
+        <returns>A Stream to which the content of the attachment will be written.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

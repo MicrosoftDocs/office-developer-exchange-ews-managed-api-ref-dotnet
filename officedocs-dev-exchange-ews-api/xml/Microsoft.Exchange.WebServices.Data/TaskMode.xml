@@ -1,0 +1,134 @@
+﻿<Type Name="TaskMode" FullName="Microsoft.Exchange.WebServices.Data.TaskMode">
+  <TypeSignature Language="C#" Value="public enum TaskMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TaskMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TaskMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TaskMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TaskMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>            Defines the modes of a Task.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Normal">
+      <MemberSignature Language="C#" Value="Normal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode Normal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.Normal" />
+      <MemberSignature Language="VB.NET" Value="Normal" />
+      <MemberSignature Language="C++ CLI" Value="Normal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>            The task is normal            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Request">
+      <MemberSignature Language="C#" Value="Request" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode Request = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.Request" />
+      <MemberSignature Language="VB.NET" Value="Request" />
+      <MemberSignature Language="C++ CLI" Value="Request" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>            The task is a task assignment request            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestAccepted">
+      <MemberSignature Language="C#" Value="RequestAccepted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode RequestAccepted = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.RequestAccepted" />
+      <MemberSignature Language="VB.NET" Value="RequestAccepted" />
+      <MemberSignature Language="C++ CLI" Value="RequestAccepted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>            The task assignment request was accepted            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RequestDeclined">
+      <MemberSignature Language="C#" Value="RequestDeclined" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode RequestDeclined = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.RequestDeclined" />
+      <MemberSignature Language="VB.NET" Value="RequestDeclined" />
+      <MemberSignature Language="C++ CLI" Value="RequestDeclined" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>            The task assignment request was declined            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelfDelegated">
+      <MemberSignature Language="C#" Value="SelfDelegated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode SelfDelegated = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.SelfDelegated" />
+      <MemberSignature Language="VB.NET" Value="SelfDelegated" />
+      <MemberSignature Language="C++ CLI" Value="SelfDelegated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>            The task is self delegated            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="Update" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TaskMode Update = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TaskMode.Update" />
+      <MemberSignature Language="VB.NET" Value="Update" />
+      <MemberSignature Language="C++ CLI" Value="Update" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>            The task has been updated            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

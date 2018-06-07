@@ -1,0 +1,96 @@
+﻿<Type Name="TeamMailboxLifecycleState" FullName="Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState">
+  <TypeSignature Language="C#" Value="public enum TeamMailboxLifecycleState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TeamMailboxLifecycleState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum TeamMailboxLifecycleState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class TeamMailboxLifecycleState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Defines the life cycle state of a site mailbox.             The <see cref="T:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="Active" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Active = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Active" />
+      <MemberSignature Language="VB.NET" Value="Active" />
+      <MemberSignature Language="C++ CLI" Value="Active" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             The site mailbox is in active use.             The <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Active" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Closed">
+      <MemberSignature Language="C#" Value="Closed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Closed = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Closed" />
+      <MemberSignature Language="VB.NET" Value="Closed" />
+      <MemberSignature Language="C++ CLI" Value="Closed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             The site mailbox is has been closed and is no longer active.             The <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Closed" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PendingDelete">
+      <MemberSignature Language="C#" Value="PendingDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState PendingDelete = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.PendingDelete" />
+      <MemberSignature Language="VB.NET" Value="PendingDelete" />
+      <MemberSignature Language="C++ CLI" Value="PendingDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>             The site mailbox is closed and pending deletion.             The <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.PendingDelete" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unlinked">
+      <MemberSignature Language="C#" Value="Unlinked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState Unlinked = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Unlinked" />
+      <MemberSignature Language="VB.NET" Value="Unlinked" />
+      <MemberSignature Language="C++ CLI" Value="Unlinked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             The site mailbox is not linked to a web-based collaboration environment.             The <see cref="F:Microsoft.Exchange.WebServices.Data.TeamMailboxLifecycleState.Unlinked" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

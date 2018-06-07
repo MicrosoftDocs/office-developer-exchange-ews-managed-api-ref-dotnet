@@ -1,0 +1,77 @@
+﻿<Type Name="Presenters" FullName="Microsoft.Exchange.WebServices.Data.Presenters">
+  <TypeSignature Language="C#" Value="public enum Presenters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Presenters extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Presenters" />
+  <TypeSignature Language="VB.NET" Value="Public Enum Presenters" />
+  <TypeSignature Language="C++ CLI" Value="public enum class Presenters" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Defines which online meeting attendees can be given presenter privileges.The <see cref="T:Microsoft.Exchange.WebServices.Data.Presenters" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Disabled">
+      <MemberSignature Language="C#" Value="Disabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Presenters Disabled = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Presenters.Disabled" />
+      <MemberSignature Language="VB.NET" Value="Disabled" />
+      <MemberSignature Language="C++ CLI" Value="Disabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Presenters</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             Only the meeting organizer.             The <see cref="F:Microsoft.Exchange.WebServices.Data.Presenters.Disabled" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Everyone">
+      <MemberSignature Language="C#" Value="Everyone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Presenters Everyone = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Presenters.Everyone" />
+      <MemberSignature Language="VB.NET" Value="Everyone" />
+      <MemberSignature Language="C++ CLI" Value="Everyone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Presenters</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             All participants.             The <see cref="F:Microsoft.Exchange.WebServices.Data.Presenters.Everyone" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Internal">
+      <MemberSignature Language="C#" Value="Internal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.Presenters Internal = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.Presenters.Internal" />
+      <MemberSignature Language="VB.NET" Value="Internal" />
+      <MemberSignature Language="C++ CLI" Value="Internal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Presenters</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Participants within the same organization.             The <see cref="F:Microsoft.Exchange.WebServices.Data.Presenters.Internal" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

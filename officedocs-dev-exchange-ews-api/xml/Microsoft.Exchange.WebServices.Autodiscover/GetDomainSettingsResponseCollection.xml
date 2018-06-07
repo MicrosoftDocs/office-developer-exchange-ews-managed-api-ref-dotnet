@@ -1,0 +1,26 @@
+﻿<Type Name="GetDomainSettingsResponseCollection" FullName="Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection">
+  <TypeSignature Language="C#" Value="public sealed class GetDomainSettingsResponseCollection : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection&lt;Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetDomainSettingsResponseCollection extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection`1&lt;class Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetDomainSettingsResponseCollection&#xA;Inherits AutodiscoverResponseCollection(Of GetDomainSettingsResponse)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetDomainSettingsResponseCollection sealed : Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverResponseCollection&lt;Microsoft::Exchange::WebServices::Autodiscover::GetDomainSettingsResponse ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponseCollection&lt;Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TResponse">Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a collection of responses to a GetDomainSettings call.</summary>
+    <remarks>
+      <para>This class is a collection of <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse" /> objects.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

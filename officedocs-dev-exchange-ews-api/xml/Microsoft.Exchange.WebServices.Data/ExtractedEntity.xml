@@ -1,0 +1,41 @@
+﻿<Type Name="ExtractedEntity" FullName="Microsoft.Exchange.WebServices.Data.ExtractedEntity">
+  <TypeSignature Language="C#" Value="public abstract class ExtractedEntity : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ExtractedEntity extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ExtractedEntity&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExtractedEntity abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains information extracted from a message.             The <see cref="T:Microsoft.Exchange.WebServices.Data.ExtractedEntity" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailPosition Position { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EmailPosition Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExtractedEntity.Position" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Position As EmailPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailPosition Position { Microsoft::Exchange::WebServices::Data::EmailPosition get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the position in a message from where the entity was extracted.             The <see cref="P:Microsoft.Exchange.WebServices.Data.ExtractedEntity.Position" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The position in a message from where the entity was extracted.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

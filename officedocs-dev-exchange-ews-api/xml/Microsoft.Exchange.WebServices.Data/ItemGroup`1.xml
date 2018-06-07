@@ -1,0 +1,69 @@
+﻿<Type Name="ItemGroup&lt;TItem&gt;" FullName="Microsoft.Exchange.WebServices.Data.ItemGroup&lt;TItem&gt;">
+  <TypeSignature Language="C#" Value="public sealed class ItemGroup&lt;TItem&gt; where TItem : Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemGroup`1&lt;(class Microsoft.Exchange.WebServices.Data.Item) TItem&gt; extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemGroup`1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemGroup(Of TItem)" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TItem&gt;&#xA; where TItem : Itempublic ref class ItemGroup sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TItem">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <typeparam name="TItem">The type of item in the group.</typeparam>
+    <summary>Represents a group of items as returned by grouped item search operations. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GroupIndex">
+      <MemberSignature Language="C#" Value="public string GroupIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GroupIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemGroup`1.GroupIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupIndex As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GroupIndex { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Gets an index that identifies the group. </summary>
+        <value>The zero-based collection index of the group.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Items">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;TItem&gt; Items { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;!TItem&gt; Items" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemGroup`1.Items" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Items As Collection(Of TItem)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;TItem&gt; ^ Items { System::Collections::ObjectModel::Collection&lt;TItem&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;TItem&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a collection of the items in this group. </summary>
+        <value>A collection that contains the items that were found in this group.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

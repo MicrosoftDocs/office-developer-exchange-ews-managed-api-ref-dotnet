@@ -1,0 +1,81 @@
+﻿<Type Name="ConversationResponse" FullName="Microsoft.Exchange.WebServices.Data.ConversationResponse">
+  <TypeSignature Language="C#" Value="public sealed class ConversationResponse : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ConversationResponse extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ConversationResponse&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConversationResponse sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>A conversation response consisting of a conversation ID, a synchronization state, and an array of conversation nodes.The <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId ConversationId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationId As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ ConversationId { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the conversation ID.             The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The conversation ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationNodes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationNodeCollection ConversationNodes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationNodeCollection ConversationNodes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationNodes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationNodes As ConversationNodeCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationNodeCollection ^ ConversationNodes { Microsoft::Exchange::WebServices::Data::ConversationNodeCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationNodeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a collection of <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationNode" /> objects.             The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.ConversationNodes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The conversation nodes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncState">
+      <MemberSignature Language="C#" Value="public string SyncState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SyncState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.SyncState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SyncState As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SyncState { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the synchronization state.             The <see cref="P:Microsoft.Exchange.WebServices.Data.ConversationResponse.SyncState" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The sync state.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

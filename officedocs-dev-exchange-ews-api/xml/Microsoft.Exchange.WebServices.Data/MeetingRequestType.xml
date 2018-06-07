@@ -1,0 +1,153 @@
+﻿<Type Name="MeetingRequestType" FullName="Microsoft.Exchange.WebServices.Data.MeetingRequestType">
+  <TypeSignature Language="C#" Value="public enum MeetingRequestType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MeetingRequestType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingRequestType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MeetingRequestType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MeetingRequestType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies constants that define the type of a meeting request.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FullUpdate">
+      <MemberSignature Language="C#" Value="FullUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType FullUpdate = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.FullUpdate" />
+      <MemberSignature Language="VB.NET" Value="FullUpdate" />
+      <MemberSignature Language="C++ CLI" Value="FullUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>An update to the original meeting request.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InformationalUpdate">
+      <MemberSignature Language="C#" Value="InformationalUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType InformationalUpdate = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.InformationalUpdate" />
+      <MemberSignature Language="VB.NET" Value="InformationalUpdate" />
+      <MemberSignature Language="C++ CLI" Value="InformationalUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>An information update.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NewMeetingRequest">
+      <MemberSignature Language="C#" Value="NewMeetingRequest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType NewMeetingRequest = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.NewMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="NewMeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="NewMeetingRequest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>A new meeting request.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The meeting request type is not defined.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Outdated">
+      <MemberSignature Language="C#" Value="Outdated" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType Outdated = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.Outdated" />
+      <MemberSignature Language="VB.NET" Value="Outdated" />
+      <MemberSignature Language="C++ CLI" Value="Outdated" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>An outdated meeting request.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PrincipalWantsCopy">
+      <MemberSignature Language="C#" Value="PrincipalWantsCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType PrincipalWantsCopy = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.PrincipalWantsCopy" />
+      <MemberSignature Language="VB.NET" Value="PrincipalWantsCopy" />
+      <MemberSignature Language="C++ CLI" Value="PrincipalWantsCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>The meeting request was forwarded to a delegate, and this copy is informational.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SilentUpdate">
+      <MemberSignature Language="C#" Value="SilentUpdate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestType SilentUpdate = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestType.SilentUpdate" />
+      <MemberSignature Language="VB.NET" Value="SilentUpdate" />
+      <MemberSignature Language="C++ CLI" Value="SilentUpdate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>A silent update to an existing meeting. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

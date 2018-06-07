@@ -1,0 +1,101 @@
+﻿<Type Name="TimeSuggestion" FullName="Microsoft.Exchange.WebServices.Data.TimeSuggestion">
+  <TypeSignature Language="C#" Value="public sealed class TimeSuggestion : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TimeSuggestion extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TimeSuggestion" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TimeSuggestion&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TimeSuggestion sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents an availability time suggestion.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Conflicts">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conflict&gt; Conflicts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.Conflict&gt; Conflicts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Conflicts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conflicts As Collection(Of Conflict)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Conflict ^&gt; ^ Conflicts { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Conflict ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conflict&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a collection of conflicting meetings for the suggested meeting time.</summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Conflicts" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkId=164020">T:System.Collections.ObjectModel.Collection&lt;T&gt;</a><see cref="T:Microsoft.Exchange.WebServices.Data.Conflict" /> objects that represent conflicts with the suggested meeting time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWorkTime">
+      <MemberSignature Language="C#" Value="public bool IsWorkTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsWorkTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.IsWorkTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsWorkTime As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsWorkTime { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the suggested meeting time is within the mailbox's working hours.</summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.IsWorkTime" /> property is a  <a href="http://go.microsoft.com/fwlink/?LinkId=162619">T:System.Boolean</a> if the meeting time is within the mailbox's working hours; otherwise, the value is <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingTime">
+      <MemberSignature Language="C#" Value="public DateTime MeetingTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime MeetingTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.MeetingTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime MeetingTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the suggested meeting time.</summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.MeetingTime" /> property is a  <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quality">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SuggestionQuality Quality { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SuggestionQuality Quality" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Quality" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Quality As SuggestionQuality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SuggestionQuality Quality { Microsoft::Exchange::WebServices::Data::SuggestionQuality get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the quality of the suggested meeting time.</summary>
+        <value>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Quality" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> object the indicates the quality of the suggested meeting time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,149 @@
+﻿<Type Name="GetUserSettingsResponse" FullName="Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse">
+  <TypeSignature Language="C#" Value="public sealed class GetUserSettingsResponse : Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetUserSettingsResponse extends Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetUserSettingsResponse&#xA;Inherits AutodiscoverResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetUserSettingsResponse sealed : Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the response to a GetUsersSettings call for an individual user. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public GetUserSettingsResponse ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; GetUserSettingsResponse();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the GetUserSettingsResponse class. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RedirectTarget">
+      <MemberSignature Language="C#" Value="public string RedirectTarget { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RedirectTarget" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.RedirectTarget" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RedirectTarget As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RedirectTarget { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the redirection target (URL or e-mail address). </summary>
+        <value>The redirection target URL or e-mail address.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Microsoft.Exchange.WebServices.Autodiscover.UserSettingName,object&gt; Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName, object&gt; Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As IDictionary(Of UserSettingName, Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;Microsoft::Exchange::WebServices::Autodiscover::UserSettingName, System::Object ^&gt; ^ Settings { System::Collections::Generic::IDictionary&lt;Microsoft::Exchange::WebServices::Autodiscover::UserSettingName, System::Object ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;Microsoft.Exchange.WebServices.Autodiscover.UserSettingName,System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the requested settings for the user. </summary>
+        <value>The requested user settings.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the SMTP e-mail address to which this response applies.</summary>
+        <value>The SMTP address that this response applies to.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetSettingValue&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public bool TryGetSettingValue&lt;T&gt; (Microsoft.Exchange.WebServices.Autodiscover.UserSettingName setting, out T value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetSettingValue&lt;T&gt;(valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName setting, [out] !!T&amp; value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.TryGetSettingValue``1(Microsoft.Exchange.WebServices.Autodiscover.UserSettingName,``0@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetSettingValue(Of T) (setting As UserSettingName, ByRef value As T) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; bool TryGetSettingValue(Microsoft::Exchange::WebServices::Autodiscover::UserSettingName setting, [Runtime::InteropServices::Out] T % value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="setting" Type="Microsoft.Exchange.WebServices.Autodiscover.UserSettingName" />
+        <Parameter Name="value" Type="T&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">The type of the user setting.</typeparam>
+        <param name="setting">The type of user setting.</param>
+        <param name="value">The setting value.</param>
+        <summary>Attempts to get the user setting value.</summary>
+        <returns>
+          <b>true</b> if the setting was available; otherwise, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserSettingErrors">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Autodiscover.UserSettingError&gt; UserSettingErrors { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Autodiscover.UserSettingError&gt; UserSettingErrors" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse.UserSettingErrors" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserSettingErrors As Collection(Of UserSettingError)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Autodiscover::UserSettingError ^&gt; ^ UserSettingErrors { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Autodiscover::UserSettingError ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Autodiscover.UserSettingError&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a collection of errors for settings that could not be returned.</summary>
+        <value>A collection of UserSettingError objects.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,220 @@
+﻿<Type Name="NonIndexableItem" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItem">
+  <TypeSignature Language="C#" Value="public sealed class NonIndexableItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NonIndexableItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NonIndexableItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NonIndexableItem sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains information about an item in a mailbox where an index attempt failed.             The <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NonIndexableItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.NonIndexableItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; NonIndexableItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> class. The <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItem" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdditionalInfo">
+      <MemberSignature Language="C#" Value="public string AdditionalInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AdditionalInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property AdditionalInfo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AdditionalInfo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets additional information about a mailbox on which an index attempt failed.           The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AdditionalInfo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The additional information.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttemptCount">
+      <MemberSignature Language="C#" Value="public int AttemptCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AttemptCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property AttemptCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AttemptCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the number of attempts to index a target mailbox.             The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.AttemptCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The attempt count.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemIndexError ErrorCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ItemIndexError ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorCode As ItemIndexError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemIndexError ErrorCode { Microsoft::Exchange::WebServices::Data::ItemIndexError get(); void set(Microsoft::Exchange::WebServices::Data::ItemIndexError value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemIndexError</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the error code of a failed index attempt.             The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorCode" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The error code.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorDescription">
+      <MemberSignature Language="C#" Value="public string ErrorDescription { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorDescription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorDescription As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorDescription { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the error description of a failed index attempt.             The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ErrorDescription" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The error description.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPartiallyIndexed">
+      <MemberSignature Language="C#" Value="public bool IsPartiallyIndexed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPartiallyIndexed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPartiallyIndexed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPartiallyIndexed { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets whether the item is in a mailbox where an index attempt was partially successful.             The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPartiallyIndexed" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> if partially indexed; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPermanentFailure">
+      <MemberSignature Language="C#" Value="public bool IsPermanentFailure { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPermanentFailure" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPermanentFailure As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPermanentFailure { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets whether an index attempt on a target mailbox is a permanent failure.             The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.IsPermanentFailure" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> if it is a permanent failure; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ItemId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the ID of an item in a mailbox where an index attempt was made.             The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.ItemId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The item ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastAttemptTime">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; LastAttemptTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; LastAttemptTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property LastAttemptTime As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; LastAttemptTime { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the time the last attempt to index a target mailbox was made.             The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.LastAttemptTime" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The last attempt time.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortValue">
+      <MemberSignature Language="C#" Value="public string SortValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SortValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SortValue { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>            Gets or sets the value used to sort items in an item index attempt.            The <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItem.SortValue" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The sort value.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

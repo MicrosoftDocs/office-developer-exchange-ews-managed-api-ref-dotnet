@@ -1,0 +1,77 @@
+﻿<Type Name="AvailabilityData" FullName="Microsoft.Exchange.WebServices.Data.AvailabilityData">
+  <TypeSignature Language="C#" Value="public enum AvailabilityData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AvailabilityData extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AvailabilityData" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AvailabilityData" />
+  <TypeSignature Language="C++ CLI" Value="public enum class AvailabilityData" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the user availability data that can be requested.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FreeBusy">
+      <MemberSignature Language="C#" Value="FreeBusy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.AvailabilityData FreeBusy = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AvailabilityData.FreeBusy" />
+      <MemberSignature Language="VB.NET" Value="FreeBusy" />
+      <MemberSignature Language="C++ CLI" Value="FreeBusy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AvailabilityData</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Specifies that only free/busy data should be returned.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyAndSuggestions">
+      <MemberSignature Language="C#" Value="FreeBusyAndSuggestions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.AvailabilityData FreeBusyAndSuggestions = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AvailabilityData.FreeBusyAndSuggestions" />
+      <MemberSignature Language="VB.NET" Value="FreeBusyAndSuggestions" />
+      <MemberSignature Language="C++ CLI" Value="FreeBusyAndSuggestions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AvailabilityData</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Specifies that free/busy data and suggested meeting times should be returned.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Suggestions">
+      <MemberSignature Language="C#" Value="Suggestions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.AvailabilityData Suggestions = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.AvailabilityData.Suggestions" />
+      <MemberSignature Language="VB.NET" Value="Suggestions" />
+      <MemberSignature Language="C++ CLI" Value="Suggestions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AvailabilityData</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Specifies that only suggested meeting times should be returned.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

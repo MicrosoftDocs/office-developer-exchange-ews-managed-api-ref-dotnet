@@ -1,0 +1,27 @@
+﻿<Type Name="StreamingSubscriptionConnection+SubscriptionErrorDelegate" FullName="Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection+SubscriptionErrorDelegate">
+  <TypeSignature Language="C#" Value="public delegate void StreamingSubscriptionConnection.SubscriptionErrorDelegate(object sender, SubscriptionErrorEventArgs args);" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed StreamingSubscriptionConnection/SubscriptionErrorDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection.SubscriptionErrorDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub StreamingSubscriptionConnection.SubscriptionErrorDelegate(sender As Object, args As SubscriptionErrorEventArgs)" />
+  <TypeSignature Language="C++ CLI" Value="public: delegate void StreamingSubscriptionConnection::SubscriptionErrorDelegate(System::Object ^ sender, SubscriptionErrorEventArgs ^ args);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="sender" Type="System.Object" />
+    <Parameter Name="args" Type="Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="sender">The <see cref="T:Microsoft.Exchange.WebServices.Data.StreamingSubscriptionConnection" /> instance within which the error occurred.</param>
+    <param name="args">The event data.</param>
+    <summary>Represents a delegate that is invoked when an error occurs within a streaming subscription connection.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

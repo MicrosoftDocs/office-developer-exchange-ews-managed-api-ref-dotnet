@@ -1,0 +1,28 @@
+﻿<Type Name="DeletedOccurrenceInfoCollection" FullName="Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection">
+  <TypeSignature Language="C#" Value="public sealed class DeletedOccurrenceInfoCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfo&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DeletedOccurrenceInfoCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfo&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DeletedOccurrenceInfoCollection&#xA;Inherits ComplexPropertyCollection(Of DeletedOccurrenceInfo)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DeletedOccurrenceInfoCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::DeletedOccurrenceInfo ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfo&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfo</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a collection of deleted occurrences of a recurring appointment. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

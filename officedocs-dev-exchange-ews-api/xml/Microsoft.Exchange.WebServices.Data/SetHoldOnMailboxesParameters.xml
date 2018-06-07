@@ -1,0 +1,159 @@
+﻿<Type Name="SetHoldOnMailboxesParameters" FullName="Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters">
+  <TypeSignature Language="C#" Value="public sealed class SetHoldOnMailboxesParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SetHoldOnMailboxesParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SetHoldOnMailboxesParameters" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SetHoldOnMailboxesParameters sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the parameters to a <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.SetHoldOnMailboxes(Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters)" /> method call.The <see cref="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetHoldOnMailboxesParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetHoldOnMailboxesParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.HoldAction ActionType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.HoldAction ActionType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters.ActionType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionType As HoldAction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::HoldAction ActionType { Microsoft::Exchange::WebServices::Data::HoldAction get(); void set(Microsoft::Exchange::WebServices::Data::HoldAction value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldAction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+The type of hold action.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoldId">
+      <MemberSignature Language="C#" Value="public string HoldId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HoldId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters.HoldId" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoldId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HoldId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The hold ID for an eDiscovery hold action.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InPlaceHoldIdentity">
+      <MemberSignature Language="C#" Value="public string InPlaceHoldIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InPlaceHoldIdentity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters.InPlaceHoldIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property InPlaceHoldIdentity As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InPlaceHoldIdentity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>An identifier that references an in-place hold (preserves all mailbox content).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The language used for the search query in the <see cref="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters.Query" /> property.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailboxes">
+      <MemberSignature Language="C#" Value="public string[] Mailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Mailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters.Mailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailboxes As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Mailboxes { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A list of mailboxes affected by the hold.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public string Query { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Query" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SetHoldOnMailboxesParameters.Query" />
+      <MemberSignature Language="VB.NET" Value="Public Property Query As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Query { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The search query for the hold.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

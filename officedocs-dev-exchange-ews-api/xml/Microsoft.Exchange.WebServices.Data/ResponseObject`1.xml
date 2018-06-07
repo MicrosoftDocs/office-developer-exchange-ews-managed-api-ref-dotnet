@@ -1,0 +1,229 @@
+﻿<Type Name="ResponseObject&lt;TMessage&gt;" FullName="Microsoft.Exchange.WebServices.Data.ResponseObject&lt;TMessage&gt;">
+  <TypeSignature Language="C#" Value="public abstract class ResponseObject&lt;TMessage&gt; : Microsoft.Exchange.WebServices.Data.ServiceObject where TMessage : EmailMessage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ResponseObject`1&lt;(class Microsoft.Exchange.WebServices.Data.EmailMessage) TMessage&gt; extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ResponseObject`1" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ResponseObject(Of TMessage)&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TMessage&gt;&#xA; where TMessage : EmailMessagepublic ref class ResponseObject abstract : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TMessage">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Data.EmailMessage</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <typeparam name="TMessage">An EmailMessage object.</typeparam>
+    <summary>            Represents the base class for all responses that can be sent.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsDeliveryReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsDeliveryReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDeliveryReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ResponseObject`1.IsDeliveryReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDeliveryReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDeliveryReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>            Gets or sets a value indicating whether delivery receipts should be sent to the sender.            </summary>
+        <value>True if deliver receipts will be requested; otherwise, false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceiptRequested">
+      <MemberSignature Language="C#" Value="public bool IsReadReceiptRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadReceiptRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ResponseObject`1.IsReadReceiptRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadReceiptRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadReceiptRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>            Gets or sets a value indicating whether read receipts will be requested from recipients of this response.            </summary>
+        <value>True if read receipts will be requested; otherwise, false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public TMessage Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !TMessage Save() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save () As TMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TMessage Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>            Saves the response in the Drafts folder. Calling this method results in a call to EWS.            </summary>
+        <returns>A TMessage that represents the response.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public TMessage Save (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !TMessage Save(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save (destinationFolderId As FolderId) As TMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TMessage Save(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">The Id of the folder in which to save the response.</param>
+        <summary>            Saves the response in the specified folder. Calling this method results in a call to EWS.            </summary>
+        <returns>A TMessage that represents the response.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public TMessage Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !TMessage Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Save (destinationFolderName As WellKnownFolderName) As TMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TMessage Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">The name of the folder in which to save the response.</param>
+        <summary>            Saves the response in the specified folder. Calling this method results in a call to EWS.            </summary>
+        <returns>A TMessage that represents the response.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="public void Send ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Send() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.Send" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Send ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Send();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>            Sends this response without saving a copy. Calling this method results in a call to EWS.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.SendAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>            Sends this response and saves a copy in the Sent Items folder. Calling this method results in a call to EWS.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy (destinationFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">The Id of the folder in which to save the copy of the message.</param>
+        <summary>            Sends this response ans saves a copy in the specified folder. Calling this method results in a call to EWS.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAndSaveCopy">
+      <MemberSignature Language="C#" Value="public void SendAndSaveCopy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SendAndSaveCopy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ResponseObject`1.SendAndSaveCopy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendAndSaveCopy (destinationFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SendAndSaveCopy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">The name of the folder in which to save the copy of the message.</param>
+        <summary>            Sends this response and saves a copy in the specified folder. Calling this method results in a call to EWS.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,188 @@
+﻿<Type Name="DocumentSharingLocation" FullName="Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation">
+  <TypeSignature Language="C#" Value="public sealed class DocumentSharingLocation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DocumentSharingLocation extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DocumentSharingLocation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DocumentSharingLocation sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains the location (URL) and metadata associated with a document sharing web service.             The <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AnonymousAccessAllowed">
+      <MemberSignature Language="C#" Value="public bool AnonymousAccessAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AnonymousAccessAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.AnonymousAccessAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AnonymousAccessAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AnonymousAccessAllowed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether anonymous users can access shared documents.             The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.AnonymousAccessAllowed" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> if anonymous users can access shared documents; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanModifyPermissions">
+      <MemberSignature Language="C#" Value="public bool CanModifyPermissions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanModifyPermissions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.CanModifyPermissions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CanModifyPermissions As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanModifyPermissions { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether a user can change permissions for the document sharing location. The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.CanModifyPermissions" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> if a user can change permission settings; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the name of the document sharing location displayed to a user.   The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.DisplayName" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The name of the document sharing location.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalAccessAllowed">
+      <MemberSignature Language="C#" Value="public bool ExternalAccessAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExternalAccessAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ExternalAccessAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExternalAccessAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExternalAccessAllowed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether users outside of the organization can view shared documents. The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ExternalAccessAllowed" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> if external users can view documents; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDefault">
+      <MemberSignature Language="C#" Value="public bool IsDefault { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDefault" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.IsDefault" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDefault As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDefault { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether this document sharing location is the user's default location. The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.IsDefault" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> if this site is the user's default; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationUrl">
+      <MemberSignature Language="C#" Value="public string LocationUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LocationUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.LocationUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LocationUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LocationUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the URL of the document sharing location.             The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.LocationUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The site URL.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceUrl">
+      <MemberSignature Language="C#" Value="public string ServiceUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ServiceUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ServiceUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServiceUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ServiceUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the URL of the web service that manages shared documents.       The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.ServiceUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The URL of the web service.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedFileExtensions">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; SupportedFileExtensions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; SupportedFileExtensions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.SupportedFileExtensions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportedFileExtensions As IEnumerable(Of String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ SupportedFileExtensions { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets the list of file extensions that determines which file types may be stored at the document sharing location.             The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.DocumentSharingLocation.SupportedFileExtensions" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The list of supported file extensions.</value>
+        <remarks>
+          <para>             Example of the list of supported document types: "docx pptx xlsx". </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,58 @@
+﻿<Type Name="RetentionType" FullName="Microsoft.Exchange.WebServices.Data.RetentionType">
+  <TypeSignature Language="C#" Value="public enum RetentionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RetentionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RetentionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RetentionType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Defines the retention policy action to take.             The <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionType" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Archive">
+      <MemberSignature Language="C#" Value="Archive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionType Archive = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionType.Archive" />
+      <MemberSignature Language="VB.NET" Value="Archive" />
+      <MemberSignature Language="C++ CLI" Value="Archive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Archive the item.             The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionType.Archive" /> member is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="Delete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionType Delete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionType.Delete" />
+      <MemberSignature Language="VB.NET" Value="Delete" />
+      <MemberSignature Language="C++ CLI" Value="Delete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             Delete the item.             The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionType.Delete" /> member is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

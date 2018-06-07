@@ -1,0 +1,81 @@
+﻿<Type Name="DeleteMode" FullName="Microsoft.Exchange.WebServices.Data.DeleteMode">
+  <TypeSignature Language="C#" Value="public enum DeleteMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DeleteMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeleteMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DeleteMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DeleteMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Represents deletion modes.</summary>
+    <remarks>
+      <para>The MoveToDeletedItems and HardDelete options are transactional, which means that by the time a web service call completes, the database has moved the item to the Deleted Items folder or permanently removed the item from the Exchange database. </para>
+      <para>The SoftDelete option works differently for different target versions of Exchange Server. SoftDelete for Exchange 2007 sets a bit on the item that indicates to the Exchange database that the item will be moved to the dumpster folder at an indeterminate time in the future. SoftDelete for versions of Exchange starting with Exchange 2010, including Exchange Online, immediately moves the item to the dumpster. SoftDelete is not an option for folder deletion. SoftDelete traversal searches for items and folders will not return any results.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HardDelete">
+      <MemberSignature Language="C#" Value="HardDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode HardDelete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.HardDelete" />
+      <MemberSignature Language="VB.NET" Value="HardDelete" />
+      <MemberSignature Language="C++ CLI" Value="HardDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The item or folder will be permanently deleted.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToDeletedItems">
+      <MemberSignature Language="C#" Value="MoveToDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode MoveToDeletedItems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.MoveToDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="MoveToDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="MoveToDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The item or folder will be moved to the mailbox's Deleted Items folder.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftDelete">
+      <MemberSignature Language="C#" Value="SoftDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode SoftDelete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.SoftDelete" />
+      <MemberSignature Language="VB.NET" Value="SoftDelete" />
+      <MemberSignature Language="C++ CLI" Value="SoftDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The item or folder will be moved to the dumpster. Items and folders in the dumpster can be recovered.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

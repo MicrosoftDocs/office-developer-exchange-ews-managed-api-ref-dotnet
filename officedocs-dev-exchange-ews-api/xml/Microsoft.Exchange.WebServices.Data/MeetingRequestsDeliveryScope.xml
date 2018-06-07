@@ -1,0 +1,96 @@
+﻿<Type Name="MeetingRequestsDeliveryScope" FullName="Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope">
+  <TypeSignature Language="C#" Value="public enum MeetingRequestsDeliveryScope" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MeetingRequestsDeliveryScope extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MeetingRequestsDeliveryScope" />
+  <TypeSignature Language="C++ CLI" Value="public enum class MeetingRequestsDeliveryScope" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies constants that define how meeting requests are handled for mailboxes that have delegates.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DelegatesAndMe">
+      <MemberSignature Language="C#" Value="DelegatesAndMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope DelegatesAndMe = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope.DelegatesAndMe" />
+      <MemberSignature Language="VB.NET" Value="DelegatesAndMe" />
+      <MemberSignature Language="C++ CLI" Value="DelegatesAndMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Send meeting requests to delegates and to the owner of the mailbox.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatesAndSendInformationToMe">
+      <MemberSignature Language="C#" Value="DelegatesAndSendInformationToMe" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope DelegatesAndSendInformationToMe = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope.DelegatesAndSendInformationToMe" />
+      <MemberSignature Language="VB.NET" Value="DelegatesAndSendInformationToMe" />
+      <MemberSignature Language="C++ CLI" Value="DelegatesAndSendInformationToMe" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Send meeting requests to delegates and informational messages to the owner of the mailbox.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatesOnly">
+      <MemberSignature Language="C#" Value="DelegatesOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope DelegatesOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope.DelegatesOnly" />
+      <MemberSignature Language="VB.NET" Value="DelegatesOnly" />
+      <MemberSignature Language="C++ CLI" Value="DelegatesOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Send meeting requests to delegates only.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoForward">
+      <MemberSignature Language="C#" Value="NoForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope NoForward = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope.NoForward" />
+      <MemberSignature Language="VB.NET" Value="NoForward" />
+      <MemberSignature Language="C++ CLI" Value="NoForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>             Meeting requests are not sent to delegates. The <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestsDeliveryScope.NoForward" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

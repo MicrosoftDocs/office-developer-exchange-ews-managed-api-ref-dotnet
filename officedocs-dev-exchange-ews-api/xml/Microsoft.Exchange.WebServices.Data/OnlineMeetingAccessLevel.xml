@@ -1,0 +1,96 @@
+﻿<Type Name="OnlineMeetingAccessLevel" FullName="Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel">
+  <TypeSignature Language="C#" Value="public enum OnlineMeetingAccessLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OnlineMeetingAccessLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel" />
+  <TypeSignature Language="VB.NET" Value="Public Enum OnlineMeetingAccessLevel" />
+  <TypeSignature Language="C++ CLI" Value="public enum class OnlineMeetingAccessLevel" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Indicates which phone participants may bypass the online waiting area before joining an online meeting.             The <see cref="T:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Everyone">
+      <MemberSignature Language="C#" Value="Everyone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel Everyone = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Everyone" />
+      <MemberSignature Language="VB.NET" Value="Everyone" />
+      <MemberSignature Language="C++ CLI" Value="Everyone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>             All phone participants may bypass the online waiting area.             The <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Everyone" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Internal">
+      <MemberSignature Language="C#" Value="Internal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel Internal = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Internal" />
+      <MemberSignature Language="VB.NET" Value="Internal" />
+      <MemberSignature Language="C++ CLI" Value="Internal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             Internal phone participants may bypass the online waiting area.             The <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Internal" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Invited">
+      <MemberSignature Language="C#" Value="Invited" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel Invited = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Invited" />
+      <MemberSignature Language="VB.NET" Value="Invited" />
+      <MemberSignature Language="C++ CLI" Value="Invited" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Invited phone participants may bypass the online waiting area.             The <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Invited" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Locked">
+      <MemberSignature Language="C#" Value="Locked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel Locked = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Locked" />
+      <MemberSignature Language="VB.NET" Value="Locked" />
+      <MemberSignature Language="C++ CLI" Value="Locked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             The meeting organizer only may bypass the online waiting area. All others must wait in the online waiting area.             The <see cref="F:Microsoft.Exchange.WebServices.Data.OnlineMeetingAccessLevel.Locked" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

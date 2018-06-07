@@ -1,0 +1,96 @@
+﻿<Type Name="ConflictType" FullName="Microsoft.Exchange.WebServices.Data.ConflictType">
+  <TypeSignature Language="C#" Value="public enum ConflictType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConflictType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConflictType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConflictType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConflictType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Defines the conflict types that can be returned in meeting time suggestions.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GroupConflict">
+      <MemberSignature Language="C#" Value="GroupConflict" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictType GroupConflict = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />
+      <MemberSignature Language="VB.NET" Value="GroupConflict" />
+      <MemberSignature Language="C++ CLI" Value="GroupConflict" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>There is a conflict with at least one member of a group.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupTooBigConflict">
+      <MemberSignature Language="C#" Value="GroupTooBigConflict" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictType GroupTooBigConflict = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupTooBigConflict" />
+      <MemberSignature Language="VB.NET" Value="GroupTooBigConflict" />
+      <MemberSignature Language="C++ CLI" Value="GroupTooBigConflict" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>There is a conflict with at least one member of a group, but the group is too large to return individual conflict information.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IndividualAttendeeConflict">
+      <MemberSignature Language="C#" Value="IndividualAttendeeConflict" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictType IndividualAttendeeConflict = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictType.IndividualAttendeeConflict" />
+      <MemberSignature Language="VB.NET" Value="IndividualAttendeeConflict" />
+      <MemberSignature Language="C++ CLI" Value="IndividualAttendeeConflict" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>There is a conflict with an individual attendee.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnknownAttendeeConflict">
+      <MemberSignature Language="C#" Value="UnknownAttendeeConflict" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConflictType UnknownAttendeeConflict = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConflictType.UnknownAttendeeConflict" />
+      <MemberSignature Language="VB.NET" Value="UnknownAttendeeConflict" />
+      <MemberSignature Language="C++ CLI" Value="UnknownAttendeeConflict" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>There is a conflict with an unresolvable attendee, on an attendee that is not an individual, group, or contact.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

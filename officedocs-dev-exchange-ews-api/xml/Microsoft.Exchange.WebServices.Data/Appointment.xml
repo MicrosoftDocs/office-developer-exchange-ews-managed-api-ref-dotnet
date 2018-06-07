@@ -1,0 +1,1562 @@
+﻿<Type Name="Appointment" FullName="Microsoft.Exchange.WebServices.Data.Appointment">
+  <TypeSignature Language="C#" Value="public class Appointment : Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Appointment extends Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Appointment" />
+  <TypeSignature Language="VB.NET" Value="Public Class Appointment&#xA;Inherits Item" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Appointment : Microsoft::Exchange::WebServices::Data::Item" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Item</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contains the properties and methods used to define an appointment or a meeting. Properties that are available on appointments are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentSchema" /> class. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Appointment (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Appointment(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> instance to which this appointment is bound.</param>
+        <summary>Initializes an unsaved local instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> class. To bind to an existing appointment, use the <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" /> method instead.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Accept">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults Accept (bool sendResponse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults Accept(bool sendResponse) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Accept(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Accept (sendResponse As Boolean) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ Accept(bool sendResponse);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ICalendarActionProvider.Accept(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sendResponse" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="sendResponse">
+          <b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</param>
+        <summary>Accepts the meeting. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AcceptTentatively">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults AcceptTentatively (bool sendResponse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults AcceptTentatively(bool sendResponse) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.AcceptTentatively(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AcceptTentatively (sendResponse As Boolean) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ AcceptTentatively(bool sendResponse);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ICalendarActionProvider.AcceptTentatively(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sendResponse" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="sendResponse">
+          <b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</param>
+        <summary>Tentatively accepts the meeting. Calling this method results in a call to Exchange Web Services (EWS). </summary>
+        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdjacentMeetingCount">
+      <MemberSignature Language="C#" Value="public int AdjacentMeetingCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AdjacentMeetingCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AdjacentMeetingCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdjacentMeetingCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AdjacentMeetingCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the number of calendar entries that are adjacent to the appointment.</summary>
+        <value>The number of calendar entries that are adjacent to the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AdjacentMeetings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt; AdjacentMeetings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemCollection`1&lt;class Microsoft.Exchange.WebServices.Data.Appointment&gt; AdjacentMeetings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AdjacentMeetings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdjacentMeetings As ItemCollection(Of Appointment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemCollection&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ AdjacentMeetings { Microsoft::Exchange::WebServices::Data::ItemCollection&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a list of meetings that are adjacent to the appointment. </summary>
+        <value>A collection of the meetings that are adjacent to the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowNewTimeProposal">
+      <MemberSignature Language="C#" Value="public bool AllowNewTimeProposal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowNewTimeProposal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AllowNewTimeProposal" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowNewTimeProposal As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowNewTimeProposal { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether attendees may propose a new time for the meeting. </summary>
+        <value>
+          <b>true</b> if attendees may propose a new time for the meeting; otherwise, <b>false</b>. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentReplyTime">
+      <MemberSignature Language="C#" Value="public DateTime AppointmentReplyTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime AppointmentReplyTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AppointmentReplyTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppointmentReplyTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime AppointmentReplyTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the time that an attendee replied to the meeting request. </summary>
+        <value>The time that an attendee replied to the meeting request.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentSequenceNumber">
+      <MemberSignature Language="C#" Value="public int AppointmentSequenceNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AppointmentSequenceNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AppointmentSequenceNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppointmentSequenceNumber As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AppointmentSequenceNumber { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates the version number of a changed appointment.</summary>
+        <value>The version number of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentState">
+      <MemberSignature Language="C#" Value="public int AppointmentState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AppointmentState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AppointmentState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppointmentState As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AppointmentState { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the associated object is an appointment, a meeting, a response to a meeting, or a cancelled meeting.</summary>
+        <value>The state of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppointmentType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AppointmentType AppointmentType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.AppointmentType AppointmentType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.AppointmentType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AppointmentType As AppointmentType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AppointmentType AppointmentType { Microsoft::Exchange::WebServices::Data::AppointmentType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AppointmentType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates the occurrence type of the appointment; for example, a single meeting, an instance of a recurring meeting, an exception to a recurring meeting, or a master item that contains a meeting recurrence pattern. </summary>
+        <value>One of the <see cref="T:Microsoft.Exchange.WebServices.Data.AppointmentType" /> enumeration values that specifies the recurrence type of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As Appointment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">The service to use to bind to the appointment.</param>
+        <param name="id">The identifier of the appointment to bind to.</param>
+        <summary>Binds to an existing appointment and loads its first class properties. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <returns>An <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> instance that represents the appointment that corresponds to the specified ID.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">In specific scenarios, this method can generate an exception similar to the following:System.ArgumentNullException: Value cannot be null.Parameter name: id    At System.TimeZoneInfo.FindSystemTimeZoneById(String id)...This can happen if all of the following are true:The <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object passed in the <paramref name="service" /> parameter was created with a value of <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2007_SP1" /> in the <paramref name="requestedServerVersion" /> parameter.The <a href="http://msdn.microsoft.com/en-us/library/office/aa580521(v=exchg.150).aspx">MeetingTimeZone</a><b>TimeZoneName</b> attribute.If you encounter this exception, you can verify the absence of the <b>TimeZoneName</b> attribute by <a href="186c1d1d-b8dc-4914-b3cd-6fada7ecd877.htm">enabling tracing requests and responses</a>To work around this problem, do one of the following:Create the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object with a value of <see cref="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2010" /> or higher in the <paramref name="requestedServerVersion" /> parameter.Specify a <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> object that does not include the <see cref="F:Microsoft.Exchange.WebServices.Data.AppointmentSchema.StartTimeZone" /> or <see cref="F:Microsoft.Exchange.WebServices.Data.MeetingRequestSchema.StartTimeZone" /> properties.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">The service to use to bind to the appointment.</param>
+        <param name="id">The identifier of the appointment to bind to.</param>
+        <param name="propertySet">The set of properties to load.</param>
+        <summary>Binds to an existing appointment and loads the specified set of properties. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <returns>An <see cref="T:Microsoft.Exchange.WebServices.Data.Appointment" /> instance that represents the appointment that corresponds to the specified ID.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="BindToOccurrence">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment BindToOccurrence (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId recurringMasterId, int occurenceIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment BindToOccurrence(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId recurringMasterId, int32 occurenceIndex) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.BindToOccurrence(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BindToOccurrence (service As ExchangeService, recurringMasterId As ItemId, occurenceIndex As Integer) As Appointment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ BindToOccurrence(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ recurringMasterId, int occurenceIndex);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="recurringMasterId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="occurenceIndex" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="service">The service to use to bind to the appointment.</param>
+        <param name="recurringMasterId">The identifier of the recurring master that the index represents an occurrence of.</param>
+        <param name="occurenceIndex">The index of the occurrence.</param>
+        <summary>Binds to an occurrence of an existing appointment and loads its first class properties. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <returns>The appointment occurrence that corresponds to the specified occurrence index.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindToOccurrence">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment BindToOccurrence (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId recurringMasterId, int occurenceIndex, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment BindToOccurrence(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId recurringMasterId, int32 occurenceIndex, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.BindToOccurrence(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,System.Int32,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ BindToOccurrence(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ recurringMasterId, int occurenceIndex, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="recurringMasterId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="occurenceIndex" Type="System.Int32" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">The service to use to bind to the appointment.</param>
+        <param name="recurringMasterId">The identifier of the recurring master that the index represents an occurrence of.</param>
+        <param name="occurenceIndex">The index of the occurrence.</param>
+        <param name="propertySet">The set of properties to load.</param>
+        <summary>Binds to an occurrence of an existing appointment and loads the specified set of properties. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <returns>The appointment occurrence that corresponds to the specified occurrence index.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindToRecurringMaster">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment BindToRecurringMaster (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId occurrenceId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment BindToRecurringMaster(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId occurrenceId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.BindToRecurringMaster(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BindToRecurringMaster (service As ExchangeService, occurrenceId As ItemId) As Appointment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ BindToRecurringMaster(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ occurrenceId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="occurrenceId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">The service to use to bind to the appointment.</param>
+        <param name="occurrenceId">The identifier of one of the occurrences in the series.</param>
+        <summary>Binds to the master appointment of a recurring series and loads its first class properties. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <returns>The master appointment of the recurring series to which the specified occurrence belongs.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BindToRecurringMaster">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Appointment BindToRecurringMaster (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId occurrenceId, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Appointment BindToRecurringMaster(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId occurrenceId, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.BindToRecurringMaster(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Appointment ^ BindToRecurringMaster(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ occurrenceId, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="occurrenceId" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">The service to use to bind to the appointment.</param>
+        <param name="occurrenceId">The identifier of one of the occurrences in the series.</param>
+        <param name="propertySet">The set of properties to load.</param>
+        <summary>Binds to the master appointment of a recurring series and loads the specified set of properties. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <returns>The master appointment of the recurring series to which the specified occurrence belongs.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelMeeting">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults CancelMeeting ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults CancelMeeting() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CancelMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Function CancelMeeting () As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ CancelMeeting();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Cancels the meeting and sends cancellation messages to all attendees. Calling this method results in a call to Exchange Web Services (EWS). </summary>
+        <returns> A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CancelMeeting">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults CancelMeeting (string cancellationMessageText);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults CancelMeeting(string cancellationMessageText) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CancelMeeting(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CancelMeeting (cancellationMessageText As String) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ CancelMeeting(System::String ^ cancellationMessageText);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cancellationMessageText" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="cancellationMessageText">Cancellation message text sent to all attendees.</param>
+        <summary>Cancels the meeting and sends cancellation messages to all attendees with the associated text. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConferenceType">
+      <MemberSignature Language="C#" Value="public int ConferenceType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConferenceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ConferenceType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConferenceType As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ConferenceType { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the type of conferencing that will be used during the meeting; for example, a video conference, a presentation, or a chat session.</summary>
+        <value>The type of conferencing that will be used during the meeting.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictingMeetingCount">
+      <MemberSignature Language="C#" Value="public int ConflictingMeetingCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ConflictingMeetingCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ConflictingMeetingCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConflictingMeetingCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ConflictingMeetingCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the number of calendar entries that conflict with the appointment. </summary>
+        <value>The number of calendar entries that conflict with the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConflictingMeetings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt; ConflictingMeetings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemCollection`1&lt;class Microsoft.Exchange.WebServices.Data.Appointment&gt; ConflictingMeetings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ConflictingMeetings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConflictingMeetings As ItemCollection(Of Appointment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemCollection&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ ConflictingMeetings { Microsoft::Exchange::WebServices::Data::ItemCollection&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemCollection&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a list of meetings that conflict with the appointment.</summary>
+        <value>A collection of the meetings that conflict with the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateAcceptMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage CreateAcceptMessage (bool tentative);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage CreateAcceptMessage(bool tentative) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CreateAcceptMessage(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateAcceptMessage (tentative As Boolean) As AcceptMeetingInvitationMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Exchange::WebServices::Data::AcceptMeetingInvitationMessage ^ CreateAcceptMessage(bool tentative);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ICalendarActionProvider.CreateAcceptMessage(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="tentative" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="tentative">
+          <b>true</b> if the meeting will be tentatively accepted; otherwise, <b>false</b>.</param>
+        <summary>Creates a local meeting acceptance message that can be customized and sent.</summary>
+        <returns>The meeting acceptance message.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateCancelMeetingMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CancelMeetingMessage CreateCancelMeetingMessage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CancelMeetingMessage CreateCancelMeetingMessage() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CreateCancelMeetingMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCancelMeetingMessage () As CancelMeetingMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CancelMeetingMessage ^ CreateCancelMeetingMessage();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CancelMeetingMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Creates a local meeting cancellation message that can be customized and sent.</summary>
+        <returns>The meeting cancellation message.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDeclineMessage">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DeclineMeetingInvitationMessage CreateDeclineMessage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Exchange.WebServices.Data.DeclineMeetingInvitationMessage CreateDeclineMessage() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CreateDeclineMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateDeclineMessage () As DeclineMeetingInvitationMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Exchange::WebServices::Data::DeclineMeetingInvitationMessage ^ CreateDeclineMessage();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ICalendarActionProvider.CreateDeclineMessage</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeclineMeetingInvitationMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Creates a local meeting declination message that can be customized and sent. </summary>
+        <returns>The meeting declination message.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateForward">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseMessage CreateForward ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ResponseMessage CreateForward() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CreateForward" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateForward () As ResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::ResponseMessage ^ CreateForward();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessage</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Creates a forward message from this appointment.</summary>
+        <returns>The forward response that can subsequently be modified and sent.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateReply">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseMessage CreateReply (bool replyAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.ResponseMessage CreateReply(bool replyAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.CreateReply(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateReply (replyAll As Boolean) As ResponseMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::ResponseMessage ^ CreateReply(bool replyAll);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="replyAll" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="replyAll">
+          <b>true</b> to indicate that the reply should be sent to all the attendees; <b>false</b> to indicate that the reply should be sent to the organizer only.</param>
+        <summary>Creates a reply response to the organizer and/or attendees of the meeting.</summary>
+        <returns>The reply response that can subsequently be modified and sent.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Decline">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults Decline (bool sendResponse);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults Decline(bool sendResponse) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Decline(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Decline (sendResponse As Boolean) As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ Decline(bool sendResponse);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ICalendarActionProvider.Decline(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sendResponse" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="sendResponse">
+          <b>true</b> if a response is to be sent to the organizer; otherwise, <b>false</b>.</param>
+        <summary>Declines the meeting invitation. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <returns>A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object that contains the various items that were created or modified as a result of this operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, Microsoft.Exchange.WebServices.Data.SendCancellationsMode sendCancellationsMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, valuetype Microsoft.Exchange.WebServices.Data.SendCancellationsMode sendCancellationsMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode,Microsoft.Exchange.WebServices.Data.SendCancellationsMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode, Microsoft::Exchange::WebServices::Data::SendCancellationsMode sendCancellationsMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+        <Parameter Name="sendCancellationsMode" Type="Microsoft.Exchange.WebServices.Data.SendCancellationsMode" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.DeleteMode" /> enumeration values that indicates the deletion mode.</param>
+        <param name="sendCancellationsMode">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendCancellationsMode" /> enumeration values that indicates whether and how cancellations should be sent if this appointment is a meeting.</param>
+        <summary>Deletes this appointment. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletedOccurrences">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection DeletedOccurrences { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection DeletedOccurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.DeletedOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DeletedOccurrences As DeletedOccurrenceInfoCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::DeletedOccurrenceInfoCollection ^ DeletedOccurrences { Microsoft::Exchange::WebServices::Data::DeletedOccurrenceInfoCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeletedOccurrenceInfoCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a list of deleted occurrences for a recurring meeting or appointment.</summary>
+        <value>A collection of the deleted occurrences.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Duration">
+      <MemberSignature Language="C#" Value="public TimeSpan Duration { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan Duration" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Duration" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Duration As TimeSpan" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeSpan Duration { TimeSpan get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the duration of the appointment. </summary>
+        <value>The time span of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public DateTime End { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime End" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.End" />
+      <MemberSignature Language="VB.NET" Value="Public Property End As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime End { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the end time of the appointment. </summary>
+        <value>The end time of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndTimeZone">
+      <MemberSignature Language="C#" Value="public TimeZoneInfo EndTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.TimeZoneInfo EndTimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.EndTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property EndTimeZone As TimeZoneInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeZoneInfo ^ EndTimeZone { TimeZoneInfo ^ get(); void set(TimeZoneInfo ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeZoneInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the time zone of the end property of the appointment.</summary>
+        <value>The time zone of the end property of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnhancedLocation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EnhancedLocation EnhancedLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EnhancedLocation EnhancedLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnhancedLocation As EnhancedLocation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EnhancedLocation ^ EnhancedLocation { Microsoft::Exchange::WebServices::Data::EnhancedLocation ^ get(); void set(Microsoft::Exchange::WebServices::Data::EnhancedLocation ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EnhancedLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets additional meeting or appointment location information. The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.EnhancedLocation" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The enhanced location object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstOccurrence">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OccurrenceInfo FirstOccurrence { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OccurrenceInfo FirstOccurrence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.FirstOccurrence" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirstOccurrence As OccurrenceInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OccurrenceInfo ^ FirstOccurrence { Microsoft::Exchange::WebServices::Data::OccurrenceInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the first occurrence of a recurring meeting or appointment.</summary>
+        <value>The first occurrence of a recurring meeting or appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public void Forward (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, params Microsoft.Exchange.WebServices.Data.EmailAddress[] toRecipients);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Forward(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, class Microsoft.Exchange.WebServices.Data.EmailAddress[] toRecipients) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Forward(Microsoft.Exchange.WebServices.Data.MessageBody,Microsoft.Exchange.WebServices.Data.EmailAddress[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Forward (bodyPrefix As MessageBody, ParamArray toRecipients As EmailAddress())" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, ... cli::array &lt;Microsoft::Exchange::WebServices::Data::EmailAddress ^&gt; ^ toRecipients);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="toRecipients" Type="Microsoft.Exchange.WebServices.Data.EmailAddress[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">The prefix to prepend to the original body of the message.</param>
+        <param name="toRecipients">The recipients to forward the appointment to.</param>
+        <summary>Forwards the appointment to the associated array of recipients with a message prepended to the original meeting request. Calling this method results in a call to Exchange Web Services (EWS). </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public void Forward (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt; toRecipients);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Forward(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, class System.Collections.Generic.IEnumerable`1&lt;class Microsoft.Exchange.WebServices.Data.EmailAddress&gt; toRecipients) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Forward(Microsoft.Exchange.WebServices.Data.MessageBody,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.EmailAddress})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Forward (bodyPrefix As MessageBody, toRecipients As IEnumerable(Of EmailAddress))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Forward(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, System::Collections::Generic::IEnumerable&lt;Microsoft::Exchange::WebServices::Data::EmailAddress ^&gt; ^ toRecipients);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="toRecipients" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Exchange.WebServices.Data.EmailAddress&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">The prefix to prepend to the original body of the message.</param>
+        <param name="toRecipients">The recipients to forward the appointment to.</param>
+        <summary>Forwards the appointment to the associated collection of recipients with a message prepended to the original meeting request. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalDateTimeStamp">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ICalDateTimeStamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ICalDateTimeStamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ICalDateTimeStamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ICalDateTimeStamp As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; ICalDateTimeStamp { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the iCalendar DateTimeStamp.</summary>
+        <value>The iCalendar DateTimeStamp.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalRecurrenceId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ICalRecurrenceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ICalRecurrenceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ICalRecurrenceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ICalRecurrenceId As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; ICalRecurrenceId { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the iCalendar RecurrenceId. </summary>
+        <value>The iCalendar RecurrenceId.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalUid">
+      <MemberSignature Language="C#" Value="public string ICalUid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ICalUid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ICalUid" />
+      <MemberSignature Language="VB.NET" Value="Public Property ICalUid As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ICalUid { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the iCalendar Uid.</summary>
+        <value>The iCalendar Uid.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAllDayEvent">
+      <MemberSignature Language="C#" Value="public bool IsAllDayEvent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAllDayEvent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsAllDayEvent" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAllDayEvent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAllDayEvent { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether the appointment is an all-day event.</summary>
+        <value>
+          <b>true</b> if the appointment is an all-day event; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCancelled">
+      <MemberSignature Language="C#" Value="public bool IsCancelled { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCancelled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsCancelled" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCancelled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCancelled { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether the appointment has been canceled.</summary>
+        <value>
+          <b>true</b> if the appointment has been canceled; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeeting">
+      <MemberSignature Language="C#" Value="public bool IsMeeting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeeting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMeeting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeeting { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether the appointment is a meeting.</summary>
+        <value>
+          <b>true</b> if the appointment is a meeting; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOnlineMeeting">
+      <MemberSignature Language="C#" Value="public bool IsOnlineMeeting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOnlineMeeting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsOnlineMeeting" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOnlineMeeting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOnlineMeeting { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether the meeting is an online meeting. </summary>
+        <value>
+          <b>true</b> if the meeting is an online meeting; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsRecurring">
+      <MemberSignature Language="C#" Value="public bool IsRecurring { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRecurring" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsRecurring" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRecurring As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRecurring { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether the appointment is part of a recurring series. </summary>
+        <value>
+          <b>true</b> if the appointment is recurring; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResponseRequested">
+      <MemberSignature Language="C#" Value="public bool IsResponseRequested { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResponseRequested" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.IsResponseRequested" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsResponseRequested As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResponseRequested { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether responses are requested when invitations are sent for the meeting. </summary>
+        <value>
+          <b>true</b> if responses are requested; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JoinOnlineMeetingUrl">
+      <MemberSignature Language="C#" Value="public string JoinOnlineMeetingUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string JoinOnlineMeetingUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property JoinOnlineMeetingUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ JoinOnlineMeetingUrl { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the URL for joining an online meeting.             The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.JoinOnlineMeetingUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The URL for joining an online meeting.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastOccurrence">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OccurrenceInfo LastOccurrence { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OccurrenceInfo LastOccurrence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.LastOccurrence" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastOccurrence As OccurrenceInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OccurrenceInfo ^ LastOccurrence { Microsoft::Exchange::WebServices::Data::OccurrenceInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the last occurrence of a recurring series. </summary>
+        <value>The last occurrence of a recurring meeting or appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyFreeBusyStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus LegacyFreeBusyStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus LegacyFreeBusyStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.LegacyFreeBusyStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property LegacyFreeBusyStatus As LegacyFreeBusyStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus LegacyFreeBusyStatus { Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus get(); void set(Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value that indicates the free/busy status of the owner of the appointment.</summary>
+        <value>One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> enumeration values that specifies the free/busy status of the owner of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the location of this appointment.</summary>
+        <value>The location of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequestWasSent">
+      <MemberSignature Language="C#" Value="public bool MeetingRequestWasSent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MeetingRequestWasSent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.MeetingRequestWasSent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingRequestWasSent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MeetingRequestWasSent { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether the meeting request has been sent.</summary>
+        <value>
+          <b>true</b> if the meeting request has been sent; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingWorkspaceUrl">
+      <MemberSignature Language="C#" Value="public string MeetingWorkspaceUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MeetingWorkspaceUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.MeetingWorkspaceUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property MeetingWorkspaceUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MeetingWorkspaceUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the URL of the meeting workspace. A meeting workspace is a shared Web site for planning meetings and tracking results. </summary>
+        <value>The URL of the meeting workspace.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ModifiedOccurrences">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OccurrenceInfoCollection ModifiedOccurrences { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OccurrenceInfoCollection ModifiedOccurrences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.ModifiedOccurrences" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ModifiedOccurrences As OccurrenceInfoCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OccurrenceInfoCollection ^ ModifiedOccurrences { Microsoft::Exchange::WebServices::Data::OccurrenceInfoCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OccurrenceInfoCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a list of meetings or appointments in a recurring series that have been changed.</summary>
+        <value>A collection changed meetings.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyResponseType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingResponseType MyResponseType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.MeetingResponseType MyResponseType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.MyResponseType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MyResponseType As MeetingResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingResponseType MyResponseType { Microsoft::Exchange::WebServices::Data::MeetingResponseType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the user's last response to a meeting request; for example, accept or decline.</summary>
+        <value>One of the <see cref="T:Microsoft.Exchange.WebServices.Data.MeetingResponseType" /> enumeration values indicating the user's response to a meeting request.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NetShowUrl">
+      <MemberSignature Language="C#" Value="public string NetShowUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NetShowUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.NetShowUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property NetShowUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NetShowUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the URL of the Microsoft NetShow online meeting. </summary>
+        <value>The URL of the Microsoft NetShow online meeting.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnlineMeetingSettings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings OnlineMeetingSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings OnlineMeetingSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OnlineMeetingSettings As OnlineMeetingSettings" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::OnlineMeetingSettings ^ OnlineMeetingSettings { Microsoft::Exchange::WebServices::Data::OnlineMeetingSettings ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OnlineMeetingSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets a set of participant access settings for an online meeting.             The <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.OnlineMeetingSettings" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The online meeting settings.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptionalAttendees">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttendeeCollection OptionalAttendees { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttendeeCollection OptionalAttendees" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.OptionalAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OptionalAttendees As AttendeeCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ OptionalAttendees { Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a list of optional attendees for the meeting.</summary>
+        <value>The attendees who are optional for the meeting.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Organizer">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress Organizer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress Organizer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Organizer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Organizer As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ Organizer { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the email address of the meeting organizer.</summary>
+        <value>The email address of the meeting organizer.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OriginalStart">
+      <MemberSignature Language="C#" Value="public DateTime OriginalStart { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime OriginalStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.OriginalStart" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OriginalStart As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime OriginalStart { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the original start time of the appointment. </summary>
+        <value>The original start time of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurrence">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Recurrence Recurrence { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Recurrence Recurrence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Recurrence" />
+      <MemberSignature Language="VB.NET" Value="Public Property Recurrence As Recurrence" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Recurrence ^ Recurrence { Microsoft::Exchange::WebServices::Data::Recurrence ^ get(); void set(Microsoft::Exchange::WebServices::Data::Recurrence ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the recurrence pattern for the appointment. Available recurrence pattern classes include <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.DailyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.WeeklyPattern" />, <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.MonthlyPattern" />, and <see cref="T:Microsoft.Exchange.WebServices.Data.Recurrence.YearlyPattern" />.</summary>
+        <value>The recurrence pattern of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="public void Reply (Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, bool replyAll);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Reply(class Microsoft.Exchange.WebServices.Data.MessageBody bodyPrefix, bool replyAll) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Reply(Microsoft.Exchange.WebServices.Data.MessageBody,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reply (bodyPrefix As MessageBody, replyAll As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reply(Microsoft::Exchange::WebServices::Data::MessageBody ^ bodyPrefix, bool replyAll);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bodyPrefix" Type="Microsoft.Exchange.WebServices.Data.MessageBody" />
+        <Parameter Name="replyAll" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bodyPrefix">The prefix to prepend to the body of the meeting.</param>
+        <param name="replyAll">
+          <b>true</b> to indicate that the reply should be sent to all the attendees; <b>false</b> to indicate that the reply should be sent to the organizer only.</param>
+        <summary>Replies to the organizer and/or the attendees of the meeting. Calling this method results in a call to Exchange Web Services (EWS). </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RequiredAttendees">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttendeeCollection RequiredAttendees { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttendeeCollection RequiredAttendees" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.RequiredAttendees" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RequiredAttendees As AttendeeCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ RequiredAttendees { Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a list of required attendees for the meeting. </summary>
+        <value>The attendees who are required for the meeting.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resources">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttendeeCollection Resources { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttendeeCollection Resources" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Resources" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Resources As AttendeeCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ Resources { Microsoft::Exchange::WebServices::Data::AttendeeCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttendeeCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a list of resources for the meeting, such as audio-visual equipment.</summary>
+        <value>The resources for the meeting.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Save(Microsoft.Exchange.WebServices.Data.SendInvitationsMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::SendInvitationsMode sendInvitationsMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
+      </Parameters>
+      <Docs>
+        <param name="sendInvitationsMode">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates whether and how invitations should be sent if this appointment is a meeting.</param>
+        <summary>Saves this appointment in the Calendar folder. Calling this method results in at least one call to Exchange Web Services (EWS). Multiple calls to EWS might be made if attachments have been added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId, Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId, valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Save(Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.SendInvitationsMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId, Microsoft::Exchange::WebServices::Data::SendInvitationsMode sendInvitationsMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">The identifier of the folder in which to save this appointment.</param>
+        <param name="sendInvitationsMode">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates if and how invitations should be sent if this appointment is a meeting.</param>
+        <summary>Saves this appointment in the specified folder. Calling this method results in at least one call to Exchange Web Services (EWS). Multiple calls to EWS might be made if attachments have been added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName, Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName, valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsMode sendInvitationsMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.SendInvitationsMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName, Microsoft::Exchange::WebServices::Data::SendInvitationsMode sendInvitationsMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="sendInvitationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsMode" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">The name of the folder in which to save this appointment.</param>
+        <param name="sendInvitationsMode">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsMode" /> enumeration values that indicates whether and how invitations should be sent if this appointment is a meeting.</param>
+        <summary>Saves this appointment in the specified folder. Calling this method results in at least one call to Exchange Web Services (EWS). Multiple calls to EWS might be made if attachments have been added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public DateTime Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Start { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the start time of the appointment.</summary>
+        <value>The start time of the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTimeZone">
+      <MemberSignature Language="C#" Value="public TimeZoneInfo StartTimeZone { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.TimeZoneInfo StartTimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.StartTimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public Property StartTimeZone As TimeZoneInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TimeZoneInfo ^ StartTimeZone { TimeZoneInfo ^ get(); void set(TimeZoneInfo ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeZoneInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the time zone of the <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> property of the appointment. </summary>
+        <value>The time zone of the <see cref="P:Microsoft.Exchange.WebServices.Data.Appointment.Start" /> property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TimeZone">
+      <MemberSignature Language="C#" Value="public string TimeZone { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TimeZone" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.TimeZone" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TimeZone As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TimeZone { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the time zone that is specified for the appointment.</summary>
+        <value>The time zone that is specified for the appointment.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode sendInvitationsOrCancellationsMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode sendInvitationsOrCancellationsMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Appointment.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode,Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode, Microsoft::Exchange::WebServices::Data::SendInvitationsOrCancellationsMode sendInvitationsOrCancellationsMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+        <Parameter Name="sendInvitationsOrCancellationsMode" Type="Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" /> enumeration values that indicates how conflicts should be resolved.</param>
+        <param name="sendInvitationsOrCancellationsMode">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" /> enumeration values that indicates if and how invitations or cancellations should be sent if this appointment is a meeting.</param>
+        <summary>Applies the local changes that have been made to this appointment. Calling this method results in at least one call to Exchange Web Services (EWS). Multiple calls to EWS might be made if attachments have been added or removed.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="When">
+      <MemberSignature Language="C#" Value="public string When { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string When" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Appointment.When" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property When As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ When { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a text value that indicates when the appointment occurs. The text value is localized by using the Exchange Server culture or by using the culture specified in the <see cref="P:Microsoft.Exchange.WebServices.Data.ExchangeService.PreferredCulture" /> property of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> object that this appointment is bound to.</summary>
+        <value>A text value that indicates when the appointment occurs.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

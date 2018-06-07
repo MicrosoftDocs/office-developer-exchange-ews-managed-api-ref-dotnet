@@ -1,0 +1,20 @@
+﻿<Type Name="RuleOperation" FullName="Microsoft.Exchange.WebServices.Data.RuleOperation">
+  <TypeSignature Language="C#" Value="public abstract class RuleOperation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit RuleOperation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class RuleOperation&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleOperation abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>The base class for derived classes that represent Inbox rule operations. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

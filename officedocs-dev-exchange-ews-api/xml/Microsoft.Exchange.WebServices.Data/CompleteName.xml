@@ -1,0 +1,238 @@
+﻿<Type Name="CompleteName" FullName="Microsoft.Exchange.WebServices.Data.CompleteName">
+  <TypeSignature Language="C#" Value="public sealed class CompleteName : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CompleteName extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CompleteName" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CompleteName&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CompleteName sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the complete name of a contact.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CompleteName ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CompleteName.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompleteName();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the CompleteName class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullName">
+      <MemberSignature Language="C#" Value="public string FullName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FullName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.FullName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FullName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FullName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the full name of the contact.</summary>
+        <value>The contact's full name.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GivenName">
+      <MemberSignature Language="C#" Value="public string GivenName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GivenName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.GivenName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GivenName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GivenName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the given name (first name) of the contact.</summary>
+        <value>The contact's given name (first name).</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initials">
+      <MemberSignature Language="C#" Value="public string Initials { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Initials" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.Initials" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Initials As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Initials { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the initials of the contact.</summary>
+        <value>The contact's initials.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MiddleName">
+      <MemberSignature Language="C#" Value="public string MiddleName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MiddleName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.MiddleName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MiddleName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MiddleName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the middle name of the contact.</summary>
+        <value>The contact's middle name.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NickName">
+      <MemberSignature Language="C#" Value="public string NickName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NickName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.NickName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NickName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NickName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the nickname of the contact.</summary>
+        <value>The contact's nickname.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Suffix">
+      <MemberSignature Language="C#" Value="public string Suffix { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Suffix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.Suffix" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Suffix As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Suffix { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the suffix of the contact.</summary>
+        <value>The contact's suffix.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Surname">
+      <MemberSignature Language="C#" Value="public string Surname { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Surname" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.Surname" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Surname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Surname { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the surname (last name) of the contact.</summary>
+        <value>The contact's surname (last name).</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Title">
+      <MemberSignature Language="C#" Value="public string Title { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.Title" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Title As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the title of the contact.</summary>
+        <value>The contact's title.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiGivenName">
+      <MemberSignature Language="C#" Value="public string YomiGivenName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiGivenName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.YomiGivenName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property YomiGivenName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiGivenName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the Yomi given name (first name) of the contact.</summary>
+        <value>The contact's Yomi given name (first name).</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="YomiSurname">
+      <MemberSignature Language="C#" Value="public string YomiSurname { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string YomiSurname" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CompleteName.YomiSurname" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property YomiSurname As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ YomiSurname { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the Yomi surname (last name) of the contact.</summary>
+        <value>The contact's Yomi surname (last name).</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

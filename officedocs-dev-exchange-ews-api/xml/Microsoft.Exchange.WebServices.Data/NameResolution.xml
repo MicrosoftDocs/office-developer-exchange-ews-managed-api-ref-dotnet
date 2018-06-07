@@ -1,0 +1,61 @@
+﻿<Type Name="NameResolution" FullName="Microsoft.Exchange.WebServices.Data.NameResolution">
+  <TypeSignature Language="C#" Value="public sealed class NameResolution" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit NameResolution extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NameResolution" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class NameResolution" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NameResolution sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a suggested name resolution.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Contact">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Contact Contact { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Contact Contact" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NameResolution.Contact" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contact As Contact" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Contact ^ Contact { Microsoft::Exchange::WebServices::Data::Contact ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Contact</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the contact information of the suggested resolved name. This property is only available when ResolveName is called with the <b>returnContactDetails</b> argument set to <b>true</b>.</summary>
+        <value>An Exchange contact.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddress Mailbox { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddress Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NameResolution.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Mailbox As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddress ^ Mailbox { Microsoft::Exchange::WebServices::Data::EmailAddress ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the mailbox of the suggested resolved name.</summary>
+        <value>A mailbox e-mail address.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

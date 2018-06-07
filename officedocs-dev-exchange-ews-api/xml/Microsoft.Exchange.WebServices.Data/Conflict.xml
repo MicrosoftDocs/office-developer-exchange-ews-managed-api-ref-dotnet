@@ -1,0 +1,156 @@
+﻿<Type Name="Conflict" FullName="Microsoft.Exchange.WebServices.Data.Conflict">
+  <TypeSignature Language="C#" Value="public sealed class Conflict : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Conflict extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Conflict" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Conflict&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Conflict sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a conflict in a meeting time suggestion.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConflictType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConflictType ConflictType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ConflictType ConflictType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConflictType As ConflictType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConflictType ConflictType { Microsoft::Exchange::WebServices::Data::ConflictType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConflictType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the type of conflict that is reported.</summary>
+        <value>One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ConflictType" /> enumeration values indicating the type of conflict.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyStatus">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus FreeBusyStatus { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus FreeBusyStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.FreeBusyStatus" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FreeBusyStatus As LegacyFreeBusyStatus" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus FreeBusyStatus { Microsoft::Exchange::WebServices::Data::LegacyFreeBusyStatus get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the free/busy status of the conflicting attendee. </summary>
+        <value>One of the <see cref="T:Microsoft.Exchange.WebServices.Data.LegacyFreeBusyStatus" /> enumeration values indicating the free/busy status.</value>
+        <remarks>
+          <para>The value of this property is only meaningful when the <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> property is set to <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.IndividualAttendeeConflict" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembers">
+      <MemberSignature Language="C#" Value="public int NumberOfMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfMembers As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembers { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the number of users, resources, and rooms in the conflicting group.</summary>
+        <value>An  <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a></value>
+        <remarks>
+          <para>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembers" /> property is only meaningful when the <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> property is set to <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersAvailable">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersAvailable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersAvailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfMembersAvailable As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersAvailable { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the number of members who are available (whose status is Free) in the conflicting group.</summary>
+        <value>An  <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a></value>
+        <remarks>
+          <para>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersAvailable" /> property is only meaningful when the <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> property is set to <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersWithConflict">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersWithConflict { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersWithConflict" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithConflict" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfMembersWithConflict As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersWithConflict { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the number of members who have a conflict (whose status is Busy, OOF or Tentative) in the conflicting group.</summary>
+        <value>An  <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a></value>
+        <remarks>
+          <para>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithConflict" /> property is only meaningful when the <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> property is set to <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberOfMembersWithNoData">
+      <MemberSignature Language="C#" Value="public int NumberOfMembersWithNoData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 NumberOfMembersWithNoData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithNoData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberOfMembersWithNoData As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int NumberOfMembersWithNoData { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the number of members who do not have published free/busy data in the conflicting group.</summary>
+        <value>An  <a href="http://go.microsoft.com/fwlink/?LinkId=162882">T:System.Int32</a></value>
+        <remarks>
+          <para>The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.NumberOfMembersWithNoData" /> property is only meaningful when the <see cref="P:Microsoft.Exchange.WebServices.Data.Conflict.ConflictType" /> property is set to <see cref="F:Microsoft.Exchange.WebServices.Data.ConflictType.GroupConflict" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

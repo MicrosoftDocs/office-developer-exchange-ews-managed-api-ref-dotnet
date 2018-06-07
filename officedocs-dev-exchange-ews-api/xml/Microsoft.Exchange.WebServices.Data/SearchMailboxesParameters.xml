@@ -1,0 +1,239 @@
+﻿<Type Name="SearchMailboxesParameters" FullName="Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters">
+  <TypeSignature Language="C#" Value="public sealed class SearchMailboxesParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchMailboxesParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchMailboxesParameters" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchMailboxesParameters sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains the parameters required for an eDiscovery mailbox search.             The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchMailboxesParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchMailboxesParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters" /> class. The <see cref="M:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the language used in the <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SearchQueries" /> property.The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.Language" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageDirection">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchPageDirection PageDirection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SearchPageDirection PageDirection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageDirection" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageDirection As SearchPageDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchPageDirection PageDirection { Microsoft::Exchange::WebServices::Data::SearchPageDirection get(); void set(Microsoft::Exchange::WebServices::Data::SearchPageDirection value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchPageDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets a value that determines whether to search forward or backwards.             The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageDirection" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The search-page direction.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageItemReference">
+      <MemberSignature Language="C#" Value="public string PageItemReference { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PageItemReference" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageItemReference" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageItemReference As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PageItemReference { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets a reference used internally to implement paging.             The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageItemReference" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The page item reference.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageSize">
+      <MemberSignature Language="C#" Value="public int PageSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets a value that determines the number of items shown on a preview page.             The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PageSize" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The page size.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PerformDeduplication">
+      <MemberSignature Language="C#" Value="public bool PerformDeduplication { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PerformDeduplication" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PerformDeduplication" />
+      <MemberSignature Language="VB.NET" Value="Public Property PerformDeduplication As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PerformDeduplication { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets whether to remove duplicates from the search results.             The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PerformDeduplication" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> to deduplicate the search results; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreviewItemResponseShape">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape PreviewItemResponseShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape PreviewItemResponseShape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PreviewItemResponseShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property PreviewItemResponseShape As PreviewItemResponseShape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PreviewItemResponseShape ^ PreviewItemResponseShape { Microsoft::Exchange::WebServices::Data::PreviewItemResponseShape ^ get(); void set(Microsoft::Exchange::WebServices::Data::PreviewItemResponseShape ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemResponseShape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the values used to preview items returned by a search query.             The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.PreviewItemResponseShape" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The preview item response shape.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResultType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchResultType ResultType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SearchResultType ResultType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.ResultType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ResultType As SearchResultType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchResultType ResultType { Microsoft::Exchange::WebServices::Data::SearchResultType get(); void set(Microsoft::Exchange::WebServices::Data::SearchResultType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchResultType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets whether the search is a statistics or preview search.             The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.ResultType" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The result type.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchQueries">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MailboxQuery[] SearchQueries { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MailboxQuery[] SearchQueries" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SearchQueries" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchQueries As MailboxQuery()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxQuery ^&gt; ^ SearchQueries { cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxQuery ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxQuery ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxQuery[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the search queries.             The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SearchQueries" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The search queries.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortBy">
+      <MemberSignature Language="C#" Value="public string SortBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SortBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortBy As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SortBy { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the string to sort by.             The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortBy" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The string to sort by.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortOrder">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SortDirection SortOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SortDirection SortOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortOrder As SortDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SortDirection SortOrder { Microsoft::Exchange::WebServices::Data::SortDirection get(); void set(Microsoft::Exchange::WebServices::Data::SortDirection value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SortDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the sort direction.             The <see cref="P:Microsoft.Exchange.WebServices.Data.SearchMailboxesParameters.SortOrder" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The sort direction.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

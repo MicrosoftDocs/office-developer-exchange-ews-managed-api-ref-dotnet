@@ -1,0 +1,65 @@
+﻿<Type Name="ItemId" FullName="Microsoft.Exchange.WebServices.Data.ItemId">
+  <TypeSignature Language="C#" Value="public class ItemId : Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ItemId extends Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemId" />
+  <TypeSignature Language="VB.NET" Value="Public Class ItemId&#xA;Inherits ServiceId" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemId : Microsoft::Exchange::WebServices::Data::ServiceId" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceId</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>            Represents the Id of an Exchange item.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ItemId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemId.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (uniqueId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ItemId(System::String ^ uniqueId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">The unique Id used to initialize the ItemId.</param>
+        <summary>            Initializes a new instance of ItemId.            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.ItemId (string uniqueId);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.ItemId op_Implicit(string uniqueId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ItemId.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (uniqueId As String) As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::ItemId ^(System::String ^ uniqueId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="uniqueId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="uniqueId">The unique Id to convert to ItemId.</param>
+        <summary>            Defines an implicit conversion between string and ItemId.            </summary>
+        <returns>An ItemId initialized with the specified unique Id.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

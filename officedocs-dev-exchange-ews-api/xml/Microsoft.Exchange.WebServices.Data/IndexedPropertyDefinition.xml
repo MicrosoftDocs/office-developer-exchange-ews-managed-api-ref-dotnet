@@ -1,0 +1,182 @@
+﻿<Type Name="IndexedPropertyDefinition" FullName="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition">
+  <TypeSignature Language="C#" Value="public sealed class IndexedPropertyDefinition : Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit IndexedPropertyDefinition extends Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class IndexedPropertyDefinition&#xA;Inherits ServiceObjectPropertyDefinition" />
+  <TypeSignature Language="C++ CLI" Value="public ref class IndexedPropertyDefinition sealed : Microsoft::Exchange::WebServices::Data::ServiceObjectPropertyDefinition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObjectPropertyDefinition</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents an indexed property definition.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to check for equality.</param>
+        <summary>Determines whether a given indexed property definition is equal to this indexed property definition.</summary>
+        <returns>
+          <b>true</b> if the properties definitions define the same indexed property; otherwise, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Serves as a hash function for a particular type.</summary>
+        <returns>A hash code for the current object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetJsonType">
+      <MemberSignature Language="C#" Value="protected override string GetJsonType ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance string GetJsonType() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.GetJsonType" />
+      <MemberSignature Language="VB.NET" Value="Protected Overrides Function GetJsonType () As String" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; override System::String ^ GetJsonType();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public string Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Index { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the index of the property.</summary>
+        <value>The index of the property.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef1, Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef1, class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.op_Equality(Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition,Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (idxPropDef1 As IndexedPropertyDefinition, idxPropDef2 As IndexedPropertyDefinition) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator ==(Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ idxPropDef1, Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ idxPropDef2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="idxPropDef1" Type="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
+        <Parameter Name="idxPropDef2" Type="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="idxPropDef1">The first indexed property definition.</param>
+        <param name="idxPropDef2">The second indexed property definition.</param>
+        <summary>Determines whether two specified instances of IndexedPropertyDefinition are equal.</summary>
+        <returns>
+          <b>true</b> if indexed property definitions are equal; otherwise, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef1, Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef2);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef1, class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition idxPropDef2) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.op_Inequality(Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition,Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (idxPropDef1 As IndexedPropertyDefinition, idxPropDef2 As IndexedPropertyDefinition) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool operator !=(Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ idxPropDef1, Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ idxPropDef2);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="idxPropDef1" Type="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
+        <Parameter Name="idxPropDef2" Type="Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="idxPropDef1">The first indexed property definition.</param>
+        <param name="idxPropDef2">The second indexed property definition.</param>
+        <summary>Determines whether two specified instances of IndexedPropertyDefinition are not equal.</summary>
+        <returns>
+          <b>true</b> if indexed property definitions are equal; otherwise, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public override Type Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Type Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Type As Type" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Type ^ Type { Type ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Type</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the property type.</summary>
+        <value>The property type.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

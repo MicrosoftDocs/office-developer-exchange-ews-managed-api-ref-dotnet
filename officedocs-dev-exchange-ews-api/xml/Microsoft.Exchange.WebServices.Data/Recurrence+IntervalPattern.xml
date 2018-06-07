@@ -1,0 +1,46 @@
+﻿<Type Name="Recurrence+IntervalPattern" FullName="Microsoft.Exchange.WebServices.Data.Recurrence+IntervalPattern">
+  <TypeSignature Language="C#" Value="public abstract class Recurrence.IntervalPattern : Microsoft.Exchange.WebServices.Data.Recurrence" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi abstract beforefieldinit Recurrence/IntervalPattern extends Microsoft.Exchange.WebServices.Data.Recurrence" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Recurrence.IntervalPattern&#xA;Inherits Recurrence" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class Recurrence::IntervalPattern abstract : Microsoft::Exchange::WebServices::Data::Recurrence" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Recurrence</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>            Represents a recurrence pattern where each occurrence happens at a specific interval after the previous one.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Interval">
+      <MemberSignature Language="C#" Value="public int Interval { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Interval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Recurrence.IntervalPattern.Interval" />
+      <MemberSignature Language="VB.NET" Value="Public Property Interval As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Interval { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>            Gets or sets the interval between occurrences.             </summary>
+        <value>An integer value.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

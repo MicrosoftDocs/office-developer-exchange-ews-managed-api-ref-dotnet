@@ -1,0 +1,61 @@
+﻿<Type Name="SubscriptionErrorEventArgs" FullName="Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs">
+  <TypeSignature Language="C#" Value="public class SubscriptionErrorEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SubscriptionErrorEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class SubscriptionErrorEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SubscriptionErrorEventArgs : EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Provides data to the OnSubscriptionError and OnDisconnect events of a StreamingSubscriptionConnection object.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Exception">
+      <MemberSignature Language="C#" Value="public Exception Exception { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Exception Exception" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs.Exception" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exception As Exception" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Exception ^ Exception { Exception ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Exception</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the exception that represents the error. If Exception is a null reference (Nothing in Visual Basic), the connection was cleanly closed by the server.</summary>
+        <value>A System.Exception object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subscription">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StreamingSubscription Subscription { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StreamingSubscription Subscription" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SubscriptionErrorEventArgs.Subscription" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Subscription As StreamingSubscription" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StreamingSubscription ^ Subscription { Microsoft::Exchange::WebServices::Data::StreamingSubscription ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StreamingSubscription</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the subscription for which an error occurred. If Subscription is a null reference (Nothing in Visual Basic), the error applies to the entire connection.</summary>
+        <value>A StreamingSubscription object.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

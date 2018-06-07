@@ -1,0 +1,59 @@
+﻿<Type Name="InternetMessageHeaderCollection" FullName="Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection">
+  <TypeSignature Language="C#" Value="public sealed class InternetMessageHeaderCollection : Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.InternetMessageHeader&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit InternetMessageHeaderCollection extends Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection`1&lt;class Microsoft.Exchange.WebServices.Data.InternetMessageHeader&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class InternetMessageHeaderCollection&#xA;Inherits ComplexPropertyCollection(Of InternetMessageHeader)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InternetMessageHeaderCollection sealed : Microsoft::Exchange::WebServices::Data::ComplexPropertyCollection&lt;Microsoft::Exchange::WebServices::Data::InternetMessageHeader ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexPropertyCollection&lt;Microsoft.Exchange.WebServices.Data.InternetMessageHeader&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TComplexProperty">Microsoft.Exchange.WebServices.Data.InternetMessageHeader</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a collection of Internet message headers. To get the entire collection of Internet message headers, use the PR_TRANSPORT_MESSAGE_HEADERS property. </summary>
+    <remarks>
+      <para>The following is the definition for the PR_TRANSPORT_MESSAGE_HEADERS extended property. </para>
+      <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
+      <para>You can add this property definition to the <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> object to get the Internet message headers.</para>
+      <para>For more information about EWS and Internet message headers, see “Getting Internet message headers” in <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME, and the missing Internet message headers</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Find">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.InternetMessageHeader Find (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.InternetMessageHeader Find(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection.Find(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Find (name As String) As InternetMessageHeader" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::InternetMessageHeader ^ Find(System::String ^ name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.InternetMessageHeader</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">The name of the header to locate.</param>
+        <summary>Finds a specific header in the collection.</summary>
+        <returns>An InternetMessageHeader representing the header with the specified name; null if no header with the specified name was found.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

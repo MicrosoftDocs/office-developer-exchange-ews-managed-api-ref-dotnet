@@ -1,0 +1,58 @@
+﻿<Type Name="SearchPageDirection" FullName="Microsoft.Exchange.WebServices.Data.SearchPageDirection">
+  <TypeSignature Language="C#" Value="public enum SearchPageDirection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SearchPageDirection extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchPageDirection" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SearchPageDirection" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SearchPageDirection" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Defines the page direction for the mailbox search.             The <see cref="T:Microsoft.Exchange.WebServices.Data.SearchPageDirection" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Next">
+      <MemberSignature Language="C#" Value="Next" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SearchPageDirection Next = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SearchPageDirection.Next" />
+      <MemberSignature Language="VB.NET" Value="Next" />
+      <MemberSignature Language="C++ CLI" Value="Next" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchPageDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             The search direction is forward.             The <see cref="F:Microsoft.Exchange.WebServices.Data.SearchPageDirection.Next" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Previous">
+      <MemberSignature Language="C#" Value="Previous" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SearchPageDirection Previous = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SearchPageDirection.Previous" />
+      <MemberSignature Language="VB.NET" Value="Previous" />
+      <MemberSignature Language="C++ CLI" Value="Previous" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchPageDirection</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             The search direction is backwards.             The <see cref="F:Microsoft.Exchange.WebServices.Data.SearchPageDirection.Previous" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

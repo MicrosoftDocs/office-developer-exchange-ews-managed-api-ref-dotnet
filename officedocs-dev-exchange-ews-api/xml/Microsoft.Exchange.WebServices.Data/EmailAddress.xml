@@ -1,0 +1,286 @@
+﻿<Type Name="EmailAddress" FullName="Microsoft.Exchange.WebServices.Data.EmailAddress">
+  <TypeSignature Language="C#" Value="public class EmailAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty, Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EmailAddress extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EmailAddress" />
+  <TypeSignature Language="VB.NET" Value="Public Class EmailAddress&#xA;Inherits ComplexProperty&#xA;Implements ISearchStringProvider" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EmailAddress : Microsoft::Exchange::WebServices::Data::ComplexProperty, Microsoft::Exchange::WebServices::Data::ISearchStringProvider" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Exchange.WebServices.Data.ISearchStringProvider</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Represents an email address.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddress ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddress();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddress (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddress(System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">An SMTP address.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> class with a Simple Mail Transfer Protocol (SMTP) address.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddress (string name, string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddress(System::String ^ name, System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">The name of a mailbox user.</param>
+        <param name="smtpAddress">An SMTP address.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> class with a user name and a Simple Mail Transfer Protocol (SMTP) address.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EmailAddress (string name, string address, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string address, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.#ctor(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, address As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EmailAddress(System::String ^ name, System::String ^ address, System::String ^ routingType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">The name of a mailbox user.</param>
+        <param name="address">An SMTP address.</param>
+        <param name="routingType">A routing type.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> class with a user name, routing type, and a Simple Mail Transfer Protocol (SMTP) address.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="public string Address { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Address" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" />
+      <MemberSignature Language="VB.NET" Value="Public Property Address As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Address { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the email address. </summary>
+        <value>An email address.</value>
+        <remarks>
+          <para>The type of the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> property must match the specified routing type. If the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" /> property is not set, the value of the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> property is assumed to be a Simple Mail Transfer Protocol (SMTP) address.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ Id { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the contact identifier that the email address represents.</summary>
+        <value>A contact identifier.</value>
+        <remarks>
+          <para>The <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Address" /> property should be set to a null reference (Nothing in Visual Basic) when the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Id" /> property is used.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxType">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.MailboxType&gt; MailboxType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.MailboxType&gt; MailboxType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddress.MailboxType" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxType As Nullable(Of MailboxType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::MailboxType&gt; MailboxType { Nullable&lt;Microsoft::Exchange::WebServices::Data::MailboxType&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::MailboxType&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.MailboxType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the type of the email address.</summary>
+        <value>A mailbox type.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString">
+      <MemberSignature Language="C#" Value="string ISearchStringProvider.GetSearchString ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance string Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" />
+      <MemberSignature Language="VB.NET" Value="Function GetSearchString () As String Implements ISearchStringProvider.GetSearchString" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::String ^ Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString() = Microsoft::Exchange::WebServices::Data::ISearchStringProvider::GetSearchString;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns a string representation of this instance for use in a search filter. The <see cref="M:Microsoft.Exchange.WebServices.Data.EmailAddress.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <returns>A string representation of this <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddress.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the name that is associated with the email address.</summary>
+        <value>A name.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.EmailAddress (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.EmailAddress op_Implicit(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.EmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (smtpAddress As String) As EmailAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::EmailAddress ^(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddress</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">The SMTP address to convert to the <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> type.</param>
+        <summary>Defines an implicit conversion between a string that represents a Simple Mail Transfer Protocol (SMTP) address and an <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> object.</summary>
+        <returns>An <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> that is initialized with the specified SMTP address.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoutingType">
+      <MemberSignature Language="C#" Value="public string RoutingType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RoutingType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RoutingType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RoutingType { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the routing type that is associated with the email address. </summary>
+        <value>A routing type.</value>
+        <remarks>
+          <para>If the <see cref="P:Microsoft.Exchange.WebServices.Data.EmailAddress.RoutingType" /> property is not set, the default value of "SMTP" is used. </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EmailAddress.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns a string that represents this <see cref="T:Microsoft.Exchange.WebServices.Data.EmailAddress" /> object.</summary>
+        <returns>The text of the email address. For example, "user1@contoso.com".</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

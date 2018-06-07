@@ -1,0 +1,58 @@
+﻿<Type Name="ConversationQueryTraversal" FullName="Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal">
+  <TypeSignature Language="C#" Value="public enum ConversationQueryTraversal" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversationQueryTraversal extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConversationQueryTraversal" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConversationQueryTraversal" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Specifies whether a query of conversation items is for the target folder (shallow) or the target folder and all subfolders (deep).             The <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Deep">
+      <MemberSignature Language="C#" Value="Deep" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal Deep = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal.Deep" />
+      <MemberSignature Language="VB.NET" Value="Deep" />
+      <MemberSignature Language="C++ CLI" Value="Deep" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             The target folder and all subfolders.             The Deep field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Shallow">
+      <MemberSignature Language="C#" Value="Shallow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal Shallow = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal.Shallow" />
+      <MemberSignature Language="VB.NET" Value="Shallow" />
+      <MemberSignature Language="C++ CLI" Value="Shallow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationQueryTraversal</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             The target folder only.             The Shallow field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

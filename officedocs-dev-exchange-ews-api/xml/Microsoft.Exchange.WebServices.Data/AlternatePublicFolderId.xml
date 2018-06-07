@@ -1,0 +1,80 @@
+﻿<Type Name="AlternatePublicFolderId" FullName="Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId">
+  <TypeSignature Language="C#" Value="public class AlternatePublicFolderId : Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlternatePublicFolderId extends Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlternatePublicFolderId&#xA;Inherits AlternateIdBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternatePublicFolderId : Microsoft::Exchange::WebServices::Data::AlternateIdBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.AlternateIdBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the identifier of a public folder, expressed in a specific format.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderId();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of AlternatePublicFolderId class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternatePublicFolderId (Microsoft.Exchange.WebServices.Data.IdFormat format, string folderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.IdFormat format, string folderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId.#ctor(Microsoft.Exchange.WebServices.Data.IdFormat,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (format As IdFormat, folderId As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternatePublicFolderId(Microsoft::Exchange::WebServices::Data::IdFormat format, System::String ^ folderId);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="Microsoft.Exchange.WebServices.Data.IdFormat" />
+        <Parameter Name="folderId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="format">The public folder identifier format.</param>
+        <param name="folderId">The public folder identifier.</param>
+        <summary>Initializes a new instance of the AlternatePublicFolderId class by using the supplied public folder identifier format and the public folder identifier.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderId">
+      <MemberSignature Language="C#" Value="public string FolderId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternatePublicFolderId.FolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Property FolderId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FolderId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the public folder identifier.</summary>
+        <value>A public folder identifier.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

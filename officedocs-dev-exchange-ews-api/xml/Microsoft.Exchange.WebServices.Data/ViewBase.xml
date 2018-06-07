@@ -1,0 +1,49 @@
+﻿<Type Name="ViewBase" FullName="Microsoft.Exchange.WebServices.Data.ViewBase">
+  <TypeSignature Language="C#" Value="public abstract class ViewBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ViewBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ViewBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ViewBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ViewBase abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the base view class for search operations.            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="PropertySet">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PropertySet PropertySet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PropertySet PropertySet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ViewBase.PropertySet" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertySet As PropertySet" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PropertySet ^ PropertySet { Microsoft::Exchange::WebServices::Data::PropertySet ^ get(); void set(Microsoft::Exchange::WebServices::Data::PropertySet ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertySet</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the property set. This property determines which properties will be loaded on found items. If this property is a null reference (Nothing in Visual Basic), all first-class properties are loaded on found items.            </summary>
+        <value>The set of properties that will be loaded on items that are returned by the search.</value>
+        <remarks>
+          <para>The PropertySet property determines the item properties that will be returned with the items found by the search. If PropertySet is a null reference (Nothing in Visual Basic), all first-class properties are returned with the found items.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,143 @@
+﻿<Type Name="SearchFilter+Not" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+Not">
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.Not : Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/Not extends Microsoft.Exchange.WebServices.Data.SearchFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.Not&#xA;Inherits SearchFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::Not sealed : Microsoft::Exchange::WebServices::Data::SearchFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents search filter that applies a Boolean <b>NOT</b> to another search filter.</summary>
+    <remarks>
+      <para>Applications can use the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> class to define conditions such as <b>NOT</b>(other filter).</para>
+      <para>The following are the search filter classes that can be used with the <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" /> class: </para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ContainsSubstring" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.ExcludesBitmask" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThan" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsGreaterThanOrEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThan" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsLessThanOrEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.IsNotEqualTo" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Not" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.SearchFilter.SearchFilterCollection" />
+          </description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Not ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.Not.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Not();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the SearchFilter.Not class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Not (Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.SearchFilter searchFilter) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.Not.#ctor(Microsoft.Exchange.WebServices.Data.SearchFilter)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Not(Microsoft::Exchange::WebServices::Data::SearchFilter ^ searchFilter);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="searchFilter" Type="Microsoft.Exchange.WebServices.Data.SearchFilter" />
+      </Parameters>
+      <Docs>
+        <param name="searchFilter">The search filter to negate. </param>
+        <summary>Initializes a new instance of the SearchFilter.Not class with the specified search filter.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchFilter">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchFilter SearchFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchFilter SearchFilter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchFilter.Not.SearchFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchFilter As SearchFilter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SearchFilter ^ SearchFilter { Microsoft::Exchange::WebServices::Data::SearchFilter ^ get(); void set(Microsoft::Exchange::WebServices::Data::SearchFilter ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the search filter to negate. </summary>
+        <value>The search filter to negate.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,100 @@
+﻿<Type Name="PreviewItemMailbox" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemMailbox">
+  <TypeSignature Language="C#" Value="public sealed class PreviewItemMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PreviewItemMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreviewItemMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PreviewItemMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>             Contains the mailbox information in a preview item.             The <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreviewItemMailbox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreviewItemMailbox();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>             Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> class.             The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreviewItemMailbox (string mailboxId, string primarySmtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailboxId, string primarySmtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailboxId As String, primarySmtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreviewItemMailbox(System::String ^ mailboxId, System::String ^ primarySmtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailboxId" Type="System.String" />
+        <Parameter Name="primarySmtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mailboxId">The mailbox ID.</param>
+        <param name="primarySmtpAddress">The primary SMTP address.</param>
+        <summary>             Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> class with a mailbox ID and primary Simple Mail Transfer Protocol (SMTP) address.             The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor(System.String,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxId">
+      <MemberSignature Language="C#" Value="public string MailboxId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailboxId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.MailboxId" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MailboxId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the ID of the preview item's mailbox.             The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.MailboxId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The mailbox ID.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimarySmtpAddress">
+      <MemberSignature Language="C#" Value="public string PrimarySmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrimarySmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.PrimarySmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrimarySmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PrimarySmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>             Gets or sets the primary Simple Mail Transfer Protocol (SMTP) address of the preview item's mailbox.             The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.PrimarySmtpAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+        <value>The primary SMTP address.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

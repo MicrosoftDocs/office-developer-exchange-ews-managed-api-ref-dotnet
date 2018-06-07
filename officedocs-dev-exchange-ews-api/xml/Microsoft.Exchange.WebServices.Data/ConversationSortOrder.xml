@@ -1,0 +1,96 @@
+﻿<Type Name="ConversationSortOrder" FullName="Microsoft.Exchange.WebServices.Data.ConversationSortOrder">
+  <TypeSignature Language="C#" Value="public enum ConversationSortOrder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ConversationSortOrder extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ConversationSortOrder" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ConversationSortOrder" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ConversationSortOrder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Defines the order in which conversation nodes should be returned by the <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetConversationItems(Microsoft.Exchange.WebServices.Data.ConversationId,Microsoft.Exchange.WebServices.Data.PropertySet,System.String,System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.FolderId},System.Nullable{Microsoft.Exchange.WebServices.Data.ConversationSortOrder})" /> method. The <see cref="T:Microsoft.Exchange.WebServices.Data.ConversationSortOrder" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DateOrderAscending">
+      <MemberSignature Language="C#" Value="DateOrderAscending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationSortOrder DateOrderAscending = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSortOrder.DateOrderAscending" />
+      <MemberSignature Language="VB.NET" Value="DateOrderAscending" />
+      <MemberSignature Language="C++ CLI" Value="DateOrderAscending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationSortOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             Chronological order based on the last date in the node tree.             The DateOrderAscending field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DateOrderDescending">
+      <MemberSignature Language="C#" Value="DateOrderDescending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationSortOrder DateOrderDescending = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSortOrder.DateOrderDescending" />
+      <MemberSignature Language="VB.NET" Value="DateOrderDescending" />
+      <MemberSignature Language="C++ CLI" Value="DateOrderDescending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationSortOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>             Reverse chronological order based on the last date in the node tree.             The DateOrderDescending field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TreeOrderAscending">
+      <MemberSignature Language="C#" Value="TreeOrderAscending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationSortOrder TreeOrderAscending = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSortOrder.TreeOrderAscending" />
+      <MemberSignature Language="VB.NET" Value="TreeOrderAscending" />
+      <MemberSignature Language="C++ CLI" Value="TreeOrderAscending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationSortOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             The tree order is ascending based on the position in the node tree.             The TreeOrderAscending field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TreeOrderDescending">
+      <MemberSignature Language="C#" Value="TreeOrderDescending" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ConversationSortOrder TreeOrderDescending = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ConversationSortOrder.TreeOrderDescending" />
+      <MemberSignature Language="VB.NET" Value="TreeOrderDescending" />
+      <MemberSignature Language="C++ CLI" Value="TreeOrderDescending" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationSortOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             The tree order is descending based on the position in the node tree.             The TreeOrderDescending field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

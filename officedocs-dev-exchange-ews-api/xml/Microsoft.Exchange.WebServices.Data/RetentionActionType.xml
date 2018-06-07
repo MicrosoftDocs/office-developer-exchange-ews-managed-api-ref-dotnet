@@ -1,0 +1,153 @@
+﻿<Type Name="RetentionActionType" FullName="Microsoft.Exchange.WebServices.Data.RetentionActionType">
+  <TypeSignature Language="C#" Value="public enum RetentionActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RetentionActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RetentionActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum RetentionActionType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class RetentionActionType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Defines the set of retention policy actions for expired items.             The <see cref="T:Microsoft.Exchange.WebServices.Data.RetentionActionType" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DeleteAndAllowRecovery">
+      <MemberSignature Language="C#" Value="DeleteAndAllowRecovery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType DeleteAndAllowRecovery = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.DeleteAndAllowRecovery" />
+      <MemberSignature Language="VB.NET" Value="DeleteAndAllowRecovery" />
+      <MemberSignature Language="C++ CLI" Value="DeleteAndAllowRecovery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>             Expired items will be soft deleted.             The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.DeleteAndAllowRecovery" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkAsPastRetentionLimit">
+      <MemberSignature Language="C#" Value="MarkAsPastRetentionLimit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType MarkAsPastRetentionLimit = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MarkAsPastRetentionLimit" />
+      <MemberSignature Language="VB.NET" Value="MarkAsPastRetentionLimit" />
+      <MemberSignature Language="C++ CLI" Value="MarkAsPastRetentionLimit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>             Expired items will be tagged as expired.             The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MarkAsPastRetentionLimit" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToArchive">
+      <MemberSignature Language="C#" Value="MoveToArchive" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType MoveToArchive = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToArchive" />
+      <MemberSignature Language="VB.NET" Value="MoveToArchive" />
+      <MemberSignature Language="C++ CLI" Value="MoveToArchive" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>             Expired items will be moved to the archive.             The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToArchive" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToDeletedItems">
+      <MemberSignature Language="C#" Value="MoveToDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType MoveToDeletedItems = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="MoveToDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="MoveToDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Expired items will be moved to the Deleted Items folder.             The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToDeletedItems" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToFolder">
+      <MemberSignature Language="C#" Value="MoveToFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType MoveToFolder = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToFolder" />
+      <MemberSignature Language="VB.NET" Value="MoveToFolder" />
+      <MemberSignature Language="C++ CLI" Value="MoveToFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>             Expired items will be moved to a target folder.             The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.MoveToFolder" /> member is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             No action specified.             The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.None" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PermanentlyDelete">
+      <MemberSignature Language="C#" Value="PermanentlyDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.RetentionActionType PermanentlyDelete = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.PermanentlyDelete" />
+      <MemberSignature Language="VB.NET" Value="PermanentlyDelete" />
+      <MemberSignature Language="C++ CLI" Value="PermanentlyDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RetentionActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>             Expired items will be hard deleted.             The <see cref="F:Microsoft.Exchange.WebServices.Data.RetentionActionType.PermanentlyDelete" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

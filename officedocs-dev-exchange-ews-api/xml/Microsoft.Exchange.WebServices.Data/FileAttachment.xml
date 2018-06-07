@@ -1,0 +1,127 @@
+﻿<Type Name="FileAttachment" FullName="Microsoft.Exchange.WebServices.Data.FileAttachment">
+  <TypeSignature Language="C#" Value="public sealed class FileAttachment : Microsoft.Exchange.WebServices.Data.Attachment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FileAttachment extends Microsoft.Exchange.WebServices.Data.Attachment" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FileAttachment" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FileAttachment&#xA;Inherits Attachment" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FileAttachment sealed : Microsoft::Exchange::WebServices::Data::Attachment" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Attachment</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a file attachment.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Content">
+      <MemberSignature Language="C#" Value="public byte[] Content { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] Content" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FileAttachment.Content" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Content As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ Content { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the content of the attachment in memory. Content is set only when the Load method is called.</summary>
+        <value>The attachment as an array of bytes.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FileAttachment.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FileName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the name of the file that the attachment is linked to.</summary>
+        <value>The name of the file that the attachment is linked to.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsContactPhoto">
+      <MemberSignature Language="C#" Value="public bool IsContactPhoto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsContactPhoto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FileAttachment.IsContactPhoto" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsContactPhoto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsContactPhoto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value that indicates whether the attachment is the contact's photo.</summary>
+        <value>
+          <b>true</b> if the attachment is the contact's photo; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (System.IO.Stream stream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(class System.IO.Stream stream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FileAttachment.Load(System.IO.Stream)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::IO::Stream ^ stream);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="stream" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="stream">The stream to load the content of the attachment into.</param>
+        <summary>Loads the content of the file attachment into the specified stream. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (string fileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(string fileName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FileAttachment.Load(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (fileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::String ^ fileName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="fileName">The name of the file to load the content of the attachment into. If the file already exists, it is overwritten.</param>
+        <summary>Loads the content of the file attachment into the specified file. Calling this method results in a call to Exchange Web Services (EWS).</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

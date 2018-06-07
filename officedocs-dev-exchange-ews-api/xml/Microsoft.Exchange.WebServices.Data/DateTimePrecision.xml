@@ -1,0 +1,77 @@
+﻿<Type Name="DateTimePrecision" FullName="Microsoft.Exchange.WebServices.Data.DateTimePrecision">
+  <TypeSignature Language="C#" Value="public enum DateTimePrecision" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DateTimePrecision extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DateTimePrecision" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DateTimePrecision" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DateTimePrecision" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Determines the precision of DateTime objects to be communicated to a client. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DateTimePrecision Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DateTimePrecision.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DateTimePrecision</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No precision value is sent to the client.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Milliseconds">
+      <MemberSignature Language="C#" Value="Milliseconds" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DateTimePrecision Milliseconds = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DateTimePrecision.Milliseconds" />
+      <MemberSignature Language="VB.NET" Value="Milliseconds" />
+      <MemberSignature Language="C++ CLI" Value="Milliseconds" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DateTimePrecision</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary> Precision is set to milliseconds. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Seconds">
+      <MemberSignature Language="C#" Value="Seconds" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DateTimePrecision Seconds = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DateTimePrecision.Seconds" />
+      <MemberSignature Language="VB.NET" Value="Seconds" />
+      <MemberSignature Language="C++ CLI" Value="Seconds" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DateTimePrecision</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Precision is set to seconds. </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

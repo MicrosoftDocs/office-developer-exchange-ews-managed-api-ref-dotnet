@@ -1,0 +1,25 @@
+﻿<Type Name="CustomXmlSerializationDelegate" FullName="Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate">
+  <TypeSignature Language="C#" Value="public delegate void CustomXmlSerializationDelegate(XmlWriter writer);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CustomXmlSerializationDelegate extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CustomXmlSerializationDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub CustomXmlSerializationDelegate(writer As XmlWriter)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void CustomXmlSerializationDelegate(XmlWriter ^ writer);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Parameters>
+    <Parameter Name="writer" Type="System.Xml.XmlWriter" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="writer">The XmlWriter to use to emit the custom XML.</param>
+    <summary>Represents the method that applications can use to emit custom XML in SOAP requests that are sent to Exchange Web Services (EWS).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

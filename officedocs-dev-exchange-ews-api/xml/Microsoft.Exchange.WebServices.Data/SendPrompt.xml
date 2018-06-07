@@ -1,0 +1,77 @@
+﻿<Type Name="SendPrompt" FullName="Microsoft.Exchange.WebServices.Data.SendPrompt">
+  <TypeSignature Language="C#" Value="public enum SendPrompt" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SendPrompt extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SendPrompt" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SendPrompt" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SendPrompt" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the prompt behavior associated with a voting option.The <see cref="T:Microsoft.Exchange.WebServices.Data.SendPrompt" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendPrompt None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendPrompt.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No prompt behavior is specified.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Send">
+      <MemberSignature Language="C#" Value="Send" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendPrompt Send = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendPrompt.Send" />
+      <MemberSignature Language="VB.NET" Value="Send" />
+      <MemberSignature Language="C++ CLI" Value="Send" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The response should be sent immediately when the user chooses a voting option with this value in the <see cref="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" /> property.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VotingOption">
+      <MemberSignature Language="C#" Value="VotingOption" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendPrompt VotingOption = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendPrompt.VotingOption" />
+      <MemberSignature Language="VB.NET" Value="VotingOption" />
+      <MemberSignature Language="C++ CLI" Value="VotingOption" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendPrompt</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The user should be prompted to confirm their choice before sending a response when choosing a voting option with this value in the <see cref="P:Microsoft.Exchange.WebServices.Data.VotingOptionData.SendPrompt" /> property.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

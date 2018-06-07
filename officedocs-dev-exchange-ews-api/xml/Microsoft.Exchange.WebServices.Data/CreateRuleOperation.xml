@@ -1,0 +1,103 @@
+﻿<Type Name="CreateRuleOperation" FullName="Microsoft.Exchange.WebServices.Data.CreateRuleOperation">
+  <TypeSignature Language="C#" Value="public sealed class CreateRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CreateRuleOperation extends Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CreateRuleOperation&#xA;Inherits RuleOperation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateRuleOperation sealed : Microsoft::Exchange::WebServices::Data::RuleOperation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.RuleOperation</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents an operation to create an Inbox rule.</summary>
+    <remarks>
+      <para>Inbox rules are sets of <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> and associated <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> that enable clients to automatically organize, categorize, and act on messages as the messages are delivered to a folder.</para>
+      <para>This class derives from the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> class.</para>
+      <para>When a rule is created, it is stored on the Exchange server. When a message arrives, the Exchange server evaluates the message and determines whether it has fulfilled any rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />. If it has, the Exchange server will then process the message according to the rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />. For example, a rule can be created to require that any incoming mail that contains a certain string in the subject be automatically moved to a predetermined folder.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following example creates a rule with the name "MoveInterestingToJunk". The rule has a <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property that specifies that whenever an e-mail message arrives that has the string "Interesting" in the subject line, the message is to be moved to the Junk E-mail folder. The rule is uploaded to the server in the service.UpdateInboxRules(new RuleOperation[] { createOperation }, true) line.</para>
+      <code>// Create an Inbox rule.
+// If "Interesting" is in the message's subject line, move it into the Junk E-mail folder.
+Rule newRule = new Rule();
+newRule.DisplayName = "MoveInterestingToJunk";
+newRule.Priority = 1;
+newRule.IsEnabled = true;
+newRule.Conditions.ContainsSubjectStrings.Add("Interesting");
+newRule.Actions.MoveToFolder = WellKnownFolderName.JunkEmail;
+
+// Create the CreateRuleOperation.
+CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateRuleOperation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CreateRuleOperation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateRuleOperation();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the CreateRuleOperation class.</summary>
+        <remarks>
+          <para>The CreateRuleOperation method creates a new <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> in a specific mailbox.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateRuleOperation (Microsoft.Exchange.WebServices.Data.Rule rule);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.Rule rule) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CreateRuleOperation.#ctor(Microsoft.Exchange.WebServices.Data.Rule)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateRuleOperation(Microsoft::Exchange::WebServices::Data::Rule ^ rule);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="rule" Type="Microsoft.Exchange.WebServices.Data.Rule" />
+      </Parameters>
+      <Docs>
+        <param name="rule">An instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> class is to be created and sent to the messaging server.</param>
+        <summary>Initializes a new instance of the CreateRuleOperation class with the specified rule.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rule">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Rule Rule { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Rule Rule" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CreateRuleOperation.Rule" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rule As Rule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Rule ^ Rule { Microsoft::Exchange::WebServices::Data::Rule ^ get(); void set(Microsoft::Exchange::WebServices::Data::Rule ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Rule</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the rule to be created.</summary>
+        <value>The newly created rule.</value>
+        <remarks>
+          <para>The <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> contains the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> to be taken when an e-mail message arrives in a mailbox.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

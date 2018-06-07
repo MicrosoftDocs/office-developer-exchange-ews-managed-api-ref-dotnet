@@ -1,0 +1,61 @@
+﻿<Type Name="SearchFilter+Exists" FullName="Microsoft.Exchange.WebServices.Data.SearchFilter+Exists">
+  <TypeSignature Language="C#" Value="public sealed class SearchFilter.Exists : Microsoft.Exchange.WebServices.Data.SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="ILAsm" Value=".class nested public auto ansi sealed beforefieldinit SearchFilter/Exists extends Microsoft.Exchange.WebServices.Data.SearchFilter/PropertyBasedFilter" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchFilter.Exists&#xA;Inherits SearchFilter.PropertyBasedFilter" />
+  <TypeSignature Language="C++ CLI" Value="public: ref class SearchFilter::Exists sealed : Microsoft::Exchange::WebServices::Data::SearchFilter::PropertyBasedFilter" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SearchFilter+PropertyBasedFilter</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a search filter that determines whether a specific property is set. </summary>
+    <remarks>
+      <para>You can use this search filter to determine whether an e-mail message contains a <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Body" /> property. This will enable you to build a collection of e-mails that have a specific property set.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Exists ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Exists();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initializes a new instance of the SearchFilter.Exists class.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Exists (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchFilter.Exists.#ctor(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (propertyDefinition As PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Exists(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">The definition of the property to check.</param>
+        <summary>Initializes a new instance of the SearchFilter.Exists class with the specified property definition.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

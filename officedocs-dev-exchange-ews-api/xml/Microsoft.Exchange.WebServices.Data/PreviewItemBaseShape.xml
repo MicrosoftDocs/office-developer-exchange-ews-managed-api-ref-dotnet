@@ -1,0 +1,58 @@
+﻿<Type Name="PreviewItemBaseShape" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape">
+  <TypeSignature Language="C#" Value="public enum PreviewItemBaseShape" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PreviewItemBaseShape extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PreviewItemBaseShape" />
+  <TypeSignature Language="C++ CLI" Value="public enum class PreviewItemBaseShape" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>             Determines whether an item in a mailbox can be previewed with all its properties or its view is compacted.             The <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Compact">
+      <MemberSignature Language="C#" Value="Compact" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape Compact = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Compact" />
+      <MemberSignature Language="VB.NET" Value="Compact" />
+      <MemberSignature Language="C++ CLI" Value="Compact" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>             Only a set of core properties associated with an item can be previewed.             The <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Compact" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="C++ CLI" Value="Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>             All properties associated with an item can be previewed.             The <see cref="F:Microsoft.Exchange.WebServices.Data.PreviewItemBaseShape.Default" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

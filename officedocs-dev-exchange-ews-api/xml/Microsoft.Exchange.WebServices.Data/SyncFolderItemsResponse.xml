@@ -1,0 +1,24 @@
+﻿<Type Name="SyncFolderItemsResponse" FullName="Microsoft.Exchange.WebServices.Data.SyncFolderItemsResponse">
+  <TypeSignature Language="C#" Value="public sealed class SyncFolderItemsResponse : Microsoft.Exchange.WebServices.Data.SyncResponse&lt;Microsoft.Exchange.WebServices.Data.Item,Microsoft.Exchange.WebServices.Data.ItemChange&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SyncFolderItemsResponse extends Microsoft.Exchange.WebServices.Data.SyncResponse`2&lt;class Microsoft.Exchange.WebServices.Data.Item, class Microsoft.Exchange.WebServices.Data.ItemChange&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SyncFolderItemsResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SyncFolderItemsResponse&#xA;Inherits SyncResponse(Of Item, ItemChange)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SyncFolderItemsResponse sealed : Microsoft::Exchange::WebServices::Data::SyncResponse&lt;Microsoft::Exchange::WebServices::Data::Item ^, Microsoft::Exchange::WebServices::Data::ItemChange ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SyncResponse&lt;Microsoft.Exchange.WebServices.Data.Item,Microsoft.Exchange.WebServices.Data.ItemChange&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TServiceObject">Microsoft.Exchange.WebServices.Data.Item</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TChange">Microsoft.Exchange.WebServices.Data.ItemChange</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents the response to a folder items synchronization operation.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

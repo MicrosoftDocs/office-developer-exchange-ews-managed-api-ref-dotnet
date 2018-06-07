@@ -1,0 +1,58 @@
+﻿<Type Name="ContactSource" FullName="Microsoft.Exchange.WebServices.Data.ContactSource">
+  <TypeSignature Language="C#" Value="public enum ContactSource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContactSource extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactSource" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContactSource" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ContactSource" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the source of a contact or distribution list.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveDirectory">
+      <MemberSignature Language="C#" Value="ActiveDirectory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ContactSource ActiveDirectory = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSource.ActiveDirectory" />
+      <MemberSignature Language="VB.NET" Value="ActiveDirectory" />
+      <MemberSignature Language="C++ CLI" Value="ActiveDirectory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The contact or distribution list is stored in the Global Address List (GAL).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Store">
+      <MemberSignature Language="C#" Value="Store" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ContactSource Store = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSource.Store" />
+      <MemberSignature Language="VB.NET" Value="Store" />
+      <MemberSignature Language="C++ CLI" Value="Store" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The contact or distribution list is stored in Exchange.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

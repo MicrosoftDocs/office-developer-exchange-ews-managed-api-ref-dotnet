@@ -1,0 +1,45 @@
+﻿<Type Name="AcceptMeetingInvitationMessage" FullName="Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage">
+  <TypeSignature Language="C#" Value="public sealed class AcceptMeetingInvitationMessage : Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AcceptMeetingInvitationMessage extends Microsoft.Exchange.WebServices.Data.CalendarResponseMessage`1&lt;class Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AcceptMeetingInvitationMessage&#xA;Inherits CalendarResponseMessage(Of MeetingResponse)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AcceptMeetingInvitationMessage sealed : Microsoft::Exchange::WebServices::Data::CalendarResponseMessage&lt;Microsoft::Exchange::WebServices::Data::MeetingResponse ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.CalendarResponseMessage&lt;Microsoft.Exchange.WebServices.Data.MeetingResponse&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TMessage">Microsoft.Exchange.WebServices.Data.MeetingResponse</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Represents a meeting acceptance message.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Tentative">
+      <MemberSignature Language="C#" Value="public bool Tentative { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Tentative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AcceptMeetingInvitationMessage.Tentative" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tentative As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Tentative { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates whether the associated meeting is tentatively accepted.</summary>
+        <value>
+          <b>true</b> if the associated meeting is tentatively accepted; otherwise, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
