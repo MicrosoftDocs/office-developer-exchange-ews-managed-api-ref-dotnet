@@ -32,7 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>The identifier is the principle’s name.            </summary>
+        <summary>The identifier is a principal name.            </summary>
       </Docs>
     </Member>
     <Member MemberName="SID">
