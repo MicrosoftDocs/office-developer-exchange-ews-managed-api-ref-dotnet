@@ -39,7 +39,8 @@
         "SourceXmlFolder": "officedocs-dev-exchange-ews-api/xml",
         "OutputYamlFolder": "officedocs-dev-exchange-ews-api/api",
         "Flatten": true,
-        "id": "officedocs-dev-exchange-ews-api"
+        "id": "officedocs-dev-exchange-ews-api",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "officedocs-dev-exchange-ews-api/api/officedocs-dev-exchange-ews-api/toc.yml"
@@ -88,8 +89,5 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
-  "ECMA2Yaml": {
-    "SDPMode": "true"
-  }
+  ]
 }
