@@ -66,6 +66,7 @@
       }
     },
     "template": [],
+    "isCanonicalUrlWithMoniker": true,
     "dest": "_site",
     "lruSize": 0
   }
