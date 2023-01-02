@@ -91,7 +91,7 @@ static void UseExchangeService(string userEmailAddress, SecureString userPasswor
 
     // Create two new contacts in the user's default
     // Contacts folder.
-    List&amp;lt;Contact&amp;gt; contactsToAdd = new List&amp;lt;Contact&amp;gt;();
+    List<Contact> contactsToAdd = new List<Contact>();
 
     Contact newContact1 = new Contact(service);
     newContact1.GivenName = "Rosetta";
@@ -109,13 +109,13 @@ static void UseExchangeService(string userEmailAddress, SecureString userPasswor
 
     contactsToAdd.Add(newContact2);
 
-    ServiceResponseCollection&amp;lt;ServiceResponse&amp;gt; createItemsResponse =
+    ServiceResponseCollection<ServiceResponse> createItemsResponse =
         service.CreateItems(contactsToAdd, WellKnownFolderName.Contacts, null, null);
 
     if (createItemsResponse.OverallResult != ServiceResult.Success)
     {
         Console.WriteLine("CreateItems returned a non-success response!");
-        for (int i = 0; i &amp;lt; createItemsResponse.Count; i++)
+        for (int i = 0; i < createItemsResponse.Count; i++)
         {
             Console.WriteLine("{0}: {1} - {2}", i + 1,
                 createItemsResponse[i].ErrorCode, createItemsResponse[i].ErrorMessage);
@@ -136,10 +136,10 @@ static void UseExchangeService(string userEmailAddress, SecureString userPasswor
     DelegateUser newDelegate = new DelegateUser("ian@fourthcoffee.com");
     newDelegate.Permissions.CalendarFolderPermissionLevel = DelegateFolderPermissionLevel.Reviewer;
 
-    List&amp;lt;DelegateUser&amp;gt; delegatesToAdd = new List&amp;lt;DelegateUser&amp;gt;();
+    List<DelegateUser> delegatesToAdd = new List<DelegateUser>();
     delegatesToAdd.Add(newDelegate);
 
-    Collection&amp;lt;DelegateUserResponse&amp;gt; addDelegateResponse = service.AddDelegates(mailbox, null, delegatesToAdd);
+    Collection<DelegateUserResponse> addDelegateResponse = service.AddDelegates(mailbox, null, delegatesToAdd);
 
     for (int i = 0; i &amp;lt; addDelegateResponse.Count; i++)
     {
