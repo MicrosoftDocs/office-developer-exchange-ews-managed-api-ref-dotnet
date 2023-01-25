@@ -130,5 +130,24 @@
         <summary>Exchange Server 2013 Service Pack 1 (SP1).</summary>
       </Docs>
     </Member>
+      <Member MemberName="Exchange2016">
+      <MemberSignature Language="C#" Value="Exchange2016" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion Exchange2016 = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ExchangeVersion.Exchange2016" />
+      <MemberSignature Language="VB.NET" Value="Exchange2016" />
+      <MemberSignature Language="C++ CLI" Value="Exchange2016" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeVersion</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Exchange Server 2016.</summary>
+      </Docs>
+    </Member>
   </Members>
 </Type>
