@@ -1409,10 +1409,10 @@
           <para />
         </remarks>
         <example>
-          <code>    /// &amp;lt;summary&amp;gt;
+          <code>    /// <summary>
     /// Demonstrates how to open an item in Outlook Web App.
-    /// &amp;lt;/summary&amp;gt;
-    /// &amp;lt;param name="service"&amp;gt;An ExchangeService object that has already had credentials set and contains a valid service URL.&amp;lt;/param&amp;gt;
+    /// </summary>
+    /// <param name="service">An ExchangeService object that has already had credentials set and contains a valid service URL.</param>
     static void OpenOWAFromWebClientReadFormQueryString(ExchangeService service)
     {
       // Create a view that will return the identifier for the first item in a folder.
@@ -1420,7 +1420,7 @@
       itemView.PropertySet = new PropertySet(BasePropertySet.IdOnly);
 
       // Make a call to EWS to get one item from the mailbox folder.
-      FindItemsResults&amp;lt;Item&amp;gt; results = service.FindItems(WellKnownFolderName.Drafts, itemView);
+      FindItemsResults<Item> results = service.FindItems(WellKnownFolderName.Drafts, itemView);
 
       // Get the item identifier of the item to open in Outlook Web App.
       ItemId itemId = results.Items[0].Id;
@@ -1438,7 +1438,7 @@
         // Versions of Exchange starting with major version 15 and ending with Exchange Server 2013 build 15.0.775.09
         // returned a different query string fragment. This optional check is not required for applications that
         // target Exchange Online.
-        if ((serverInfo.MajorVersion == 15) &amp;amp;&amp;amp; (serverInfo.MajorBuildNumber &amp;lt; 775) &amp;amp;&amp;amp;(serverInfo.MinorBuildNumber &amp;lt; 09))
+        if ((serverInfo.MajorVersion == 15) &amp;amp;&amp;amp; (serverInfo.MajorBuildNumber < 775) &amp;amp;&amp;amp;(serverInfo.MinorBuildNumber < 09))
         {
           // If your client is connected to an Exchange 2013 server that has not been updated to CU3,
           // this query string will be returned.

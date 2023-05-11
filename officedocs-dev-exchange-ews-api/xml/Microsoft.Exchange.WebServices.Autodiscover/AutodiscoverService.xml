@@ -320,10 +320,10 @@
         Uri url = null;
         GetUserSettingsResponse response = null;
 
-        for (int attempt = 0; attempt &amp;lt; maxHops; attempt++)
+        for (int attempt = 0; attempt < maxHops; attempt++)
         {
              service.Url = url;
-             service.EnableScpLookup = (attempt &amp;lt; 2);
+             service.EnableScpLookup = (attempt < 2);
 
              response = service.GetUserSettings(emailAddress, settings);
 
