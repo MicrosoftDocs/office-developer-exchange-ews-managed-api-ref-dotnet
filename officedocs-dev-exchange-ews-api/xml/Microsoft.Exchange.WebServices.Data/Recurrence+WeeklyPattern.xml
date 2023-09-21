@@ -30,7 +30,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>Initializes a new instance of the RelativeYearlyPattern class.</summary>
+        <summary>Initializes a new instance of the WeeklyPattern class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,7 +60,7 @@
         <param name="startDate">The start date of the recurrence pattern.</param>
         <param name="interval">The interval between occurrences.</param>
         <param name="daysOfTheWeek">An array of DayOfTheWeek enumeration values that indicate on which days of the week the event recurs.</param>
-        <summary>Initializes a new instance of the RelativeYearlyPattern class with the specified values. </summary>
+        <summary>Initializes a new instance of the WeeklyPattern class with the specified values. </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
