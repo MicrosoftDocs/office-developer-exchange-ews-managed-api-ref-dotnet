@@ -4662,7 +4662,7 @@ static void GetUsersEwsUrl(string userEmailAddress, SecureString userPassword)
         <param name="maxChangesReturned">The maximum number of changes that should be returned.</param>
         <param name="syncScope">The synchronization scope that identifies items to be included in the response.</param>
         <param name="syncState">The optional synchronization state that represents the point in time at which the synchronization is to start.</param>
-        <summary>Synchronizes the items in a specified folder. </summary>
+        <summary>Synchronizes the items in a specified folder (not supported for use against Office 365 Group mailboxes or Public Folders). </summary>
         <returns>A list of changes that occurred in the specified folder.</returns>
         <remarks>
           <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
